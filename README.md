@@ -23,7 +23,9 @@ Model Downloads:
 https://huggingface.co/Kijai/LTX2.3_comfy
 
 - LTX-2.3 GGUF for GGUF workflows:
+
 Quantstack: https://huggingface.co/QuantStack/LTX-2.3-GGUF
+
 Vantage : https://huggingface.co/vantagewithai/LTX-2.3-GGUF
 
 - Gemma 3 12B it safetensor:
