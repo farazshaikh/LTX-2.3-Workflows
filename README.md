@@ -2,12 +2,15 @@
 license: apache-2.0
 tags:
 - ltx
-- ltx-2.3
 - ltx-2
 - comfyui
 - comfy
 - gguf
 - ltx-video
+- ltx-2-3
+- ltxv
+- text-to-video
+- image-to-video
 ---
 The workflows are based on the extracted models from https://huggingface.co/Kijai/LTX2.3_comfy
 The extracted models might run easier on your computer (as separate files), as well as GGUF support etc. 
