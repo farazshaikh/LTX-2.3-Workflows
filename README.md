@@ -1,5 +1,4 @@
 ---
-license: apache-2.0
 tags:
 - ltx
 - ltx-2
@@ -11,6 +10,8 @@ tags:
 - ltxv
 - text-to-video
 - image-to-video
+- audio-to-video
+- video-to-video
 ---
 The workflows are based on the extracted models from https://huggingface.co/Kijai/LTX2.3_comfy
 The extracted models might run easier on your computer (as separate files), as well as GGUF support etc. 
