@@ -1,3 +1,14 @@
+---
+license: apache-2.0
+tags:
+- ltx
+- ltx-2.3
+- ltx-2
+- comfyui
+- comfy
+- gguf
+- ltx-video
+---
 The workflows are based on the extracted models from https://huggingface.co/Kijai/LTX2.3_comfy
 The extracted models might run easier on your computer (as separate files), as well as GGUF support etc. 
 (but you can easily swap out the model loader for the ComfyUI default model loader if you want to load the checkpoint with "all in one" vae built-in etc) 
@@ -29,4 +40,4 @@ Needed nodes:
 
 
 Lighttricks LTX-2.3 main repro: https://huggingface.co/Lightricks/LTX-2.3  
-Lightricks LTX-2.3 Collection (loras etc): https://huggingface.co/collections/Lightricks/ltx-23  
+Lightricks LTX-2.3 Collection (loras etc): https://huggingface.co/collections/Lightricks/ltx-23
