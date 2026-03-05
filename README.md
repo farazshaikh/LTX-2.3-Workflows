@@ -14,7 +14,7 @@ tags:
 - video-to-video
 ---
 The workflows are based on the extracted models from https://huggingface.co/Kijai/LTX2.3_comfy
-The extracted models might run easier on your computer (as separate files), as well as GGUF support etc. 
+The extracted models might run easier on your computer (as separate files). 
 (but you can easily swap out the model loader for the ComfyUI default model loader if you want to load the checkpoint with "all in one" vae built-in etc) 
 
 
