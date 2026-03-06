@@ -36,7 +36,7 @@ https://huggingface.co/unsloth/gemma-3-12b-it-GGUF/
 
 - Tiny Vae (for sampler previews):
 https://github.com/madebyollin/taehv/blob/main/safetensors/taeltx2_3.safetensors  
-
+(Optional/Recommended. Without this vae you still get previews with latentrgb from KJnodes, at a lower res)
 
 ---- 
 
