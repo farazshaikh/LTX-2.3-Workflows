@@ -24,7 +24,7 @@ https://huggingface.co/Kijai/LTX2.3_comfy
 
 - Gemma 3 12B it safetensor:
 https://huggingface.co/Comfy-Org/ltx-2/
-
+OR
 - Gemma 3 12B it GGUF:
 https://huggingface.co/unsloth/gemma-3-12b-it-GGUF/ 
 
