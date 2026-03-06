@@ -28,12 +28,14 @@ Gemma - either safetensor or GGUF:
 - Gemma 3 12B it GGUF: https://huggingface.co/unsloth/gemma-3-12b-it-GGUF/ 
 
 
-- Optional LTX-2.3 GGUF models (for GGUF workflows). One of the source below:
+AlternativeLTX-2.3 GGUF models (for GGUF workflows) - one of the source below:
+
 1) Quantstack: https://huggingface.co/QuantStack/LTX-2.3-GGUF
 2) Unsloth : https://huggingface.co/unsloth/LTX-2.3-GGUF
 3) Vantage : https://huggingface.co/vantagewithai/LTX-2.3-GGUF 
 
-- Tiny Vae (for sampler previews):
+
+Tiny Vae (for sampler previews):
 https://github.com/madebyollin/taehv/blob/main/safetensors/taeltx2_3.safetensors  
 (Optional/Recommended. Without this vae you still get previews with latentrgb from KJnodes, at a lower res)
 
