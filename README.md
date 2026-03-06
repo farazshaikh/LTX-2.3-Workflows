@@ -22,15 +22,16 @@ Model Downloads:
 - Main split models used in these workflows (LTX-2.3 dev & distilled safetensor, embeddings, audio and video vae): 
 https://huggingface.co/Kijai/LTX2.3_comfy
 
-- LTX-2.3 GGUF for GGUF workflows:
-Quantstack: https://huggingface.co/QuantStack/LTX-2.3-GGUF
-Vantage : https://huggingface.co/vantagewithai/LTX-2.3-GGUF
-
 - Gemma 3 12B it safetensor:
 https://huggingface.co/Comfy-Org/ltx-2/
 
 - Gemma 3 12B it GGUF:
 https://huggingface.co/unsloth/gemma-3-12b-it-GGUF/ 
+
+
+- Optional LTX-2.3 GGUF models (for GGUF workflows):
+1) Quantstack: https://huggingface.co/QuantStack/LTX-2.3-GGUF
+2) Vantage : https://huggingface.co/vantagewithai/LTX-2.3-GGUF
 
 
 ---- 
