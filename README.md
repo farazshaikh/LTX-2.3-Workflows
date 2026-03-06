@@ -18,7 +18,7 @@ The extracted models might run easier on your computer (as separate files).
 (but you can easily swap out the model loader for the ComfyUI default model loader if you want to load the checkpoint with "all in one" vae built-in etc) 
 
 
-Model Downloads:
+LTX-2.3 Main Model Downloads (split models):
 - Main split models used in these workflows (LTX-2.3 dev & distilled safetensor, embeddings, audio and video vae): 
 https://huggingface.co/Kijai/LTX2.3_comfy
 
