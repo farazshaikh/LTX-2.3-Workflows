@@ -20,7 +20,6 @@ The extracted models might run easier on your computer (as separate files).
 
 **LTX-2.3 Main Model Downloads (split models):**
 - Main split models used in these workflows (LTX-2.3 dev & distilled safetensor, embeddings, audio and video vae):
- 
 https://huggingface.co/Kijai/LTX2.3_comfy
 
 **Gemma - either safetensor or GGUF:**
