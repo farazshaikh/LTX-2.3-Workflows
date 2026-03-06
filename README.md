@@ -18,30 +18,30 @@ The extracted models might run easier on your computer (as separate files).
 (but you can easily swap out the model loader for the ComfyUI default model loader if you want to load the checkpoint with "all in one" vae built-in etc) 
 
 
-LTX-2.3 Main Model Downloads (split models):
+**LTX-2.3 Main Model Downloads (split models):**
 - Main split models used in these workflows (LTX-2.3 dev & distilled safetensor, embeddings, audio and video vae): 
 https://huggingface.co/Kijai/LTX2.3_comfy
 
-Gemma - either safetensor or GGUF:
+**Gemma - either safetensor or GGUF:**
 - Gemma 3 12B it safetensor: https://huggingface.co/Comfy-Org/ltx-2/
 
 - Gemma 3 12B it GGUF: https://huggingface.co/unsloth/gemma-3-12b-it-GGUF/ 
 
 
-LTX-2.3 GGUF models (for GGUF workflows) - one of the source below:
+**LTX-2.3 GGUF models (for GGUF workflows)** - one of the source below:
 
 1) Quantstack: https://huggingface.co/QuantStack/LTX-2.3-GGUF
 2) Unsloth : https://huggingface.co/unsloth/LTX-2.3-GGUF
 3) Vantage : https://huggingface.co/vantagewithai/LTX-2.3-GGUF 
 
 
-Tiny Vae (for sampler previews):
+**Tiny Vae (for sampler previews)**:
 https://github.com/madebyollin/taehv/blob/main/safetensors/taeltx2_3.safetensors  
 (Optional/Recommended. Without this vae you still get previews with latentrgb from KJnodes, at a lower res)
 
 ---- 
 
-Needed nodes:
+**Needed nodes:**
 
 + https://github.com/kijai/ComfyUI-KJNodes  (NB! Must be up to date for LTX-2 support)
 
@@ -52,6 +52,7 @@ Needed nodes:
 
 ---- 
 
+**LTX-2.3**
 
 Lighttricks LTX-2.3 main repro: https://huggingface.co/Lightricks/LTX-2.3  
 Lightricks LTX-2.3 Collection (loras etc): https://huggingface.co/collections/Lightricks/ltx-23
