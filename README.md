@@ -28,7 +28,7 @@ Gemma - either safetensor or GGUF:
 - Gemma 3 12B it GGUF: https://huggingface.co/unsloth/gemma-3-12b-it-GGUF/ 
 
 
-AlternativeLTX-2.3 GGUF models (for GGUF workflows) - one of the source below:
+LTX-2.3 GGUF models (for GGUF workflows) - one of the source below:
 
 1) Quantstack: https://huggingface.co/QuantStack/LTX-2.3-GGUF
 2) Unsloth : https://huggingface.co/unsloth/LTX-2.3-GGUF
