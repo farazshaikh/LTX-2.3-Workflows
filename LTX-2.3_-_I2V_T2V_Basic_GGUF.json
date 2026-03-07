@@ -1,8 +1,8 @@
 {
   "id": "d15f72da-ab9c-490d-9386-b750d889c6f8",
   "revision": 0,
-  "last_node_id": 358,
-  "last_link_id": 639,
+  "last_node_id": 360,
+  "last_link_id": 641,
   "nodes": [
     {
       "id": 218,
@@ -86,7 +86,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 97,
+      "order": 99,
       "mode": 0,
       "inputs": [
         {
@@ -229,7 +229,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 81,
+      "order": 83,
       "mode": 0,
       "inputs": [
         {
@@ -269,7 +269,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 61,
+      "order": 62,
       "mode": 0,
       "inputs": [
         {
@@ -309,7 +309,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 60,
+      "order": 61,
       "mode": 0,
       "inputs": [
         {
@@ -349,7 +349,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 57,
+      "order": 59,
       "mode": 0,
       "inputs": [
         {
@@ -426,7 +426,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 78,
+      "order": 80,
       "mode": 0,
       "inputs": [
         {
@@ -466,7 +466,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 62,
+      "order": 63,
       "mode": 0,
       "inputs": [
         {
@@ -491,41 +491,6 @@
       ]
     },
     {
-      "id": 239,
-      "type": "GetNode",
-      "pos": [
-        227.25283425559775,
-        4060.4080703086456
-      ],
-      "size": [
-        271.305509971064,
-        60
-      ],
-      "flags": {
-        "collapsed": true
-      },
-      "order": 6,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "LATENT",
-          "type": "LATENT",
-          "links": [
-            466,
-            467
-          ]
-        }
-      ],
-      "title": "Get_latent",
-      "properties": {},
-      "widgets_values": [
-        "latent"
-      ],
-      "color": "#422342",
-      "bgcolor": "rgba(24,24,27,.9)"
-    },
-    {
       "id": 221,
       "type": "GetNode",
       "pos": [
@@ -539,7 +504,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 7,
+      "order": 6,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -573,7 +538,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 8,
+      "order": 7,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -608,7 +573,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 9,
+      "order": 8,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -638,7 +603,7 @@
         150
       ],
       "flags": {},
-      "order": 106,
+      "order": 108,
       "mode": 0,
       "inputs": [
         {
@@ -692,7 +657,7 @@
         46
       ],
       "flags": {},
-      "order": 103,
+      "order": 105,
       "mode": 0,
       "inputs": [
         {
@@ -743,7 +708,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 10,
+      "order": 9,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -777,7 +742,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 11,
+      "order": 10,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -798,46 +763,6 @@
       "bgcolor": "rgba(24,24,27,.9)"
     },
     {
-      "id": 138,
-      "type": "KSamplerSelect",
-      "pos": [
-        904.0252518873483,
-        4526.757254734103
-      ],
-      "size": [
-        270,
-        58
-      ],
-      "flags": {},
-      "order": 12,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "SAMPLER",
-          "type": "SAMPLER",
-          "links": [
-            274
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "KSamplerSelect",
-        "enableTabs": false,
-        "tabWidth": 65,
-        "tabXOffset": 10,
-        "hasSecondTab": false,
-        "secondTabText": "Send Back",
-        "secondTabOffset": 80,
-        "secondTabWidth": 65
-      },
-      "widgets_values": [
-        "lcm"
-      ]
-    },
-    {
       "id": 307,
       "type": "GetNode",
       "pos": [
@@ -851,7 +776,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 13,
+      "order": 11,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -883,7 +808,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 14,
+      "order": 12,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -915,7 +840,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 15,
+      "order": 13,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -947,7 +872,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 59,
+      "order": 60,
       "mode": 0,
       "inputs": [
         {
@@ -1007,7 +932,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 16,
+      "order": 14,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1039,7 +964,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 17,
+      "order": 15,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1073,7 +998,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 87,
+      "order": 89,
       "mode": 0,
       "inputs": [
         {
@@ -1113,7 +1038,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 18,
+      "order": 16,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1147,7 +1072,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 102,
+      "order": 104,
       "mode": 0,
       "inputs": [
         {
@@ -1205,7 +1130,7 @@
         81.02629601803119
       ],
       "flags": {},
-      "order": 98,
+      "order": 100,
       "mode": 0,
       "inputs": [
         {
@@ -1260,7 +1185,7 @@
         46
       ],
       "flags": {},
-      "order": 90,
+      "order": 92,
       "mode": 0,
       "inputs": [
         {
@@ -1313,7 +1238,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 19,
+      "order": 17,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1351,7 +1276,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 20,
+      "order": 18,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1389,7 +1314,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 100,
+      "order": 102,
       "mode": 0,
       "inputs": [
         {
@@ -1429,7 +1354,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 84,
+      "order": 86,
       "mode": 0,
       "inputs": [
         {
@@ -1473,7 +1398,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 93,
+      "order": 95,
       "mode": 0,
       "inputs": [
         {
@@ -1513,7 +1438,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 99,
+      "order": 101,
       "mode": 0,
       "inputs": [
         {
@@ -1553,7 +1478,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 92,
+      "order": 94,
       "mode": 0,
       "inputs": [
         {
@@ -1604,7 +1529,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 83,
+      "order": 85,
       "mode": 0,
       "inputs": [
         {
@@ -1645,7 +1570,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 91,
+      "order": 93,
       "mode": 0,
       "inputs": [
         {
@@ -1685,7 +1610,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 21,
+      "order": 19,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1719,7 +1644,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 22,
+      "order": 20,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1753,7 +1678,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 67,
+      "order": 68,
       "mode": 0,
       "inputs": [
         {
@@ -1791,7 +1716,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 64,
+      "order": 65,
       "mode": 0,
       "inputs": [
         {
@@ -1831,7 +1756,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 66,
+      "order": 67,
       "mode": 0,
       "inputs": [
         {
@@ -1858,97 +1783,6 @@
       "bgcolor": "rgba(24,24,27,.9)"
     },
     {
-      "id": 100,
-      "type": "ManualSigmas",
-      "pos": [
-        904.0252518873483,
-        4406.4266923991445
-      ],
-      "size": [
-        270,
-        69.30926982326673
-      ],
-      "flags": {},
-      "order": 23,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "SIGMAS",
-          "type": "SIGMAS",
-          "links": [
-            275
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.5.1",
-        "Node name for S&R": "ManualSigmas",
-        "enableTabs": false,
-        "tabWidth": 65,
-        "tabXOffset": 10,
-        "hasSecondTab": false,
-        "secondTabText": "Send Back",
-        "secondTabOffset": 80,
-        "secondTabWidth": 65
-      },
-      "widgets_values": [
-        "0.909375, 0.725, 0.421875, 0.0"
-      ]
-    },
-    {
-      "id": 206,
-      "type": "LTXVScheduler",
-      "pos": [
-        227.25283425559775,
-        4033.7320223929114
-      ],
-      "size": [
-        271.305509971064,
-        171.71352573079776
-      ],
-      "flags": {},
-      "order": 58,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "latent",
-          "shape": 7,
-          "type": "LATENT",
-          "link": 466
-        }
-      ],
-      "outputs": [
-        {
-          "name": "SIGMAS",
-          "type": "SIGMAS",
-          "links": [
-            586
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.56",
-        "Node name for S&R": "LTXVScheduler",
-        "enableTabs": false,
-        "tabWidth": 65,
-        "tabXOffset": 10,
-        "hasSecondTab": false,
-        "secondTabText": "Send Back",
-        "secondTabOffset": 80,
-        "secondTabWidth": 65
-      },
-      "widgets_values": [
-        8,
-        2.05,
-        0.95,
-        true,
-        0.1
-      ]
-    },
-    {
       "id": 225,
       "type": "GetNode",
       "pos": [
@@ -1962,7 +1796,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 24,
+      "order": 21,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1994,7 +1828,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 25,
+      "order": 22,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2028,7 +1862,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 26,
+      "order": 23,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2060,7 +1894,7 @@
         68.88020833333334
       ],
       "flags": {},
-      "order": 27,
+      "order": 24,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2100,7 +1934,7 @@
         122
       ],
       "flags": {},
-      "order": 80,
+      "order": 82,
       "mode": 0,
       "inputs": [
         {
@@ -2158,7 +1992,7 @@
         120
       ],
       "flags": {},
-      "order": 77,
+      "order": 79,
       "mode": 0,
       "inputs": [
         {
@@ -2223,7 +2057,7 @@
         72.29914672352243
       ],
       "flags": {},
-      "order": 28,
+      "order": 25,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2259,7 +2093,7 @@
         46
       ],
       "flags": {},
-      "order": 107,
+      "order": 109,
       "mode": 0,
       "inputs": [
         {
@@ -2311,7 +2145,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 29,
+      "order": 26,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -2337,7 +2171,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 63,
+      "order": 64,
       "mode": 0,
       "inputs": [
         {
@@ -2409,7 +2243,7 @@
         58
       ],
       "flags": {},
-      "order": 30,
+      "order": 27,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2447,7 +2281,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 31,
+      "order": 28,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2475,7 +2309,7 @@
         110.28381432699462
       ],
       "flags": {},
-      "order": 32,
+      "order": 29,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2517,7 +2351,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 33,
+      "order": 30,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -2541,7 +2375,7 @@
         82
       ],
       "flags": {},
-      "order": 34,
+      "order": 31,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2586,7 +2420,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 65,
+      "order": 66,
       "mode": 0,
       "inputs": [
         {
@@ -2624,7 +2458,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 35,
+      "order": 32,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -2650,7 +2484,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 36,
+      "order": 33,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -2674,7 +2508,7 @@
         58
       ],
       "flags": {},
-      "order": 37,
+      "order": 34,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2712,7 +2546,7 @@
         61.42705146159551
       ],
       "flags": {},
-      "order": 38,
+      "order": 35,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2750,7 +2584,7 @@
         73.19414812714422
       ],
       "flags": {},
-      "order": 39,
+      "order": 36,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2791,8 +2625,8 @@
       "id": 338,
       "type": "GetNode",
       "pos": [
-        227.25283425559775,
-        4335.280264215127
+        223.4896747219059,
+        4273.815325164831
       ],
       "size": [
         271.305509971064,
@@ -2801,7 +2635,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 40,
+      "order": 37,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2823,8 +2657,8 @@
       "id": 339,
       "type": "GetNode",
       "pos": [
-        227.25283425559775,
-        4327.001313241008
+        223.4896747219059,
+        4265.536374190711
       ],
       "size": [
         271.305509971064,
@@ -2833,7 +2667,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 41,
+      "order": 38,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2865,7 +2699,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 42,
+      "order": 39,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2895,7 +2729,7 @@
         98
       ],
       "flags": {},
-      "order": 69,
+      "order": 70,
       "mode": 0,
       "inputs": [
         {
@@ -2951,7 +2785,7 @@
         579.1223806730061
       ],
       "flags": {},
-      "order": 108,
+      "order": 110,
       "mode": 0,
       "inputs": [
         {
@@ -3036,7 +2870,7 @@
         46
       ],
       "flags": {},
-      "order": 89,
+      "order": 91,
       "mode": 0,
       "inputs": [
         {
@@ -3087,7 +2921,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 43,
+      "order": 40,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3119,7 +2953,7 @@
         270.40621687987004
       ],
       "flags": {},
-      "order": 104,
+      "order": 106,
       "mode": 0,
       "inputs": [
         {
@@ -3140,7 +2974,7 @@
         {
           "name": "sigmas",
           "type": "SIGMAS",
-          "link": 275
+          "link": 640
         },
         {
           "name": "latent_image",
@@ -3188,7 +3022,7 @@
         46
       ],
       "flags": {},
-      "order": 105,
+      "order": 107,
       "mode": 0,
       "inputs": [
         {
@@ -3231,8 +3065,8 @@
       "id": 340,
       "type": "SetNode",
       "pos": [
-        227.25283425559775,
-        4336.363598020285
+        223.4896747219059,
+        4274.898658969989
       ],
       "size": [
         271.305509971064,
@@ -3241,7 +3075,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 88,
+      "order": 90,
       "mode": 0,
       "inputs": [
         {
@@ -3279,7 +3113,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 44,
+      "order": 41,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3298,64 +3132,6 @@
       ]
     },
     {
-      "id": 129,
-      "type": "CFGGuider",
-      "pos": [
-        227.25283425559775,
-        3760.912619170477
-      ],
-      "size": [
-        271.305509971064,
-        106.66666666666667
-      ],
-      "flags": {
-        "collapsed": false
-      },
-      "order": 71,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "model",
-          "type": "MODEL",
-          "link": 627
-        },
-        {
-          "name": "positive",
-          "type": "CONDITIONING",
-          "link": 460
-        },
-        {
-          "name": "negative",
-          "type": "CONDITIONING",
-          "link": 459
-        }
-      ],
-      "outputs": [
-        {
-          "name": "GUIDER",
-          "type": "GUIDER",
-          "links": [
-            505
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.64",
-        "Node name for S&R": "CFGGuider",
-        "enableTabs": false,
-        "tabWidth": 65,
-        "tabXOffset": 10,
-        "hasSecondTab": false,
-        "secondTabText": "Send Back",
-        "secondTabOffset": 80,
-        "secondTabWidth": 65
-      },
-      "widgets_values": [
-        1
-      ]
-    },
-    {
       "id": 115,
       "type": "RandomNoise",
       "pos": [
@@ -3367,7 +3143,7 @@
         82
       ],
       "flags": {},
-      "order": 45,
+      "order": 42,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3412,7 +3188,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 46,
+      "order": 43,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3443,7 +3219,7 @@
         170
       ],
       "flags": {},
-      "order": 79,
+      "order": 81,
       "mode": 0,
       "inputs": [
         {
@@ -3499,7 +3275,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 47,
+      "order": 44,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3531,7 +3307,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 94,
+      "order": 96,
       "mode": 0,
       "inputs": [
         {
@@ -3571,7 +3347,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 95,
+      "order": 97,
       "mode": 0,
       "inputs": [
         {
@@ -3611,7 +3387,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 85,
+      "order": 87,
       "mode": 0,
       "inputs": [
         {
@@ -3677,7 +3453,7 @@
         146.66666666666669
       ],
       "flags": {},
-      "order": 56,
+      "order": 58,
       "mode": 0,
       "inputs": [
         {
@@ -3745,7 +3521,7 @@
         550.0309462039886
       ],
       "flags": {},
-      "order": 48,
+      "order": 45,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3790,7 +3566,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 101,
+      "order": 103,
       "mode": 0,
       "inputs": [
         {
@@ -3828,7 +3604,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 72,
+      "order": 73,
       "mode": 0,
       "inputs": [
         {
@@ -3914,7 +3690,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 49,
+      "order": 46,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -3940,7 +3716,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 50,
+      "order": 47,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -3964,7 +3740,7 @@
         118
       ],
       "flags": {},
-      "order": 96,
+      "order": 98,
       "mode": 0,
       "inputs": [
         {
@@ -4028,7 +3804,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 51,
+      "order": 48,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -4050,57 +3826,6 @@
       "bgcolor": "rgba(24,24,27,.9)"
     },
     {
-      "id": 337,
-      "type": "LTX2SamplingPreviewOverride",
-      "pos": [
-        227.25283425559775,
-        4262.6054417995165
-      ],
-      "size": [
-        271.305509971064,
-        98.86928985228224
-      ],
-      "flags": {},
-      "order": 68,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "model",
-          "type": "MODEL",
-          "link": 618
-        },
-        {
-          "name": "latent_upscale_model",
-          "shape": 7,
-          "type": "LATENT_UPSCALE_MODEL",
-          "link": null
-        },
-        {
-          "name": "vae",
-          "shape": 7,
-          "type": "VAE",
-          "link": 617
-        }
-      ],
-      "outputs": [
-        {
-          "name": "MODEL",
-          "type": "MODEL",
-          "links": [
-            625
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfyui-kjnodes",
-        "ver": "ff79c7332d7ea4aa85097a88fb09359f28cb487e",
-        "Node name for S&R": "LTX2SamplingPreviewOverride"
-      },
-      "widgets_values": [
-        8
-      ]
-    },
-    {
       "id": 113,
       "type": "SamplerCustomAdvanced",
       "pos": [
@@ -4112,7 +3837,7 @@
         260.87578270797184
       ],
       "flags": {},
-      "order": 82,
+      "order": 84,
       "mode": 0,
       "inputs": [
         {
@@ -4133,7 +3858,7 @@
         {
           "name": "sigmas",
           "type": "SIGMAS",
-          "link": 586
+          "link": 641
         },
         {
           "name": "latent_image",
@@ -4183,7 +3908,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 70,
+      "order": 71,
       "mode": 0,
       "inputs": [
         {
@@ -4223,7 +3948,7 @@
         92.01753067868731
       ],
       "flags": {},
-      "order": 86,
+      "order": 88,
       "mode": 4,
       "inputs": [
         {
@@ -4266,7 +3991,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 76,
+      "order": 77,
       "mode": 4,
       "inputs": [
         {
@@ -4327,7 +4052,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 52,
+      "order": 49,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -4365,7 +4090,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 75,
+      "order": 76,
       "mode": 0,
       "inputs": [
         {
@@ -4405,7 +4130,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 53,
+      "order": 50,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -4447,7 +4172,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 54,
+      "order": 51,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -4488,7 +4213,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 55,
+      "order": 52,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -4527,7 +4252,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 73,
+      "order": 74,
       "mode": 0,
       "inputs": [
         {
@@ -4577,7 +4302,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 74,
+      "order": 75,
       "mode": 0,
       "inputs": [
         {
@@ -4612,6 +4337,349 @@
       ],
       "color": "#422342",
       "bgcolor": "rgba(24,24,27,.9)"
+    },
+    {
+      "id": 100,
+      "type": "ManualSigmas",
+      "pos": [
+        938.9348284948966,
+        4418.569153827855
+      ],
+      "size": [
+        270,
+        69.30926982326673
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 53,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "SIGMAS",
+          "type": "SIGMAS",
+          "links": []
+        }
+      ],
+      "title": "ManualSigmas (LTX 2.0)",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.5.1",
+        "Node name for S&R": "ManualSigmas",
+        "enableTabs": false,
+        "tabWidth": 65,
+        "tabXOffset": 10,
+        "hasSecondTab": false,
+        "secondTabText": "Send Back",
+        "secondTabOffset": 80,
+        "secondTabWidth": 65
+      },
+      "widgets_values": [
+        "0.909375, 0.725, 0.421875, 0.0"
+      ]
+    },
+    {
+      "id": 359,
+      "type": "ManualSigmas",
+      "pos": [
+        902.6397527104813,
+        4413.726194488987
+      ],
+      "size": [
+        274.0120536645418,
+        58
+      ],
+      "flags": {},
+      "order": 54,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "SIGMAS",
+          "type": "SIGMAS",
+          "links": [
+            640
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.14.1",
+        "Node name for S&R": "ManualSigmas"
+      },
+      "widgets_values": [
+        "0.85, 0.7250, 0.4219, 0.0"
+      ]
+    },
+    {
+      "id": 138,
+      "type": "KSamplerSelect",
+      "pos": [
+        904.0252518873483,
+        4526.757254734103
+      ],
+      "size": [
+        270,
+        58
+      ],
+      "flags": {},
+      "order": 55,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "SAMPLER",
+          "type": "SAMPLER",
+          "links": [
+            274
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "KSamplerSelect",
+        "enableTabs": false,
+        "tabWidth": 65,
+        "tabXOffset": 10,
+        "hasSecondTab": false,
+        "secondTabText": "Send Back",
+        "secondTabOffset": 80,
+        "secondTabWidth": 65
+      },
+      "widgets_values": [
+        "euler_cfg_pp"
+      ]
+    },
+    {
+      "id": 206,
+      "type": "LTXVScheduler",
+      "pos": [
+        227.25283425559775,
+        4033.7320223929114
+      ],
+      "size": [
+        271.305509971064,
+        171.71352573079776
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 78,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "latent",
+          "shape": 7,
+          "type": "LATENT",
+          "link": 466
+        }
+      ],
+      "outputs": [
+        {
+          "name": "SIGMAS",
+          "type": "SIGMAS",
+          "links": []
+        }
+      ],
+      "title": "LTXVScheduler (for more steps)",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.56",
+        "Node name for S&R": "LTXVScheduler",
+        "enableTabs": false,
+        "tabWidth": 65,
+        "tabXOffset": 10,
+        "hasSecondTab": false,
+        "secondTabText": "Send Back",
+        "secondTabOffset": 80,
+        "secondTabWidth": 65
+      },
+      "widgets_values": [
+        8,
+        2.05,
+        0.95,
+        true,
+        0.1
+      ]
+    },
+    {
+      "id": 239,
+      "type": "GetNode",
+      "pos": [
+        281.19145423851415,
+        3810.7851545737544
+      ],
+      "size": [
+        271.305509971064,
+        60
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 56,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            466,
+            467
+          ]
+        }
+      ],
+      "title": "Get_latent",
+      "properties": {},
+      "widgets_values": [
+        "latent"
+      ],
+      "color": "#422342",
+      "bgcolor": "rgba(24,24,27,.9)"
+    },
+    {
+      "id": 129,
+      "type": "CFGGuider",
+      "pos": [
+        227.25283425559775,
+        3760.912619170477
+      ],
+      "size": [
+        271.305509971064,
+        106.66666666666667
+      ],
+      "flags": {
+        "collapsed": false
+      },
+      "order": 72,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 627
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 460
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 459
+        }
+      ],
+      "outputs": [
+        {
+          "name": "GUIDER",
+          "type": "GUIDER",
+          "links": [
+            505
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.64",
+        "Node name for S&R": "CFGGuider",
+        "enableTabs": false,
+        "tabWidth": 65,
+        "tabXOffset": 10,
+        "hasSecondTab": false,
+        "secondTabText": "Send Back",
+        "secondTabOffset": 80,
+        "secondTabWidth": 65
+      },
+      "widgets_values": [
+        1
+      ]
+    },
+    {
+      "id": 360,
+      "type": "ManualSigmas",
+      "pos": [
+        222.7423872990407,
+        4082.8265684755643
+      ],
+      "size": [
+        269.02566338233964,
+        58
+      ],
+      "flags": {},
+      "order": 57,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "SIGMAS",
+          "type": "SIGMAS",
+          "links": [
+            641
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.14.1",
+        "Node name for S&R": "ManualSigmas"
+      },
+      "widgets_values": [
+        "1.0, 0.99375, 0.9875, 0.98125, 0.975, 0.909375, 0.725, 0.421875, 0.0"
+      ]
+    },
+    {
+      "id": 337,
+      "type": "LTX2SamplingPreviewOverride",
+      "pos": [
+        223.4896747219059,
+        4201.14050274922
+      ],
+      "size": [
+        271.305509971064,
+        98.86928985228224
+      ],
+      "flags": {},
+      "order": 69,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 618
+        },
+        {
+          "name": "latent_upscale_model",
+          "shape": 7,
+          "type": "LATENT_UPSCALE_MODEL",
+          "link": null
+        },
+        {
+          "name": "vae",
+          "shape": 7,
+          "type": "VAE",
+          "link": 617
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            625
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-kjnodes",
+        "ver": "ff79c7332d7ea4aa85097a88fb09359f28cb487e",
+        "Node name for S&R": "LTX2SamplingPreviewOverride"
+      },
+      "widgets_values": [
+        8
+      ]
     }
   ],
   "links": [
@@ -4654,14 +4722,6 @@
       119,
       2,
       "SAMPLER"
-    ],
-    [
-      275,
-      100,
-      0,
-      119,
-      3,
-      "SIGMAS"
     ],
     [
       276,
@@ -5216,14 +5276,6 @@
       "INT"
     ],
     [
-      586,
-      206,
-      0,
-      113,
-      3,
-      "SIGMAS"
-    ],
-    [
       590,
       301,
       0,
@@ -5342,6 +5394,22 @@
       213,
       0,
       "CLIP"
+    ],
+    [
+      640,
+      359,
+      0,
+      119,
+      3,
+      "SIGMAS"
+    ],
+    [
+      641,
+      360,
+      0,
+      113,
+      3,
+      "SIGMAS"
     ]
   ],
   "groups": [
@@ -5492,10 +5560,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.2309211532038243,
+      "scale": 0.25401326852420014,
       "offset": [
-        3478.0473244314085,
-        -2460.1611382924652
+        2742.553287552798,
+        -2154.4699584183413
       ]
     },
     "frontendVersion": "1.39.19",
