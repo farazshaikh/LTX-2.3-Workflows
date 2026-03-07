@@ -62,4 +62,5 @@ Lightricks LTX-2.3 Collection (loras etc): https://huggingface.co/collections/Li
 More workflows :
 
 ComfyUI Official Workflows : https://blog.comfy.org/p/ltx-23-day-0-supporte-in-comfyui 
+
 LTX-2 Video Official Workflows : https://github.com/Lightricks/ComfyUI-LTXVideo/tree/master/example_workflows/2.3
