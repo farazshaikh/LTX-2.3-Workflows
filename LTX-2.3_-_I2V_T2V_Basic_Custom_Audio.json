@@ -1,8 +1,8 @@
 {
   "id": "d15f72da-ab9c-490d-9386-b750d889c6f8",
   "revision": 0,
-  "last_node_id": 379,
-  "last_link_id": 658,
+  "last_node_id": 381,
+  "last_link_id": 660,
   "nodes": [
     {
       "id": 218,
@@ -86,7 +86,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 119,
+      "order": 121,
       "mode": 0,
       "inputs": [
         {
@@ -229,7 +229,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 100,
+      "order": 102,
       "mode": 0,
       "inputs": [
         {
@@ -269,7 +269,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 76,
+      "order": 77,
       "mode": 0,
       "inputs": [
         {
@@ -309,7 +309,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 75,
+      "order": 76,
       "mode": 0,
       "inputs": [
         {
@@ -349,7 +349,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 72,
+      "order": 74,
       "mode": 0,
       "inputs": [
         {
@@ -426,7 +426,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 96,
+      "order": 98,
       "mode": 0,
       "inputs": [
         {
@@ -466,7 +466,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 77,
+      "order": 78,
       "mode": 0,
       "inputs": [
         {
@@ -491,41 +491,6 @@
       ]
     },
     {
-      "id": 239,
-      "type": "GetNode",
-      "pos": [
-        232.63061203337554,
-        4057.7191814197568
-      ],
-      "size": [
-        271.305509971064,
-        60
-      ],
-      "flags": {
-        "collapsed": true
-      },
-      "order": 6,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "LATENT",
-          "type": "LATENT",
-          "links": [
-            466,
-            467
-          ]
-        }
-      ],
-      "title": "Get_latent",
-      "properties": {},
-      "widgets_values": [
-        "latent"
-      ],
-      "color": "#422342",
-      "bgcolor": "rgba(24,24,27,.9)"
-    },
-    {
       "id": 221,
       "type": "GetNode",
       "pos": [
@@ -539,7 +504,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 7,
+      "order": 6,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -573,7 +538,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 8,
+      "order": 7,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -608,7 +573,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 9,
+      "order": 8,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -638,7 +603,7 @@
         150
       ],
       "flags": {},
-      "order": 133,
+      "order": 135,
       "mode": 0,
       "inputs": [
         {
@@ -692,7 +657,7 @@
         46
       ],
       "flags": {},
-      "order": 129,
+      "order": 131,
       "mode": 0,
       "inputs": [
         {
@@ -743,7 +708,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 10,
+      "order": 9,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -777,7 +742,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 11,
+      "order": 10,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -798,46 +763,6 @@
       "bgcolor": "rgba(24,24,27,.9)"
     },
     {
-      "id": 138,
-      "type": "KSamplerSelect",
-      "pos": [
-        909.403029665126,
-        4524.068365845214
-      ],
-      "size": [
-        270,
-        58
-      ],
-      "flags": {},
-      "order": 12,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "SAMPLER",
-          "type": "SAMPLER",
-          "links": [
-            274
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "KSamplerSelect",
-        "enableTabs": false,
-        "tabWidth": 65,
-        "tabXOffset": 10,
-        "hasSecondTab": false,
-        "secondTabText": "Send Back",
-        "secondTabOffset": 80,
-        "secondTabWidth": 65
-      },
-      "widgets_values": [
-        "lcm"
-      ]
-    },
-    {
       "id": 307,
       "type": "GetNode",
       "pos": [
@@ -851,7 +776,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 13,
+      "order": 11,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -883,7 +808,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 14,
+      "order": 12,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -915,7 +840,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 15,
+      "order": 13,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -947,7 +872,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 74,
+      "order": 75,
       "mode": 0,
       "inputs": [
         {
@@ -1007,7 +932,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 16,
+      "order": 14,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1039,7 +964,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 17,
+      "order": 15,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1073,7 +998,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 106,
+      "order": 108,
       "mode": 0,
       "inputs": [
         {
@@ -1113,7 +1038,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 18,
+      "order": 16,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1147,7 +1072,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 125,
+      "order": 127,
       "mode": 0,
       "inputs": [
         {
@@ -1205,7 +1130,7 @@
         81.02629601803119
       ],
       "flags": {},
-      "order": 120,
+      "order": 122,
       "mode": 0,
       "inputs": [
         {
@@ -1260,7 +1185,7 @@
         46
       ],
       "flags": {},
-      "order": 110,
+      "order": 112,
       "mode": 0,
       "inputs": [
         {
@@ -1313,7 +1238,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 19,
+      "order": 17,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1351,7 +1276,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 20,
+      "order": 18,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1389,7 +1314,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 123,
+      "order": 125,
       "mode": 0,
       "inputs": [
         {
@@ -1429,7 +1354,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 104,
+      "order": 106,
       "mode": 0,
       "inputs": [
         {
@@ -1473,7 +1398,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 115,
+      "order": 117,
       "mode": 0,
       "inputs": [
         {
@@ -1513,7 +1438,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 122,
+      "order": 124,
       "mode": 0,
       "inputs": [
         {
@@ -1553,7 +1478,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 114,
+      "order": 116,
       "mode": 0,
       "inputs": [
         {
@@ -1604,7 +1529,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 103,
+      "order": 105,
       "mode": 0,
       "inputs": [
         {
@@ -1645,7 +1570,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 113,
+      "order": 115,
       "mode": 0,
       "inputs": [
         {
@@ -1685,7 +1610,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 21,
+      "order": 19,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1719,7 +1644,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 22,
+      "order": 20,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1753,7 +1678,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 83,
+      "order": 84,
       "mode": 0,
       "inputs": [
         {
@@ -1791,7 +1716,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 80,
+      "order": 81,
       "mode": 0,
       "inputs": [
         {
@@ -1831,7 +1756,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 82,
+      "order": 83,
       "mode": 0,
       "inputs": [
         {
@@ -1871,7 +1796,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 79,
+      "order": 80,
       "mode": 0,
       "inputs": [
         {
@@ -1898,97 +1823,6 @@
       "bgcolor": "rgba(24,24,27,.9)"
     },
     {
-      "id": 100,
-      "type": "ManualSigmas",
-      "pos": [
-        909.403029665126,
-        4403.737803510256
-      ],
-      "size": [
-        270,
-        69.30926982326673
-      ],
-      "flags": {},
-      "order": 23,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "SIGMAS",
-          "type": "SIGMAS",
-          "links": [
-            275
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.5.1",
-        "Node name for S&R": "ManualSigmas",
-        "enableTabs": false,
-        "tabWidth": 65,
-        "tabXOffset": 10,
-        "hasSecondTab": false,
-        "secondTabText": "Send Back",
-        "secondTabOffset": 80,
-        "secondTabWidth": 65
-      },
-      "widgets_values": [
-        "0.909375, 0.725, 0.421875, 0.0"
-      ]
-    },
-    {
-      "id": 206,
-      "type": "LTXVScheduler",
-      "pos": [
-        232.63061203337554,
-        4031.0431335040225
-      ],
-      "size": [
-        271.305509971064,
-        171.71352573079776
-      ],
-      "flags": {},
-      "order": 73,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "latent",
-          "shape": 7,
-          "type": "LATENT",
-          "link": 466
-        }
-      ],
-      "outputs": [
-        {
-          "name": "SIGMAS",
-          "type": "SIGMAS",
-          "links": [
-            586
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.56",
-        "Node name for S&R": "LTXVScheduler",
-        "enableTabs": false,
-        "tabWidth": 65,
-        "tabXOffset": 10,
-        "hasSecondTab": false,
-        "secondTabText": "Send Back",
-        "secondTabOffset": 80,
-        "secondTabWidth": 65
-      },
-      "widgets_values": [
-        8,
-        2.05,
-        0.95,
-        true,
-        0.1
-      ]
-    },
-    {
       "id": 225,
       "type": "GetNode",
       "pos": [
@@ -2002,7 +1836,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 24,
+      "order": 21,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2034,7 +1868,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 25,
+      "order": 22,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2068,7 +1902,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 26,
+      "order": 23,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2089,46 +1923,6 @@
       "bgcolor": "rgba(24,24,27,.9)"
     },
     {
-      "id": 137,
-      "type": "KSamplerSelect",
-      "pos": [
-        232.63061203337554,
-        3915.813189751416
-      ],
-      "size": [
-        271.305509971064,
-        68.88020833333334
-      ],
-      "flags": {},
-      "order": 27,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "SAMPLER",
-          "type": "SAMPLER",
-          "links": [
-            261
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.56",
-        "Node name for S&R": "KSamplerSelect",
-        "enableTabs": false,
-        "tabWidth": 65,
-        "tabXOffset": 10,
-        "hasSecondTab": false,
-        "secondTabText": "Send Back",
-        "secondTabOffset": 80,
-        "secondTabWidth": 65
-      },
-      "widgets_values": [
-        "lcm"
-      ]
-    },
-    {
       "id": 161,
       "type": "LTXVImgToVideoInplace",
       "pos": [
@@ -2140,7 +1934,7 @@
         122
       ],
       "flags": {},
-      "order": 99,
+      "order": 101,
       "mode": 0,
       "inputs": [
         {
@@ -2198,7 +1992,7 @@
         120
       ],
       "flags": {},
-      "order": 95,
+      "order": 97,
       "mode": 0,
       "inputs": [
         {
@@ -2262,7 +2056,7 @@
         72.29914672352243
       ],
       "flags": {},
-      "order": 28,
+      "order": 24,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2300,7 +2094,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 29,
+      "order": 25,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -2326,7 +2120,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 78,
+      "order": 79,
       "mode": 0,
       "inputs": [
         {
@@ -2398,7 +2192,7 @@
         58
       ],
       "flags": {},
-      "order": 30,
+      "order": 26,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2436,7 +2230,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 31,
+      "order": 27,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2466,7 +2260,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 32,
+      "order": 28,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2507,7 +2301,7 @@
         110.28381432699462
       ],
       "flags": {},
-      "order": 33,
+      "order": 29,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2549,7 +2343,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 34,
+      "order": 30,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -2573,7 +2367,7 @@
         82
       ],
       "flags": {},
-      "order": 35,
+      "order": 31,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2618,7 +2412,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 81,
+      "order": 82,
       "mode": 0,
       "inputs": [
         {
@@ -2656,7 +2450,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 36,
+      "order": 32,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -2682,7 +2476,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 37,
+      "order": 33,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -2706,7 +2500,7 @@
         58
       ],
       "flags": {},
-      "order": 38,
+      "order": 34,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2744,7 +2538,7 @@
         61.42705146159551
       ],
       "flags": {},
-      "order": 39,
+      "order": 35,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2782,7 +2576,7 @@
         73.19414812714422
       ],
       "flags": {},
-      "order": 40,
+      "order": 36,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2823,8 +2617,8 @@
       "id": 338,
       "type": "GetNode",
       "pos": [
-        232.63061203337554,
-        4332.591375326238
+        235.66622739055362,
+        4282.503721932801
       ],
       "size": [
         271.305509971064,
@@ -2833,7 +2627,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 41,
+      "order": 37,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2855,8 +2649,8 @@
       "id": 339,
       "type": "GetNode",
       "pos": [
-        232.63061203337554,
-        4324.312424352119
+        235.66622739055362,
+        4274.224770958682
       ],
       "size": [
         271.305509971064,
@@ -2865,7 +2659,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 42,
+      "order": 38,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2897,7 +2691,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 43,
+      "order": 39,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2927,7 +2721,7 @@
         98
       ],
       "flags": {},
-      "order": 85,
+      "order": 86,
       "mode": 0,
       "inputs": [
         {
@@ -2983,7 +2777,7 @@
         82
       ],
       "flags": {},
-      "order": 44,
+      "order": 40,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3021,7 +2815,7 @@
         579.1223806730061
       ],
       "flags": {},
-      "order": 135,
+      "order": 137,
       "mode": 0,
       "inputs": [
         {
@@ -3106,7 +2900,7 @@
         46
       ],
       "flags": {},
-      "order": 109,
+      "order": 111,
       "mode": 0,
       "inputs": [
         {
@@ -3157,7 +2951,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 45,
+      "order": 41,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3189,7 +2983,7 @@
         270.40621687987004
       ],
       "flags": {},
-      "order": 131,
+      "order": 133,
       "mode": 0,
       "inputs": [
         {
@@ -3210,7 +3004,7 @@
         {
           "name": "sigmas",
           "type": "SIGMAS",
-          "link": 275
+          "link": 659
         },
         {
           "name": "latent_image",
@@ -3258,7 +3052,7 @@
         46
       ],
       "flags": {},
-      "order": 132,
+      "order": 134,
       "mode": 0,
       "inputs": [
         {
@@ -3301,8 +3095,8 @@
       "id": 340,
       "type": "SetNode",
       "pos": [
-        232.63061203337554,
-        4333.674709131396
+        235.66622739055362,
+        4283.587055737959
       ],
       "size": [
         271.305509971064,
@@ -3311,7 +3105,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 107,
+      "order": 109,
       "mode": 0,
       "inputs": [
         {
@@ -3349,7 +3143,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 46,
+      "order": 42,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3368,64 +3162,6 @@
       ]
     },
     {
-      "id": 129,
-      "type": "CFGGuider",
-      "pos": [
-        232.63061203337554,
-        3758.223730281588
-      ],
-      "size": [
-        271.305509971064,
-        106.66666666666667
-      ],
-      "flags": {
-        "collapsed": false
-      },
-      "order": 88,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "model",
-          "type": "MODEL",
-          "link": 627
-        },
-        {
-          "name": "positive",
-          "type": "CONDITIONING",
-          "link": 460
-        },
-        {
-          "name": "negative",
-          "type": "CONDITIONING",
-          "link": 459
-        }
-      ],
-      "outputs": [
-        {
-          "name": "GUIDER",
-          "type": "GUIDER",
-          "links": [
-            505
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.64",
-        "Node name for S&R": "CFGGuider",
-        "enableTabs": false,
-        "tabWidth": 65,
-        "tabXOffset": 10,
-        "hasSecondTab": false,
-        "secondTabText": "Send Back",
-        "secondTabOffset": 80,
-        "secondTabWidth": 65
-      },
-      "widgets_values": [
-        1
-      ]
-    },
-    {
       "id": 115,
       "type": "RandomNoise",
       "pos": [
@@ -3437,7 +3173,7 @@
         82
       ],
       "flags": {},
-      "order": 47,
+      "order": 43,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3482,7 +3218,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 48,
+      "order": 44,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3513,7 +3249,7 @@
         170
       ],
       "flags": {},
-      "order": 97,
+      "order": 99,
       "mode": 0,
       "inputs": [
         {
@@ -3569,7 +3305,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 49,
+      "order": 45,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3601,7 +3337,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 127,
+      "order": 129,
       "mode": 0,
       "inputs": [
         {
@@ -3641,7 +3377,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 128,
+      "order": 130,
       "mode": 0,
       "inputs": [
         {
@@ -3681,7 +3417,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 124,
+      "order": 126,
       "mode": 0,
       "inputs": [
         {
@@ -3747,7 +3483,7 @@
         146.66666666666669
       ],
       "flags": {},
-      "order": 71,
+      "order": 73,
       "mode": 0,
       "inputs": [
         {
@@ -3817,7 +3553,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 118,
+      "order": 120,
       "mode": 0,
       "inputs": [
         {
@@ -3855,7 +3591,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 93,
+      "order": 94,
       "mode": 0,
       "inputs": [
         {
@@ -3899,7 +3635,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 89,
+      "order": 90,
       "mode": 0,
       "inputs": [
         {
@@ -3949,7 +3685,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 50,
+      "order": 46,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3986,7 +3722,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 51,
+      "order": 47,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -4026,7 +3762,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 52,
+      "order": 48,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -4052,7 +3788,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 53,
+      "order": 49,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -4078,7 +3814,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 54,
+      "order": 50,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -4102,7 +3838,7 @@
         118
       ],
       "flags": {},
-      "order": 108,
+      "order": 110,
       "mode": 0,
       "inputs": [
         {
@@ -4164,7 +3900,7 @@
         82
       ],
       "flags": {},
-      "order": 55,
+      "order": 51,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -4201,7 +3937,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 117,
+      "order": 119,
       "mode": 0,
       "inputs": [
         {
@@ -4259,7 +3995,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 56,
+      "order": 52,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -4282,57 +4018,6 @@
       "bgcolor": "rgba(24,24,27,.9)"
     },
     {
-      "id": 337,
-      "type": "LTX2SamplingPreviewOverride",
-      "pos": [
-        232.63061203337554,
-        4259.916552910628
-      ],
-      "size": [
-        271.305509971064,
-        98.86928985228224
-      ],
-      "flags": {},
-      "order": 84,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "model",
-          "type": "MODEL",
-          "link": 618
-        },
-        {
-          "name": "latent_upscale_model",
-          "shape": 7,
-          "type": "LATENT_UPSCALE_MODEL",
-          "link": null
-        },
-        {
-          "name": "vae",
-          "shape": 7,
-          "type": "VAE",
-          "link": 617
-        }
-      ],
-      "outputs": [
-        {
-          "name": "MODEL",
-          "type": "MODEL",
-          "links": [
-            625
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfyui-kjnodes",
-        "ver": "ff79c7332d7ea4aa85097a88fb09359f28cb487e",
-        "Node name for S&R": "LTX2SamplingPreviewOverride"
-      },
-      "widgets_values": [
-        8
-      ]
-    },
-    {
       "id": 113,
       "type": "SamplerCustomAdvanced",
       "pos": [
@@ -4344,7 +4029,7 @@
         260.87578270797184
       ],
       "flags": {},
-      "order": 101,
+      "order": 103,
       "mode": 0,
       "inputs": [
         {
@@ -4365,7 +4050,7 @@
         {
           "name": "sigmas",
           "type": "SIGMAS",
-          "link": 586
+          "link": 660
         },
         {
           "name": "latent_image",
@@ -4415,7 +4100,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 87,
+      "order": 88,
       "mode": 0,
       "inputs": [
         {
@@ -4457,7 +4142,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 105,
+      "order": 107,
       "mode": 0,
       "inputs": [
         {
@@ -4513,7 +4198,7 @@
         92.01753067868731
       ],
       "flags": {},
-      "order": 98,
+      "order": 100,
       "mode": 4,
       "inputs": [
         {
@@ -4556,7 +4241,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 86,
+      "order": 87,
       "mode": 4,
       "inputs": [
         {
@@ -4617,7 +4302,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 57,
+      "order": 53,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -4651,7 +4336,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 58,
+      "order": 54,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -4685,7 +4370,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 90,
+      "order": 91,
       "mode": 0,
       "inputs": [
         {
@@ -4747,7 +4432,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 111,
+      "order": 113,
       "mode": 0,
       "inputs": [
         {
@@ -4790,7 +4475,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 130,
+      "order": 132,
       "mode": 0,
       "inputs": [
         {
@@ -4830,7 +4515,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 91,
+      "order": 92,
       "mode": 0,
       "inputs": [
         {
@@ -4902,7 +4587,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 59,
+      "order": 55,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -4936,7 +4621,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 60,
+      "order": 56,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -4968,7 +4653,7 @@
         71.66026910730216
       ],
       "flags": {},
-      "order": 61,
+      "order": 57,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -5008,7 +4693,7 @@
         46
       ],
       "flags": {},
-      "order": 126,
+      "order": 128,
       "mode": 0,
       "inputs": [
         {
@@ -5057,7 +4742,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 62,
+      "order": 58,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -5091,7 +4776,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 63,
+      "order": 59,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -5123,7 +4808,7 @@
         91.69542099724458
       ],
       "flags": {},
-      "order": 92,
+      "order": 93,
       "mode": 0,
       "inputs": [
         {
@@ -5172,7 +4857,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 64,
+      "order": 60,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -5208,7 +4893,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 116,
+      "order": 118,
       "mode": 0,
       "inputs": [
         {
@@ -5251,7 +4936,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 65,
+      "order": 61,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -5289,7 +4974,7 @@
         58.01664226661978
       ],
       "flags": {},
-      "order": 121,
+      "order": 123,
       "mode": 0,
       "inputs": [
         {
@@ -5337,7 +5022,7 @@
         82
       ],
       "flags": {},
-      "order": 102,
+      "order": 104,
       "mode": 0,
       "inputs": [
         {
@@ -5393,7 +5078,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 66,
+      "order": 62,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -5417,7 +5102,7 @@
         46
       ],
       "flags": {},
-      "order": 134,
+      "order": 136,
       "mode": 0,
       "inputs": [
         {
@@ -5469,7 +5154,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 67,
+      "order": 63,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -5499,7 +5184,7 @@
         26
       ],
       "flags": {},
-      "order": 136,
+      "order": 138,
       "mode": 0,
       "inputs": [
         {
@@ -5532,7 +5217,7 @@
         46
       ],
       "flags": {},
-      "order": 112,
+      "order": 114,
       "mode": 0,
       "inputs": [
         {
@@ -5584,7 +5269,7 @@
         136
       ],
       "flags": {},
-      "order": 68,
+      "order": 64,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -5628,7 +5313,7 @@
         550.0309462039886
       ],
       "flags": {},
-      "order": 69,
+      "order": 65,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -5673,7 +5358,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 94,
+      "order": 95,
       "mode": 0,
       "inputs": [
         {
@@ -5760,7 +5445,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 70,
+      "order": 66,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -5783,6 +5468,389 @@
       ],
       "color": "#346434",
       "bgcolor": "rgba(24,24,27,.9)"
+    },
+    {
+      "id": 100,
+      "type": "ManualSigmas",
+      "pos": [
+        985.2934135945778,
+        4420.433687974733
+      ],
+      "size": [
+        270,
+        69.30926982326673
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 67,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "SIGMAS",
+          "type": "SIGMAS",
+          "links": []
+        }
+      ],
+      "title": "ManualSigmas (LTX 2.0)",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.5.1",
+        "Node name for S&R": "ManualSigmas",
+        "enableTabs": false,
+        "tabWidth": 65,
+        "tabXOffset": 10,
+        "hasSecondTab": false,
+        "secondTabText": "Send Back",
+        "secondTabOffset": 80,
+        "secondTabWidth": 65
+      },
+      "widgets_values": [
+        "0.909375, 0.725, 0.421875, 0.0"
+      ]
+    },
+    {
+      "id": 380,
+      "type": "ManualSigmas",
+      "pos": [
+        908.0967376772977,
+        4401.748106912384
+      ],
+      "size": [
+        274.0120536645418,
+        58
+      ],
+      "flags": {},
+      "order": 68,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "SIGMAS",
+          "type": "SIGMAS",
+          "links": [
+            659
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.14.1",
+        "Node name for S&R": "ManualSigmas"
+      },
+      "widgets_values": [
+        "0.85, 0.7250, 0.4219, 0.0"
+      ]
+    },
+    {
+      "id": 138,
+      "type": "KSamplerSelect",
+      "pos": [
+        909.403029665126,
+        4524.068365845214
+      ],
+      "size": [
+        270,
+        58
+      ],
+      "flags": {},
+      "order": 69,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "SAMPLER",
+          "type": "SAMPLER",
+          "links": [
+            274
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "KSamplerSelect",
+        "enableTabs": false,
+        "tabWidth": 65,
+        "tabXOffset": 10,
+        "hasSecondTab": false,
+        "secondTabText": "Send Back",
+        "secondTabOffset": 80,
+        "secondTabWidth": 65
+      },
+      "widgets_values": [
+        "euler_cfg_pp"
+      ]
+    },
+    {
+      "id": 137,
+      "type": "KSamplerSelect",
+      "pos": [
+        232.63061203337554,
+        3915.813189751416
+      ],
+      "size": [
+        271.305509971064,
+        68.88020833333334
+      ],
+      "flags": {},
+      "order": 70,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "SAMPLER",
+          "type": "SAMPLER",
+          "links": [
+            261
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.56",
+        "Node name for S&R": "KSamplerSelect",
+        "enableTabs": false,
+        "tabWidth": 65,
+        "tabXOffset": 10,
+        "hasSecondTab": false,
+        "secondTabText": "Send Back",
+        "secondTabOffset": 80,
+        "secondTabWidth": 65
+      },
+      "widgets_values": [
+        "euler_ancestral_cfg_pp"
+      ]
+    },
+    {
+      "id": 206,
+      "type": "LTXVScheduler",
+      "pos": [
+        232.63061203337554,
+        4031.0431335040225
+      ],
+      "size": [
+        271.305509971064,
+        171.71352573079776
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 96,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "latent",
+          "shape": 7,
+          "type": "LATENT",
+          "link": 466
+        }
+      ],
+      "outputs": [
+        {
+          "name": "SIGMAS",
+          "type": "SIGMAS",
+          "links": []
+        }
+      ],
+      "title": "LTXVScheduler (for more steps)",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.56",
+        "Node name for S&R": "LTXVScheduler",
+        "enableTabs": false,
+        "tabWidth": 65,
+        "tabXOffset": 10,
+        "hasSecondTab": false,
+        "secondTabText": "Send Back",
+        "secondTabOffset": 80,
+        "secondTabWidth": 65
+      },
+      "widgets_values": [
+        8,
+        2.05,
+        0.95,
+        true,
+        0.1
+      ]
+    },
+    {
+      "id": 239,
+      "type": "GetNode",
+      "pos": [
+        297.8963422127045,
+        3807.280914452565
+      ],
+      "size": [
+        271.305509971064,
+        60
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 71,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            466,
+            467
+          ]
+        }
+      ],
+      "title": "Get_latent",
+      "properties": {},
+      "widgets_values": [
+        "latent"
+      ],
+      "color": "#422342",
+      "bgcolor": "rgba(24,24,27,.9)"
+    },
+    {
+      "id": 129,
+      "type": "CFGGuider",
+      "pos": [
+        232.63061203337554,
+        3758.223730281588
+      ],
+      "size": [
+        271.305509971064,
+        106.66666666666667
+      ],
+      "flags": {
+        "collapsed": false
+      },
+      "order": 89,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 627
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 460
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 459
+        }
+      ],
+      "outputs": [
+        {
+          "name": "GUIDER",
+          "type": "GUIDER",
+          "links": [
+            505
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.64",
+        "Node name for S&R": "CFGGuider",
+        "enableTabs": false,
+        "tabWidth": 65,
+        "tabXOffset": 10,
+        "hasSecondTab": false,
+        "secondTabText": "Send Back",
+        "secondTabOffset": 80,
+        "secondTabWidth": 65
+      },
+      "widgets_values": [
+        1
+      ]
+    },
+    {
+      "id": 381,
+      "type": "ManualSigmas",
+      "pos": [
+        231.15451302658408,
+        4086.044109765864
+      ],
+      "size": [
+        269.02566338233964,
+        58
+      ],
+      "flags": {},
+      "order": 72,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "SIGMAS",
+          "type": "SIGMAS",
+          "links": [
+            660
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.14.1",
+        "Node name for S&R": "ManualSigmas"
+      },
+      "widgets_values": [
+        "1.0, 0.99375, 0.9875, 0.98125, 0.975, 0.909375, 0.725, 0.421875, 0.0"
+      ]
+    },
+    {
+      "id": 337,
+      "type": "LTX2SamplingPreviewOverride",
+      "pos": [
+        235.66622739055362,
+        4209.828899517191
+      ],
+      "size": [
+        271.305509971064,
+        98.86928985228224
+      ],
+      "flags": {},
+      "order": 85,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 618
+        },
+        {
+          "name": "latent_upscale_model",
+          "shape": 7,
+          "type": "LATENT_UPSCALE_MODEL",
+          "link": null
+        },
+        {
+          "name": "vae",
+          "shape": 7,
+          "type": "VAE",
+          "link": 617
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            625
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-kjnodes",
+        "ver": "ff79c7332d7ea4aa85097a88fb09359f28cb487e",
+        "Node name for S&R": "LTX2SamplingPreviewOverride"
+      },
+      "widgets_values": [
+        8
+      ]
     }
   ],
   "links": [
@@ -5825,14 +5893,6 @@
       119,
       2,
       "SAMPLER"
-    ],
-    [
-      275,
-      100,
-      0,
-      119,
-      3,
-      "SIGMAS"
     ],
     [
       276,
@@ -6379,14 +6439,6 @@
       "INT"
     ],
     [
-      586,
-      206,
-      0,
-      113,
-      3,
-      "SIGMAS"
-    ],
-    [
       590,
       301,
       0,
@@ -6697,6 +6749,22 @@
       364,
       0,
       "AUDIO"
+    ],
+    [
+      659,
+      380,
+      0,
+      119,
+      3,
+      "SIGMAS"
+    ],
+    [
+      660,
+      381,
+      0,
+      113,
+      3,
+      "SIGMAS"
     ]
   ],
   "groups": [
@@ -6899,10 +6967,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.2794145953766223,
+      "scale": 0.20992832109438023,
       "offset": [
-        2845.6899056784428,
-        -2918.534868310223
+        3268.6354634134173,
+        -2295.0725701832926
       ]
     },
     "frontendVersion": "1.39.19",
