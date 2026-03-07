@@ -19,7 +19,7 @@ The extracted models might run easier on your computer (as separate files).
 
 
 **LTX-2.3 Main Model Downloads (split models):**
-- Main split models used in these workflows (LTX-2.3 dev & distilled safetensor, embeddings, audio and video vae):
+- Main split models used in these workflows (LTX-2.3 dev & distilled safetensor, embeddings, audio & video vae & tiny vae):
 https://huggingface.co/Kijai/LTX2.3_comfy
 
 **Gemma - either safetensor or GGUF:**
@@ -36,7 +36,6 @@ https://huggingface.co/Kijai/LTX2.3_comfy
 
 
 **Tiny Vae by madebyollin (for sampler previews)**:
-1) https://huggingface.co/Kijai/LTX2.3_comfy  (save to the vae folder in Comfy)
 (Optional/Recommended. Without this vae you still get previews with latentrgb from KJnodes, at a lower res)
 
 ---- 
