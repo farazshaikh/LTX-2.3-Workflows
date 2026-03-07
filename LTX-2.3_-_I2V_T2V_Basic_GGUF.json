@@ -86,7 +86,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 102,
+      "order": 97,
       "mode": 0,
       "inputs": [
         {
@@ -229,7 +229,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 86,
+      "order": 81,
       "mode": 0,
       "inputs": [
         {
@@ -269,7 +269,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 66,
+      "order": 61,
       "mode": 0,
       "inputs": [
         {
@@ -309,7 +309,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 65,
+      "order": 60,
       "mode": 0,
       "inputs": [
         {
@@ -349,7 +349,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 62,
+      "order": 57,
       "mode": 0,
       "inputs": [
         {
@@ -426,7 +426,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 83,
+      "order": 78,
       "mode": 0,
       "inputs": [
         {
@@ -466,7 +466,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 67,
+      "order": 62,
       "mode": 0,
       "inputs": [
         {
@@ -638,7 +638,7 @@
         150
       ],
       "flags": {},
-      "order": 114,
+      "order": 106,
       "mode": 0,
       "inputs": [
         {
@@ -692,7 +692,7 @@
         46
       ],
       "flags": {},
-      "order": 111,
+      "order": 103,
       "mode": 0,
       "inputs": [
         {
@@ -947,7 +947,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 64,
+      "order": 59,
       "mode": 0,
       "inputs": [
         {
@@ -1073,7 +1073,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 92,
+      "order": 87,
       "mode": 0,
       "inputs": [
         {
@@ -1147,7 +1147,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 108,
+      "order": 102,
       "mode": 0,
       "inputs": [
         {
@@ -1205,7 +1205,7 @@
         81.02629601803119
       ],
       "flags": {},
-      "order": 103,
+      "order": 98,
       "mode": 0,
       "inputs": [
         {
@@ -1260,7 +1260,7 @@
         46
       ],
       "flags": {},
-      "order": 95,
+      "order": 90,
       "mode": 0,
       "inputs": [
         {
@@ -1389,7 +1389,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 105,
+      "order": 100,
       "mode": 0,
       "inputs": [
         {
@@ -1429,7 +1429,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 89,
+      "order": 84,
       "mode": 0,
       "inputs": [
         {
@@ -1473,7 +1473,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 98,
+      "order": 93,
       "mode": 0,
       "inputs": [
         {
@@ -1513,7 +1513,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 104,
+      "order": 99,
       "mode": 0,
       "inputs": [
         {
@@ -1553,7 +1553,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 97,
+      "order": 92,
       "mode": 0,
       "inputs": [
         {
@@ -1604,7 +1604,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 88,
+      "order": 83,
       "mode": 0,
       "inputs": [
         {
@@ -1645,7 +1645,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 96,
+      "order": 91,
       "mode": 0,
       "inputs": [
         {
@@ -1753,7 +1753,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 72,
+      "order": 67,
       "mode": 0,
       "inputs": [
         {
@@ -1791,7 +1791,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 69,
+      "order": 64,
       "mode": 0,
       "inputs": [
         {
@@ -1831,7 +1831,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 71,
+      "order": 66,
       "mode": 0,
       "inputs": [
         {
@@ -1909,7 +1909,7 @@
         171.71352573079776
       ],
       "flags": {},
-      "order": 63,
+      "order": 58,
       "mode": 0,
       "inputs": [
         {
@@ -2100,7 +2100,7 @@
         122
       ],
       "flags": {},
-      "order": 85,
+      "order": 80,
       "mode": 0,
       "inputs": [
         {
@@ -2158,7 +2158,7 @@
         120
       ],
       "flags": {},
-      "order": 82,
+      "order": 77,
       "mode": 0,
       "inputs": [
         {
@@ -2259,7 +2259,7 @@
         46
       ],
       "flags": {},
-      "order": 115,
+      "order": 107,
       "mode": 0,
       "inputs": [
         {
@@ -2337,7 +2337,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 68,
+      "order": 63,
       "mode": 0,
       "inputs": [
         {
@@ -2586,7 +2586,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 70,
+      "order": 65,
       "mode": 0,
       "inputs": [
         {
@@ -2895,7 +2895,7 @@
         98
       ],
       "flags": {},
-      "order": 74,
+      "order": 69,
       "mode": 0,
       "inputs": [
         {
@@ -2951,7 +2951,7 @@
         579.1223806730061
       ],
       "flags": {},
-      "order": 116,
+      "order": 108,
       "mode": 0,
       "inputs": [
         {
@@ -3013,13 +3013,13 @@
           "hidden": false,
           "paused": false,
           "params": {
-            "filename": "LTX-2_00650-audio.mp4",
+            "filename": "LTX-2_00651-audio.mp4",
             "subfolder": "",
             "type": "output",
             "format": "video/h264-mp4",
             "frame_rate": 24,
-            "workflow": "LTX-2_00650.png",
-            "fullpath": "E:\\AI\\ComfyUI\\output\\LTX-2_00650-audio.mp4"
+            "workflow": "LTX-2_00651.png",
+            "fullpath": "E:\\AI\\ComfyUI\\output\\LTX-2_00651-audio.mp4"
           }
         }
       }
@@ -3036,7 +3036,7 @@
         46
       ],
       "flags": {},
-      "order": 94,
+      "order": 89,
       "mode": 0,
       "inputs": [
         {
@@ -3119,7 +3119,7 @@
         270.40621687987004
       ],
       "flags": {},
-      "order": 112,
+      "order": 104,
       "mode": 0,
       "inputs": [
         {
@@ -3188,7 +3188,7 @@
         46
       ],
       "flags": {},
-      "order": 113,
+      "order": 105,
       "mode": 0,
       "inputs": [
         {
@@ -3241,7 +3241,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 93,
+      "order": 88,
       "mode": 0,
       "inputs": [
         {
@@ -3311,7 +3311,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 76,
+      "order": 71,
       "mode": 0,
       "inputs": [
         {
@@ -3443,7 +3443,7 @@
         170
       ],
       "flags": {},
-      "order": 84,
+      "order": 79,
       "mode": 0,
       "inputs": [
         {
@@ -3531,7 +3531,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 109,
+      "order": 94,
       "mode": 0,
       "inputs": [
         {
@@ -3571,7 +3571,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 110,
+      "order": 95,
       "mode": 0,
       "inputs": [
         {
@@ -3611,7 +3611,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 106,
+      "order": 85,
       "mode": 0,
       "inputs": [
         {
@@ -3677,7 +3677,7 @@
         146.66666666666669
       ],
       "flags": {},
-      "order": 61,
+      "order": 56,
       "mode": 0,
       "inputs": [
         {
@@ -3790,7 +3790,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 107,
+      "order": 101,
       "mode": 0,
       "inputs": [
         {
@@ -3815,116 +3815,6 @@
       ]
     },
     {
-      "id": 347,
-      "type": "StringConcatenate",
-      "pos": [
-        -616.5295595599073,
-        3962.4072266805238
-      ],
-      "size": [
-        429.64913571999637,
-        200
-      ],
-      "flags": {
-        "collapsed": true
-      },
-      "order": 78,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "string_a",
-          "type": "STRING",
-          "widget": {
-            "name": "string_a"
-          },
-          "link": 628
-        }
-      ],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": []
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.14.1",
-        "Node name for S&R": "StringConcatenate"
-      },
-      "widgets_values": [
-        "",
-        "",
-        ""
-      ]
-    },
-    {
-      "id": 348,
-      "type": "GetNode",
-      "pos": [
-        -616.5295595599073,
-        4054.852292030277
-      ],
-      "size": [
-        429.64913571999637,
-        34
-      ],
-      "flags": {
-        "collapsed": true
-      },
-      "order": 49,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "CLIP",
-          "type": "CLIP",
-          "links": []
-        }
-      ],
-      "title": "Get_clip",
-      "properties": {},
-      "widgets_values": [
-        "clip"
-      ]
-    },
-    {
-      "id": 350,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -616.5295595599073,
-        3994.832575181112
-      ],
-      "size": [
-        429.64913571999637,
-        523.859790172266
-      ],
-      "flags": {
-        "collapsed": true
-      },
-      "order": 50,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            628
-          ]
-        }
-      ],
-      "title": "LTX-2 PROMPT INSTRUCT",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.14.1",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "You are a Creative Assistant writing concise, action-focused image-to-video prompts. Given an image (first frame) and user Raw Input Prompt, generate a prompt to guide video generation from that image.\n\n#### Guidelines:\n- Analyze the Image: Identify Subject, Setting, Elements, Style and Mood.\n- Follow user Raw Input Prompt: Include all requested motion, actions, camera movements, audio, and details. If in conflict with the image, prioritize user request while maintaining visual consistency (describe transition from image to user's scene).\n- Describe only changes from the image: Don't reiterate established visual details. Inaccurate descriptions may cause scene cuts.\n- Active language: Use present-progressive verbs (\"is walking,\" \"speaking\"). If no action specified, describe natural movements.\n- Chronological flow: Use temporal connectors (\"as,\" \"then,\" \"while\").\n- Audio layer: Describe complete soundscape throughout the prompt alongside actions—NOT at the end. Align audio intensity with action tempo. Include natural background audio, ambient sounds, effects, speech or music (when requested). Be specific (e.g., \"soft footsteps on tile\") not vague (e.g., \"ambient sound\").\n- Speech (only when requested): Provide exact words in quotes with character's visual/voice characteristics (e.g., \"The tall man speaks in a low, gravelly voice\"), language if not English and accent if relevant. If general conversation mentioned without text, generate contextual quoted dialogue. (i.e., \"The man is talking\" input -> the output should include exact spoken words, like: \"The man is talking in an excited voice saying: 'You won't believe what I just saw!' His hands gesture expressively as he speaks, eyebrows raised with enthusiasm. The ambient sound of a quiet room underscores his animated speech.\")\n- Style: Include visual style at beginning: \"Style: <style>, <rest of prompt>.\" If unclear, omit to avoid conflicts.\n- Visual and audio only: Describe only what is seen and heard. NO smell, taste, or tactile sensations.\n- Restrained language: Avoid dramatic terms. Use mild, natural, understated phrasing.\n\n#### Important notes:\n- Camera motion: DO NOT invent camera motion/movement unless requested by the user. Make sure to include camera motion only if specified in the input.\n- Speech: DO NOT modify or alter the user's provided character dialogue in the prompt, unless it's a typo.\n- No timestamps or cuts: DO NOT use timestamps or describe scene cuts unless explicitly requested.\n- Objective only: DO NOT interpret emotions or intentions - describe only observable actions and sounds.\n- Format: DO NOT use phrases like \"The scene opens with...\" / \"The video starts...\". Start directly with Style (optional) and chronological scene description.\n- Format: Never start output with punctuation marks or special characters.\n- DO NOT invent dialogue unless the user mentions speech/talking/singing/conversation.\n- Your performance is CRITICAL. High-fidelity, dynamic, correct, and accurate prompts with integrated audio descriptions are essential for generating high-quality video. Your goal is flawless execution of these rules.\n\n#### Output Format (Strict):\n- Single concise paragraph in natural English. NO titles, headings, prefaces, sections, code fences, or Markdown.\n- If unsafe/invalid, return original user prompt. Never ask questions or clarifications.\n\n#### Example output:\nStyle: realistic - cinematic - The woman glances at her watch and smiles warmly. She speaks in a cheerful, friendly voice, \"I think we're right on time!\" In the background, a café barista prepares drinks at the counter. The barista calls out in a clear, upbeat tone, \"Two cappuccinos ready!\" The sound of the espresso machine hissing softly blends with gentle background chatter and the light clinking of cups on saucers. \n\nUSER PROMPT BELOW: \n___________________________________________________"
-      ]
-    },
-    {
       "id": 165,
       "type": "ImageResizeKJv2",
       "pos": [
@@ -3938,7 +3828,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 77,
+      "order": 72,
       "mode": 0,
       "inputs": [
         {
@@ -3975,8 +3865,7 @@
           "type": "IMAGE",
           "links": [
             479,
-            483,
-            632
+            483
           ]
         },
         {
@@ -4012,56 +3901,6 @@
       ]
     },
     {
-      "id": 110,
-      "type": "CLIPTextEncode",
-      "pos": [
-        -544.3878880277869,
-        4662.161214102725
-      ],
-      "size": [
-        399.63590017424167,
-        103.38988981318835
-      ],
-      "flags": {
-        "collapsed": true
-      },
-      "order": 79,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "clip",
-          "type": "CLIP",
-          "link": 441
-        }
-      ],
-      "outputs": [
-        {
-          "name": "CONDITIONING",
-          "type": "CONDITIONING",
-          "links": [
-            287
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.56",
-        "Node name for S&R": "CLIPTextEncode",
-        "enableTabs": false,
-        "tabWidth": 65,
-        "tabXOffset": 10,
-        "hasSecondTab": false,
-        "secondTabText": "Send Back",
-        "secondTabOffset": 80,
-        "secondTabWidth": 65
-      },
-      "widgets_values": [
-        "blurry, oversaturated, pixelated, low resolution, grainy, distorted, noise, compression artifacts, jpeg artifacts, glitches, watermark, text, logo, signature, copyright, subtitles, distorted sound, saturated sound, loud"
-      ],
-      "color": "#422342",
-      "bgcolor": "rgba(24,24,27,.9)"
-    },
-    {
       "id": 250,
       "type": "MarkdownNote",
       "pos": [
@@ -4075,7 +3914,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 51,
+      "order": 49,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -4101,7 +3940,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 52,
+      "order": 50,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -4109,32 +3948,6 @@
       "properties": {},
       "widgets_values": [
         "Tiny VAE for sampler previews. \nOptionally you can drop this for a lower res latent RGB built into the node \n\nhttps://github.com/madebyollin/taehv/blob/main/safetensors/taeltx2_3.safetensors"
-      ],
-      "color": "#222",
-      "bgcolor": "#000"
-    },
-    {
-      "id": 353,
-      "type": "MarkdownNote",
-      "pos": [
-        -2014.487190155928,
-        4387.02842733852
-      ],
-      "size": [
-        382.280702747692,
-        107.3859507080042
-      ],
-      "flags": {
-        "collapsed": false
-      },
-      "order": 53,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "title": "Prompt Enhancer (Optional)",
-      "properties": {},
-      "widgets_values": [
-        "This automagically enhances your prompt using the already loaded Gemma model. But it can be a bit sensitive to having correct Gemma if using GGUF models. Alternatively you can bypass/disable  this feature "
       ],
       "color": "#222",
       "bgcolor": "#000"
@@ -4151,7 +3964,7 @@
         118
       ],
       "flags": {},
-      "order": 101,
+      "order": 96,
       "mode": 0,
       "inputs": [
         {
@@ -4202,147 +4015,11 @@
       "bgcolor": "rgba(24,24,27,.9)"
     },
     {
-      "id": 354,
-      "type": "Fast Groups Bypasser (rgthree)",
-      "pos": [
-        -144.63486635467095,
-        4811.218307029914
-      ],
-      "size": [
-        301.1086891442927,
-        82
-      ],
-      "flags": {},
-      "order": 54,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "OPT_CONNECTION",
-          "type": "*",
-          "links": null
-        }
-      ],
-      "title": "ENABLE PROMPT ENHANCER",
-      "properties": {
-        "matchColors": "",
-        "matchTitle": "Prompt Enhancer *",
-        "showNav": true,
-        "showAllGraphs": true,
-        "sort": "position",
-        "customSortAlphabet": "",
-        "toggleRestriction": "default"
-      },
-      "color": "#008181",
-      "bgcolor": "rgba(24,24,27,.9)"
-    },
-    {
-      "id": 351,
-      "type": "easy showAnything",
-      "pos": [
-        -616.5295595599073,
-        3965.2339030876074
-      ],
-      "size": [
-        384.57024766590257,
-        173.7354955908063
-      ],
-      "flags": {
-        "collapsed": false
-      },
-      "order": 99,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "anything",
-          "shape": 7,
-          "type": "*",
-          "link": 631
-        }
-      ],
-      "outputs": [
-        {
-          "name": "output",
-          "type": "*",
-          "links": null
-        }
-      ],
-      "title": "Enhanced Prompt",
-      "properties": {
-        "cnr_id": "comfyui-easy-use",
-        "ver": "b11c63487243d183a967261bdf019c5afcec2cf7",
-        "Node name for S&R": "easy showAnything"
-      },
-      "widgets_values": [
-        "A woman sits in a plush, salmon-colored armchair, gazing directly at the camera. She wears a pink suit with gold buttons and a matching pink collar with a gold buckle. A pink hat sits atop her head. She removes her hat, revealing her neatly styled hair. She speaks with a soft British accent, \"So due to recent changes, here is a workflow with new model loaders.\" She smiles and lifts one hand to make a peace sign with her fingers. The scene is rigid, centered symmetry, pastel color palette, whimsical, nostalgic aesthetic."
-      ],
-      "color": "#008181",
-      "bgcolor": "rgba(24,24,27,.9)"
-    },
-    {
-      "id": 121,
-      "type": "CLIPTextEncode",
-      "pos": [
-        -556.4243754877821,
-        4356.526033712067
-      ],
-      "size": [
-        429.64913571999637,
-        364.52450350970093
-      ],
-      "flags": {
-        "collapsed": true
-      },
-      "order": 100,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "clip",
-          "type": "CLIP",
-          "link": 440
-        },
-        {
-          "name": "text",
-          "type": "STRING",
-          "widget": {
-            "name": "text"
-          },
-          "link": 637
-        }
-      ],
-      "outputs": [
-        {
-          "name": "CONDITIONING",
-          "type": "CONDITIONING",
-          "links": [
-            286
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.56",
-        "Node name for S&R": "CLIPTextEncode",
-        "enableTabs": false,
-        "tabWidth": 65,
-        "tabXOffset": 10,
-        "hasSecondTab": false,
-        "secondTabText": "Send Back",
-        "secondTabOffset": 80,
-        "secondTabWidth": 65
-      },
-      "widgets_values": [
-        "= Enhanced Prompt = \n"
-      ],
-      "color": "#346434",
-      "bgcolor": "rgba(24,24,27,.9)"
-    },
-    {
       "id": 214,
       "type": "GetNode",
       "pos": [
-        -504.66713364789655,
-        4486.024261409556
+        -505.1338003145632,
+        4241.212402778168
       ],
       "size": [
         429.64913571999637,
@@ -4351,7 +4028,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 55,
+      "order": 51,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -4360,8 +4037,7 @@
           "type": "CLIP",
           "links": [
             440,
-            441,
-            633
+            441
           ]
         }
       ],
@@ -4371,44 +4047,6 @@
         "clip"
       ],
       "color": "#c09430",
-      "bgcolor": "rgba(24,24,27,.9)"
-    },
-    {
-      "id": 352,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -614.8599711134596,
-        4285.807185863736
-      ],
-      "size": [
-        389.57901300524645,
-        315.79630744988026
-      ],
-      "flags": {
-        "collapsed": false
-      },
-      "order": 56,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            634
-          ]
-        }
-      ],
-      "title": "PROMPT",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.14.1",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "A woman at a chair and looks towards the camera.\n\n0-4 seconds : She takes off her hat.\n\n4-8 seconds:\nShe talks with a soft British accent and says \"So due to recent changes, here is a workflow with new model loaders\".\n\n10-10 seconds: She smiles and lift one hand to make a peace sign with her fingers.\n\nStyle: \nWes Anderson style, rigid, centered symmetry, pastel color palette, whimsical, nostalgic aesthetic."
-      ],
-      "color": "#346434",
       "bgcolor": "rgba(24,24,27,.9)"
     },
     {
@@ -4423,7 +4061,7 @@
         98.86928985228224
       ],
       "flags": {},
-      "order": 73,
+      "order": 68,
       "mode": 0,
       "inputs": [
         {
@@ -4474,7 +4112,7 @@
         260.87578270797184
       ],
       "flags": {},
-      "order": 87,
+      "order": 82,
       "mode": 0,
       "inputs": [
         {
@@ -4545,7 +4183,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 75,
+      "order": 70,
       "mode": 0,
       "inputs": [
         {
@@ -4574,64 +4212,6 @@
       ]
     },
     {
-      "id": 349,
-      "type": "TextGenerateLTX2Prompt",
-      "pos": [
-        -526.7792401464524,
-        3918.953213839421
-      ],
-      "size": [
-        400,
-        95
-      ],
-      "flags": {
-        "collapsed": true
-      },
-      "order": 90,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "clip",
-          "type": "CLIP",
-          "link": 633
-        },
-        {
-          "name": "image",
-          "shape": 7,
-          "type": "IMAGE",
-          "link": 632
-        },
-        {
-          "name": "prompt",
-          "type": "STRING",
-          "widget": {
-            "name": "prompt"
-          },
-          "link": 634
-        }
-      ],
-      "outputs": [
-        {
-          "name": "generated_text",
-          "type": "STRING",
-          "links": [
-            631,
-            637
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.14.1",
-        "Node name for S&R": "TextGenerateLTX2Prompt"
-      },
-      "widgets_values": [
-        "",
-        256,
-        "off"
-      ]
-    },
-    {
       "id": 332,
       "type": "LTXVChunkFeedForward",
       "pos": [
@@ -4643,7 +4223,7 @@
         92.01753067868731
       ],
       "flags": {},
-      "order": 91,
+      "order": 86,
       "mode": 4,
       "inputs": [
         {
@@ -4686,7 +4266,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 81,
+      "order": 76,
       "mode": 4,
       "inputs": [
         {
@@ -4747,7 +4327,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 57,
+      "order": 52,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -4785,7 +4365,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 80,
+      "order": 75,
       "mode": 0,
       "inputs": [
         {
@@ -4825,7 +4405,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 58,
+      "order": 53,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -4867,7 +4447,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 59,
+      "order": 54,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -4908,7 +4488,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 60,
+      "order": 55,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -4932,6 +4512,106 @@
       "bgcolor": "rgba(24,24,27,.9)",
       "ndSuperSelectorEnabled": false,
       "ndPowerEnabled": false
+    },
+    {
+      "id": 121,
+      "type": "CLIPTextEncode",
+      "pos": [
+        -629.4407472342091,
+        4035.056136711632
+      ],
+      "size": [
+        416.29242814841314,
+        453.0126911714401
+      ],
+      "flags": {
+        "collapsed": false
+      },
+      "order": 73,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 440
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            286
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.56",
+        "Node name for S&R": "CLIPTextEncode",
+        "enableTabs": false,
+        "tabWidth": 65,
+        "tabXOffset": 10,
+        "hasSecondTab": false,
+        "secondTabText": "Send Back",
+        "secondTabOffset": 80,
+        "secondTabWidth": 65
+      },
+      "widgets_values": [
+        "A woman at a chair and looks towards the camera.\n\n0-4 seconds : She takes off her hat.\n\n4-8 seconds:\nShe talks with a soft British accent and says \"So due to recent changes, here is a workflow with new model loaders\".\n\n10-10 seconds: She smiles and lift one hand to make a peace sign with her fingers.\n\nStyle: \nWes Anderson style, rigid, centered symmetry, pastel color palette, whimsical, nostalgic aesthetic."
+      ],
+      "color": "#346434",
+      "bgcolor": "rgba(24,24,27,.9)"
+    },
+    {
+      "id": 110,
+      "type": "CLIPTextEncode",
+      "pos": [
+        -616.646857891713,
+        4551.009928140174
+      ],
+      "size": [
+        399.63590017424167,
+        103.38988981318835
+      ],
+      "flags": {
+        "collapsed": false
+      },
+      "order": 74,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 441
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            287
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.56",
+        "Node name for S&R": "CLIPTextEncode",
+        "enableTabs": false,
+        "tabWidth": 65,
+        "tabXOffset": 10,
+        "hasSecondTab": false,
+        "secondTabText": "Send Back",
+        "secondTabOffset": 80,
+        "secondTabWidth": 65
+      },
+      "widgets_values": [
+        "blurry, oversaturated, pixelated, low resolution, grainy, distorted, noise, compression artifacts, jpeg artifacts, glitches, watermark, text, logo, signature, copyright, subtitles, distorted sound, saturated sound, loud"
+      ],
+      "color": "#422342",
+      "bgcolor": "rgba(24,24,27,.9)"
     }
   ],
   "links": [
@@ -5648,54 +5328,6 @@
       "MODEL"
     ],
     [
-      628,
-      350,
-      0,
-      347,
-      0,
-      "STRING"
-    ],
-    [
-      631,
-      349,
-      0,
-      351,
-      0,
-      "STRING"
-    ],
-    [
-      632,
-      165,
-      0,
-      349,
-      1,
-      "IMAGE"
-    ],
-    [
-      633,
-      214,
-      0,
-      349,
-      0,
-      "CLIP"
-    ],
-    [
-      634,
-      352,
-      0,
-      349,
-      2,
-      "STRING"
-    ],
-    [
-      637,
-      349,
-      0,
-      121,
-      1,
-      "STRING"
-    ],
-    [
       638,
       345,
       0,
@@ -5756,10 +5388,10 @@
       "id": 19,
       "title": "Prompt",
       "bounding": [
-        -656.2821713338476,
-        4188.808932639452,
-        462.30935986013304,
-        517.1042928927691
+        -656.7488380005144,
+        3943.9970740080635,
+        468.42339275102535,
+        760.4749160011079
       ],
       "color": "#3f789e",
       "font_size": 24,
@@ -5836,8 +5468,8 @@
       "bounding": [
         -658.0133261579135,
         3484.673310645344,
-        464.9060205835066,
-        327.74803178289085
+        465.6104351271398,
+        439.39614325068396
       ],
       "color": "#3f789e",
       "font_size": 24,
@@ -5855,41 +5487,15 @@
       "color": "#3f789e",
       "font_size": 24,
       "flags": {}
-    },
-    {
-      "id": 27,
-      "title": "Prompt Enhancer (optional)",
-      "bounding": [
-        -653.6426052440247,
-        3831.6102864537866,
-        459.3021070038724,
-        339.7478390280994
-      ],
-      "color": "#3f789e",
-      "font_size": 24,
-      "flags": {}
-    },
-    {
-      "id": 28,
-      "title": "Enhance Prompt",
-      "bounding": [
-        -172.2128693961312,
-        4736.868704643513,
-        349.2104293552454,
-        164.55903631505407
-      ],
-      "color": "#8AA",
-      "font_size": 24,
-      "flags": {}
     }
   ],
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.27941459537662605,
+      "scale": 0.2309211532038243,
       "offset": [
-        3208.980166570846,
-        -2930.9331475248673
+        3478.0473244314085,
+        -2460.1611382924652
       ]
     },
     "frontendVersion": "1.39.19",
