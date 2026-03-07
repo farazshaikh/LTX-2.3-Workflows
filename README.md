@@ -55,4 +55,11 @@ https://github.com/madebyollin/taehv/blob/main/safetensors/taeltx2_3.safetensors
 **LTX-2.3**
 
 Lighttricks LTX-2.3 main repro: https://huggingface.co/Lightricks/LTX-2.3  
-Lightricks LTX-2.3 Collection (loras etc): https://huggingface.co/collections/Lightricks/ltx-23
+Lightricks LTX-2.3 Collection (loras etc): https://huggingface.co/collections/Lightricks/ltx-23 
+
+---- 
+
+More workflows :
+
+ComfyUI Official Workflows : https://blog.comfy.org/p/ltx-23-day-0-supporte-in-comfyui 
+LTX-2 Video Official Workflows : https://github.com/Lightricks/ComfyUI-LTXVideo/tree/master/example_workflows/2.3
