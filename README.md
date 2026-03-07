@@ -35,8 +35,8 @@ https://huggingface.co/Kijai/LTX2.3_comfy
 3) Vantage : https://huggingface.co/vantagewithai/LTX-2.3-GGUF 
 
 
-**Tiny Vae (for sampler previews)**:
-https://github.com/madebyollin/taehv/blob/main/safetensors/taeltx2_3.safetensors  
+**Tiny Vae by madebyollin (for sampler previews)**:
+1) https://huggingface.co/Kijai/LTX2.3_comfy  (save to the vae folder in Comfy)
 (Optional/Recommended. Without this vae you still get previews with latentrgb from KJnodes, at a lower res)
 
 ---- 
