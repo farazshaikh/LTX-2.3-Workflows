@@ -13,6 +13,11 @@ tags:
 - audio-to-video
 - video-to-video
 ---
+<video controls autoplay loop>
+  <source src="https://cdn-uploads.huggingface.co/production/uploads/64afc36a09727d75e9ca79aa/UisZ7XyIYhQgcnIKnt8h0.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 The workflows are based on the extracted models from https://huggingface.co/Kijai/LTX2.3_comfy
 The extracted models might run easier on your computer (as separate files). 
 (but you can easily swap out the model loader for the ComfyUI default model loader if you want to load the checkpoint with "all in one" vae built-in etc) 
