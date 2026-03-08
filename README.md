@@ -23,7 +23,7 @@ The extracted models might run easier on your computer (as separate files).
 https://huggingface.co/Kijai/LTX2.3_comfy
 
 **Gemma - either safetensor or GGUF:**
-1) Gemma 3 12B it safetensor: https://huggingface.co/Comfy-Org/ltx-2/
+1) Gemma 3 12B it safetensor: https://huggingface.co/Comfy-Org/ltx-2/tree/main/split_files/text_encoders
 
 2) Gemma 3 12B it GGUF: https://huggingface.co/unsloth/gemma-3-12b-it-GGUF/ 
 
