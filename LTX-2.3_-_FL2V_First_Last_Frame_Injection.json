@@ -1,8 +1,8 @@
 {
   "id": "cb95e097-a93f-4ea2-9e00-0c9c6627db84",
   "revision": 0,
-  "last_node_id": 214,
-  "last_link_id": 307,
+  "last_node_id": 216,
+  "last_link_id": 309,
   "nodes": [
     {
       "id": 79,
@@ -120,7 +120,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 63,
+      "order": 64,
       "mode": 0,
       "inputs": [
         {
@@ -226,7 +226,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 94,
+      "order": 95,
       "mode": 0,
       "inputs": [
         {
@@ -266,7 +266,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 103,
+      "order": 104,
       "mode": 0,
       "inputs": [
         {
@@ -473,7 +473,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 105,
+      "order": 106,
       "mode": 0,
       "inputs": [
         {
@@ -577,7 +577,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 102,
+      "order": 103,
       "mode": 0,
       "inputs": [
         {
@@ -701,7 +701,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 81,
+      "order": 82,
       "mode": 0,
       "inputs": [
         {
@@ -741,7 +741,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 80,
+      "order": 81,
       "mode": 0,
       "inputs": [
         {
@@ -781,7 +781,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 65,
+      "order": 66,
       "mode": 0,
       "inputs": [
         {
@@ -858,7 +858,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 96,
+      "order": 97,
       "mode": 0,
       "inputs": [
         {
@@ -898,7 +898,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 84,
+      "order": 85,
       "mode": 0,
       "inputs": [
         {
@@ -998,7 +998,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 69,
+      "order": 70,
       "mode": 0,
       "inputs": [
         {
@@ -1036,7 +1036,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 66,
+      "order": 67,
       "mode": 0,
       "inputs": [
         {
@@ -1076,7 +1076,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 68,
+      "order": 69,
       "mode": 0,
       "inputs": [
         {
@@ -1207,7 +1207,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 67,
+      "order": 68,
       "mode": 0,
       "inputs": [
         {
@@ -1446,7 +1446,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 72,
+      "order": 73,
       "mode": 0,
       "inputs": [
         {
@@ -1637,7 +1637,7 @@
         92.01753067868731
       ],
       "flags": {},
-      "order": 88,
+      "order": 89,
       "mode": 4,
       "inputs": [
         {
@@ -1678,7 +1678,7 @@
         246.38936613932427
       ],
       "flags": {},
-      "order": 109,
+      "order": 110,
       "mode": 0,
       "inputs": [
         {
@@ -1699,7 +1699,7 @@
         {
           "name": "sigmas",
           "type": "SIGMAS",
-          "link": 19
+          "link": 308
         },
         {
           "name": "latent_image",
@@ -1747,7 +1747,7 @@
         120
       ],
       "flags": {},
-      "order": 85,
+      "order": 86,
       "mode": 0,
       "inputs": [
         {
@@ -1910,7 +1910,7 @@
         170
       ],
       "flags": {},
-      "order": 89,
+      "order": 90,
       "mode": 0,
       "inputs": [
         {
@@ -2130,7 +2130,7 @@
         71.11401815185218
       ],
       "flags": {},
-      "order": 113,
+      "order": 114,
       "mode": 0,
       "inputs": [
         {
@@ -2283,7 +2283,7 @@
         122
       ],
       "flags": {},
-      "order": 112,
+      "order": 113,
       "mode": 0,
       "inputs": [
         {
@@ -2342,7 +2342,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 99,
+      "order": 100,
       "mode": 0,
       "inputs": [
         {
@@ -2442,7 +2442,7 @@
         115.72153346994855
       ],
       "flags": {},
-      "order": 71,
+      "order": 72,
       "mode": 0,
       "inputs": [
         {
@@ -2492,7 +2492,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 75,
+      "order": 76,
       "mode": 4,
       "inputs": [
         {
@@ -2592,7 +2592,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 64,
+      "order": 65,
       "mode": 0,
       "inputs": [
         {
@@ -2674,7 +2674,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 98,
+      "order": 99,
       "mode": 0,
       "inputs": [
         {
@@ -2714,7 +2714,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 97,
+      "order": 98,
       "mode": 0,
       "inputs": [
         {
@@ -2752,7 +2752,7 @@
         86.66666666666667
       ],
       "flags": {},
-      "order": 87,
+      "order": 88,
       "mode": 0,
       "inputs": [
         {
@@ -2882,7 +2882,7 @@
         46
       ],
       "flags": {},
-      "order": 110,
+      "order": 111,
       "mode": 0,
       "inputs": [
         {
@@ -2935,7 +2935,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 76,
+      "order": 77,
       "mode": 0,
       "inputs": [
         {
@@ -2991,7 +2991,7 @@
         46
       ],
       "flags": {},
-      "order": 115,
+      "order": 116,
       "mode": 0,
       "inputs": [
         {
@@ -3042,7 +3042,7 @@
         650.0306945561783
       ],
       "flags": {},
-      "order": 73,
+      "order": 74,
       "mode": 0,
       "inputs": [
         {
@@ -3127,7 +3127,7 @@
         244.32076830318167
       ],
       "flags": {},
-      "order": 114,
+      "order": 115,
       "mode": 0,
       "inputs": [
         {
@@ -3148,7 +3148,7 @@
         {
           "name": "sigmas",
           "type": "SIGMAS",
-          "link": 31
+          "link": 309
         },
         {
           "name": "latent_image",
@@ -3196,7 +3196,7 @@
         106.66666666666667
       ],
       "flags": {},
-      "order": 74,
+      "order": 75,
       "mode": 0,
       "inputs": [
         {
@@ -3241,102 +3241,11 @@
       ]
     },
     {
-      "id": 1,
-      "type": "KSamplerSelect",
-      "pos": [
-        1986.4910438577333,
-        3643.524145988312
-      ],
-      "size": [
-        271.305509971064,
-        68.88020833333334
-      ],
-      "flags": {},
-      "order": 44,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "SAMPLER",
-          "type": "SAMPLER",
-          "links": [
-            18
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.56",
-        "Node name for S&R": "KSamplerSelect",
-        "enableTabs": false,
-        "tabWidth": 65,
-        "tabXOffset": 10,
-        "hasSecondTab": false,
-        "secondTabText": "Send Back",
-        "secondTabOffset": 80,
-        "secondTabWidth": 65
-      },
-      "widgets_values": [
-        "euler"
-      ]
-    },
-    {
-      "id": 2,
-      "type": "LTXVScheduler",
-      "pos": [
-        1986.4910438577333,
-        3766.358738129722
-      ],
-      "size": [
-        271.305509971064,
-        170
-      ],
-      "flags": {},
-      "order": 108,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "latent",
-          "shape": 7,
-          "type": "LATENT",
-          "link": 1
-        }
-      ],
-      "outputs": [
-        {
-          "name": "SIGMAS",
-          "type": "SIGMAS",
-          "links": [
-            19
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.56",
-        "Node name for S&R": "LTXVScheduler",
-        "enableTabs": false,
-        "tabWidth": 65,
-        "tabXOffset": 10,
-        "hasSecondTab": false,
-        "secondTabText": "Send Back",
-        "secondTabOffset": 80,
-        "secondTabWidth": 65
-      },
-      "widgets_values": [
-        8,
-        2.05,
-        0.95,
-        true,
-        0.1
-      ]
-    },
-    {
       "id": 199,
       "type": "SetNode",
       "pos": [
-        1986.4910438577333,
-        4030.656698206377
+        1980.9717432083187,
+        3969.944391062815
       ],
       "size": [
         271.305509971064,
@@ -3345,7 +3254,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 100,
+      "order": 101,
       "mode": 0,
       "inputs": [
         {
@@ -3373,8 +3282,8 @@
       "id": 122,
       "type": "GetNode",
       "pos": [
-        1986.4910438577333,
-        4033.4363352578266
+        1980.9717432083187,
+        3972.724028114265
       ],
       "size": [
         271.305509971064,
@@ -3383,7 +3292,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 45,
+      "order": 44,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3407,8 +3316,8 @@
       "id": 193,
       "type": "GetNode",
       "pos": [
-        1986.4910438577333,
-        4039.9433735862563
+        1980.9717432083187,
+        3979.2310664426946
       ],
       "size": [
         271.305509971064,
@@ -3417,7 +3326,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 46,
+      "order": 45,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3436,97 +3345,6 @@
       ]
     },
     {
-      "id": 198,
-      "type": "LTX2SamplingPreviewOverride",
-      "pos": [
-        1986.4910438577333,
-        3992.889945461272
-      ],
-      "size": [
-        271.305509971064,
-        98.86928985228224
-      ],
-      "flags": {},
-      "order": 77,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "model",
-          "type": "MODEL",
-          "link": 260
-        },
-        {
-          "name": "latent_upscale_model",
-          "shape": 7,
-          "type": "LATENT_UPSCALE_MODEL",
-          "link": null
-        },
-        {
-          "name": "vae",
-          "shape": 7,
-          "type": "VAE",
-          "link": 259
-        }
-      ],
-      "outputs": [
-        {
-          "name": "MODEL",
-          "type": "MODEL",
-          "links": [
-            263
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfyui-kjnodes",
-        "ver": "ff79c7332d7ea4aa85097a88fb09359f28cb487e",
-        "Node name for S&R": "LTX2SamplingPreviewOverride"
-      },
-      "widgets_values": [
-        8
-      ]
-    },
-    {
-      "id": 5,
-      "type": "ManualSigmas",
-      "pos": [
-        2655.3100662778957,
-        4329.523157719167
-      ],
-      "size": [
-        270,
-        62.146732268531196
-      ],
-      "flags": {},
-      "order": 47,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "SIGMAS",
-          "type": "SIGMAS",
-          "links": [
-            31
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.5.1",
-        "Node name for S&R": "ManualSigmas",
-        "enableTabs": false,
-        "tabWidth": 65,
-        "tabXOffset": 10,
-        "hasSecondTab": false,
-        "secondTabText": "Send Back",
-        "secondTabOffset": 80,
-        "secondTabWidth": 65
-      },
-      "widgets_values": [
-        "0.909375, 0.725, 0.421875, 0.0"
-      ]
-    },
-    {
       "id": 25,
       "type": "LTXVLatentUpsampler",
       "pos": [
@@ -3538,7 +3356,7 @@
         98
       ],
       "flags": {},
-      "order": 111,
+      "order": 112,
       "mode": 0,
       "inputs": [
         {
@@ -3593,7 +3411,7 @@
         82
       ],
       "flags": {},
-      "order": 93,
+      "order": 94,
       "mode": 0,
       "inputs": [
         {
@@ -3640,7 +3458,7 @@
         67.52631906738316
       ],
       "flags": {},
-      "order": 107,
+      "order": 108,
       "mode": 0,
       "inputs": [
         {
@@ -3690,7 +3508,7 @@
         60.33662599654235
       ],
       "flags": {},
-      "order": 48,
+      "order": 46,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3726,7 +3544,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 78,
+      "order": 79,
       "mode": 0,
       "inputs": [
         {
@@ -3775,7 +3593,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 62,
+      "order": 63,
       "mode": 0,
       "inputs": [
         {
@@ -3824,7 +3642,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 90,
+      "order": 91,
       "mode": 0,
       "inputs": [
         {
@@ -3884,7 +3702,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 49,
+      "order": 47,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3918,7 +3736,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 50,
+      "order": 48,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3952,7 +3770,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 79,
+      "order": 80,
       "mode": 0,
       "inputs": [
         {
@@ -4001,7 +3819,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 101,
+      "order": 102,
       "mode": 0,
       "inputs": [
         {
@@ -4050,10 +3868,10 @@
       ],
       "size": [
         586.3075522928343,
-        553.3808722982012
+        334
       ],
       "flags": {},
-      "order": 104,
+      "order": 105,
       "mode": 0,
       "inputs": [
         {
@@ -4140,7 +3958,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 51,
+      "order": 49,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -4172,7 +3990,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 118,
+      "order": 119,
       "mode": 0,
       "inputs": [
         {
@@ -4210,7 +4028,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 116,
+      "order": 117,
       "mode": 0,
       "inputs": [
         {
@@ -4266,7 +4084,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 119,
+      "order": 120,
       "mode": 0,
       "inputs": [
         {
@@ -4304,7 +4122,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 52,
+      "order": 50,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -4323,57 +4141,6 @@
       ]
     },
     {
-      "id": 209,
-      "type": "LTXVSpatioTemporalTiledVAEDecode",
-      "pos": [
-        3337.7941227567744,
-        3801.3394198799556
-      ],
-      "size": [
-        308.9009765625,
-        222
-      ],
-      "flags": {
-        "collapsed": true
-      },
-      "order": 53,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "vae",
-          "type": "VAE",
-          "link": null
-        },
-        {
-          "name": "latents",
-          "type": "LATENT",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "name": "image",
-          "type": "IMAGE",
-          "links": []
-        }
-      ],
-      "title": "LTXV Spatio Temporal Tiled VAE Decode",
-      "properties": {
-        "cnr_id": "ltxv",
-        "ver": "531512f7286963dc7aff1fd8bf5556e95eae03af",
-        "Node name for S&R": "LTXVSpatioTemporalTiledVAEDecode"
-      },
-      "widgets_values": [
-        4,
-        1,
-        16,
-        1,
-        false,
-        "auto",
-        "auto"
-      ]
-    },
-    {
       "id": 150,
       "type": "LTXVAudioVAEDecode",
       "pos": [
@@ -4385,7 +4152,7 @@
         46
       ],
       "flags": {},
-      "order": 117,
+      "order": 118,
       "mode": 0,
       "inputs": [
         {
@@ -4437,7 +4204,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 54,
+      "order": 51,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -4475,7 +4242,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 55,
+      "order": 52,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -4513,7 +4280,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 92,
+      "order": 93,
       "mode": 0,
       "inputs": [
         {
@@ -4553,7 +4320,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 56,
+      "order": 53,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -4587,7 +4354,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 82,
+      "order": 83,
       "mode": 0,
       "inputs": [
         {
@@ -4634,7 +4401,7 @@
         82
       ],
       "flags": {},
-      "order": 57,
+      "order": 54,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -4677,7 +4444,7 @@
         82
       ],
       "flags": {},
-      "order": 58,
+      "order": 55,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -4720,7 +4487,7 @@
         60.856762865399105
       ],
       "flags": {},
-      "order": 91,
+      "order": 92,
       "mode": 0,
       "inputs": [
         {
@@ -4766,7 +4533,7 @@
         60
       ],
       "flags": {},
-      "order": 86,
+      "order": 87,
       "mode": 0,
       "inputs": [
         {
@@ -4814,7 +4581,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 83,
+      "order": 84,
       "mode": 0,
       "inputs": [
         {
@@ -4904,7 +4671,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 95,
+      "order": 96,
       "mode": 0,
       "inputs": [
         {
@@ -4987,7 +4754,7 @@
         214
       ],
       "flags": {},
-      "order": 106,
+      "order": 107,
       "mode": 0,
       "inputs": [
         {
@@ -5051,7 +4818,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 59,
+      "order": 56,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -5097,7 +4864,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 60,
+      "order": 57,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -5141,7 +4908,7 @@
         339.6336576737831
       ],
       "flags": {},
-      "order": 70,
+      "order": 71,
       "mode": 0,
       "inputs": [
         {
@@ -5189,7 +4956,7 @@
         58
       ],
       "flags": {},
-      "order": 61,
+      "order": 58,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -5212,6 +4979,256 @@
       ],
       "color": "#006691",
       "bgcolor": "rgba(24,24,27,.9)"
+    },
+    {
+      "id": 1,
+      "type": "KSamplerSelect",
+      "pos": [
+        1986.4910438577333,
+        3643.524145988312
+      ],
+      "size": [
+        271.305509971064,
+        68.88020833333334
+      ],
+      "flags": {},
+      "order": 59,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "SAMPLER",
+          "type": "SAMPLER",
+          "links": [
+            18
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.56",
+        "Node name for S&R": "KSamplerSelect",
+        "enableTabs": false,
+        "tabWidth": 65,
+        "tabXOffset": 10,
+        "hasSecondTab": false,
+        "secondTabText": "Send Back",
+        "secondTabOffset": 80,
+        "secondTabWidth": 65
+      },
+      "widgets_values": [
+        "euler_ancestral_cfg_pp"
+      ]
+    },
+    {
+      "id": 2,
+      "type": "LTXVScheduler",
+      "pos": [
+        1986.4910438577333,
+        3766.358738129722
+      ],
+      "size": [
+        271.305509971064,
+        170
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 109,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "latent",
+          "shape": 7,
+          "type": "LATENT",
+          "link": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "SIGMAS",
+          "type": "SIGMAS",
+          "links": []
+        }
+      ],
+      "title": "LTXVScheduler (for more steps)",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.56",
+        "Node name for S&R": "LTXVScheduler",
+        "enableTabs": false,
+        "tabWidth": 65,
+        "tabXOffset": 10,
+        "hasSecondTab": false,
+        "secondTabText": "Send Back",
+        "secondTabOffset": 80,
+        "secondTabWidth": 65
+      },
+      "widgets_values": [
+        8,
+        2.05,
+        0.95,
+        true,
+        0.1
+      ]
+    },
+    {
+      "id": 215,
+      "type": "ManualSigmas",
+      "pos": [
+        1980.602807703391,
+        3815.3308946409893
+      ],
+      "size": [
+        271.305509971064,
+        58
+      ],
+      "flags": {},
+      "order": 60,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "SIGMAS",
+          "type": "SIGMAS",
+          "links": [
+            308
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.14.1",
+        "Node name for S&R": "ManualSigmas"
+      },
+      "widgets_values": [
+        "1.0, 0.99375, 0.9875, 0.98125, 0.975, 0.909375, 0.725, 0.421875, 0.0"
+      ]
+    },
+    {
+      "id": 198,
+      "type": "LTX2SamplingPreviewOverride",
+      "pos": [
+        1980.9717432083187,
+        3932.1776383177103
+      ],
+      "size": [
+        271.305509971064,
+        98.86928985228224
+      ],
+      "flags": {},
+      "order": 78,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 260
+        },
+        {
+          "name": "latent_upscale_model",
+          "shape": 7,
+          "type": "LATENT_UPSCALE_MODEL",
+          "link": null
+        },
+        {
+          "name": "vae",
+          "shape": 7,
+          "type": "VAE",
+          "link": 259
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            263
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-kjnodes",
+        "ver": "ff79c7332d7ea4aa85097a88fb09359f28cb487e",
+        "Node name for S&R": "LTX2SamplingPreviewOverride"
+      },
+      "widgets_values": [
+        8
+      ]
+    },
+    {
+      "id": 5,
+      "type": "ManualSigmas",
+      "pos": [
+        2684.1484121710873,
+        4349.254657540824
+      ],
+      "size": [
+        270,
+        62.146732268531196
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 61,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "SIGMAS",
+          "type": "SIGMAS",
+          "links": []
+        }
+      ],
+      "title": "ManualSigmas (LTX-2)",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.5.1",
+        "Node name for S&R": "ManualSigmas",
+        "enableTabs": false,
+        "tabWidth": 65,
+        "tabXOffset": 10,
+        "hasSecondTab": false,
+        "secondTabText": "Send Back",
+        "secondTabOffset": 80,
+        "secondTabWidth": 65
+      },
+      "widgets_values": [
+        "0.909375, 0.725, 0.421875, 0.0"
+      ]
+    },
+    {
+      "id": 216,
+      "type": "ManualSigmas",
+      "pos": [
+        2649.7499948565396,
+        4329.054406890413
+      ],
+      "size": [
+        274.0120536645418,
+        58
+      ],
+      "flags": {},
+      "order": 62,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "SIGMAS",
+          "type": "SIGMAS",
+          "links": [
+            309
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.14.1",
+        "Node name for S&R": "ManualSigmas"
+      },
+      "widgets_values": [
+        "0.85, 0.7250, 0.4219, 0.0"
+      ]
     }
   ],
   "links": [
@@ -5246,14 +5263,6 @@
       13,
       2,
       "SAMPLER"
-    ],
-    [
-      19,
-      2,
-      0,
-      13,
-      3,
-      "SIGMAS"
     ],
     [
       20,
@@ -5294,14 +5303,6 @@
       21,
       2,
       "SAMPLER"
-    ],
-    [
-      31,
-      5,
-      0,
-      21,
-      3,
-      "SIGMAS"
     ],
     [
       32,
@@ -6022,6 +6023,22 @@
       48,
       3,
       "INT"
+    ],
+    [
+      308,
+      215,
+      0,
+      13,
+      3,
+      "SIGMAS"
+    ],
+    [
+      309,
+      216,
+      0,
+      21,
+      3,
+      "SIGMAS"
     ]
   ],
   "groups": [
@@ -6172,10 +6189,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.2794145953766206,
+      "scale": 0.6588450000000011,
       "offset": [
-        801.4010499802073,
-        -2358.7676878304333
+        -1607.4891853858917,
+        -3536.4480559333624
       ]
     },
     "frontendVersion": "1.39.19",
