@@ -28,7 +28,7 @@ https://huggingface.co/Kijai/LTX2.3_comfy
 2) Gemma 3 12B it GGUF: https://huggingface.co/unsloth/gemma-3-12b-it-GGUF/ 
 
 **Upscale Model**
-1) ltx-2.3-spatial-upscalers - :  https://huggingface.co/Lightricks/LTX-2.3/tree/main  (only need the 2x spatial upscale file)
+1) ltx-2.3-spatial-upscaler (only need the 2x file) - :  https://huggingface.co/Lightricks/LTX-2.3/tree/main  
 
 
 **LTX-2.3 GGUF models (for GGUF workflows)** - one of the source below:
