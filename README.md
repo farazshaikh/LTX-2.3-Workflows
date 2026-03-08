@@ -38,6 +38,9 @@ https://huggingface.co/Kijai/LTX2.3_comfy
 **Tiny Vae by madebyollin (for sampler previews)**:
 (Optional/Recommended. Without this vae you still get previews with latentrgb from KJnodes, at a lower res) 
 
+**Upscale Model**
+- https://huggingface.co/Lightricks/LTX-2.3/tree/main
+
 
 If you are unsure where to put the files see <a href="https://huggingface.co/RuneXX/LTX-2.3-Workflows/discussions/10
 ">here</a>
