@@ -13,7 +13,7 @@ tags:
 - audio-to-video
 - video-to-video
 ---
-<video controls autoplay loop>
+<video controls>
   <source src="https://cdn-uploads.huggingface.co/production/uploads/64afc36a09727d75e9ca79aa/UisZ7XyIYhQgcnIKnt8h0.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
