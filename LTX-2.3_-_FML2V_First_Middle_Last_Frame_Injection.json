@@ -1093,76 +1093,6 @@
       "bgcolor": "#29699c"
     },
     {
-      "id": 32,
-      "type": "EmptyLTXVLatentVideo",
-      "pos": [
-        1585.8280988730019,
-        3504.6455052172337
-      ],
-      "size": [
-        273.7224392361113,
-        146.66666666666669
-      ],
-      "flags": {
-        "collapsed": false
-      },
-      "order": 115,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "width",
-          "type": "INT",
-          "widget": {
-            "name": "width"
-          },
-          "link": 210
-        },
-        {
-          "name": "height",
-          "type": "INT",
-          "widget": {
-            "name": "height"
-          },
-          "link": 211
-        },
-        {
-          "name": "length",
-          "type": "INT",
-          "widget": {
-            "name": "length"
-          },
-          "link": 191
-        }
-      ],
-      "outputs": [
-        {
-          "name": "LATENT",
-          "type": "LATENT",
-          "links": [
-            288
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.60",
-        "Node name for S&R": "EmptyLTXVLatentVideo",
-        "enableTabs": false,
-        "tabWidth": 65,
-        "tabXOffset": 10,
-        "hasSecondTab": false,
-        "secondTabText": "Send Back",
-        "secondTabOffset": 80,
-        "secondTabWidth": 65
-      },
-      "widgets_values": [
-        768,
-        512,
-        97,
-        1
-      ]
-    },
-    {
       "id": 50,
       "type": "LTXVPreprocess",
       "pos": [
@@ -4002,86 +3932,6 @@
       "bgcolor": "rgba(24,24,27,.9)"
     },
     {
-      "id": 210,
-      "type": "LTXVImgToVideoInplaceKJ",
-      "pos": [
-        1590.8358933986096,
-        3728.5558277643895
-      ],
-      "size": [
-        261.7894016628377,
-        282
-      ],
-      "flags": {},
-      "order": 117,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "vae",
-          "type": "VAE",
-          "link": 287
-        },
-        {
-          "name": "latent",
-          "type": "LATENT",
-          "link": 288
-        },
-        {
-          "label": "image_1",
-          "name": "num_images.image_1",
-          "shape": 7,
-          "type": "IMAGE",
-          "link": 290
-        },
-        {
-          "label": "image_2",
-          "name": "num_images.image_2",
-          "shape": 7,
-          "type": "IMAGE",
-          "link": 291
-        },
-        {
-          "name": "num_images.index_2",
-          "shape": 7,
-          "type": "INT",
-          "widget": {
-            "name": "num_images.index_2"
-          },
-          "link": 293
-        },
-        {
-          "label": "image_3",
-          "name": "num_images.image_3",
-          "shape": 7,
-          "type": "IMAGE",
-          "link": 292
-        }
-      ],
-      "outputs": [
-        {
-          "name": "latent",
-          "type": "LATENT",
-          "links": [
-            289
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfyui-kjnodes",
-        "ver": "71578cf49e48978cf1c6714494b669b1e571777b",
-        "Node name for S&R": "LTXVImgToVideoInplaceKJ"
-      },
-      "widgets_values": [
-        "3",
-        1,
-        1,
-        1,
-        0,
-        0,
-        -1
-      ]
-    },
-    {
       "id": 126,
       "type": "SetNode",
       "pos": [
@@ -4756,7 +4606,7 @@
       ],
       "size": [
         586.3075522928343,
-        659.4691537610588
+        1291.8459204880573
       ],
       "flags": {},
       "order": 84,
@@ -4821,13 +4671,13 @@
           "hidden": false,
           "paused": false,
           "params": {
-            "filename": "LTX-2_00658-audio.mp4",
+            "filename": "LTX-2_00710-audio.mp4",
             "subfolder": "",
             "type": "output",
             "format": "video/h264-mp4",
             "frame_rate": 24,
-            "workflow": "LTX-2_00658.png",
-            "fullpath": "E:\\AI\\ComfyUI\\output\\LTX-2_00658-audio.mp4"
+            "workflow": "LTX-2_00710.png",
+            "fullpath": "E:\\AI\\ComfyUI\\output\\LTX-2_00710-audio.mp4"
           }
         }
       }
@@ -4884,7 +4734,7 @@
       ],
       "size": [
         238.15470099351288,
-        247.72943550620533
+        491.828035533155
       ],
       "flags": {},
       "order": 125,
@@ -5728,6 +5578,156 @@
       ],
       "color": "#006691",
       "bgcolor": "rgba(24,24,27,.9)"
+    },
+    {
+      "id": 210,
+      "type": "LTXVImgToVideoInplaceKJ",
+      "pos": [
+        1590.8358933986096,
+        3728.5558277643895
+      ],
+      "size": [
+        261.7894016628377,
+        282
+      ],
+      "flags": {},
+      "order": 117,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 287
+        },
+        {
+          "name": "latent",
+          "type": "LATENT",
+          "link": 288
+        },
+        {
+          "label": "image_1",
+          "name": "num_images.image_1",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": 290
+        },
+        {
+          "label": "image_2",
+          "name": "num_images.image_2",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": 291
+        },
+        {
+          "name": "num_images.index_2",
+          "shape": 7,
+          "type": "INT",
+          "widget": {
+            "name": "num_images.index_2"
+          },
+          "link": 293
+        },
+        {
+          "label": "image_3",
+          "name": "num_images.image_3",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": 292
+        }
+      ],
+      "outputs": [
+        {
+          "name": "latent",
+          "type": "LATENT",
+          "links": [
+            289
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-kjnodes",
+        "ver": "71578cf49e48978cf1c6714494b669b1e571777b",
+        "Node name for S&R": "LTXVImgToVideoInplaceKJ"
+      },
+      "widgets_values": [
+        "3",
+        1,
+        0.5,
+        1,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "id": 32,
+      "type": "EmptyLTXVLatentVideo",
+      "pos": [
+        1585.8280988730019,
+        3504.6455052172337
+      ],
+      "size": [
+        273.7224392361113,
+        146.66666666666669
+      ],
+      "flags": {
+        "collapsed": false
+      },
+      "order": 115,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "width",
+          "type": "INT",
+          "widget": {
+            "name": "width"
+          },
+          "link": 210
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "widget": {
+            "name": "height"
+          },
+          "link": 211
+        },
+        {
+          "name": "length",
+          "type": "INT",
+          "widget": {
+            "name": "length"
+          },
+          "link": 191
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            288
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.60",
+        "Node name for S&R": "EmptyLTXVLatentVideo",
+        "enableTabs": false,
+        "tabWidth": 65,
+        "tabXOffset": 10,
+        "hasSecondTab": false,
+        "secondTabText": "Send Back",
+        "secondTabOffset": 80,
+        "secondTabWidth": 65
+      },
+      "widgets_values": [
+        768,
+        512,
+        97,
+        1
+      ]
     }
   ],
   "links": [
@@ -6776,10 +6776,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.23092115320381865,
+      "scale": 0.9646149645000035,
       "offset": [
-        1917.1661295949343,
-        -1957.0236153309697
+        -834.7227270629367,
+        -3273.767449342212
       ]
     },
     "frontendVersion": "1.39.19",
