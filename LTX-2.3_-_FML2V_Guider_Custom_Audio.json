@@ -19,7 +19,7 @@
         "collapsed": true
       },
       "order": 0,
-      "mode": 0,
+      "mode": 4,
       "inputs": [],
       "outputs": [
         {
@@ -53,7 +53,7 @@
         "collapsed": true
       },
       "order": 78,
-      "mode": 0,
+      "mode": 4,
       "inputs": [
         {
           "name": "image",
@@ -660,7 +660,7 @@
         "collapsed": true
       },
       "order": 4,
-      "mode": 0,
+      "mode": 4,
       "inputs": [],
       "outputs": [
         {
@@ -694,7 +694,7 @@
         "collapsed": true
       },
       "order": 80,
-      "mode": 0,
+      "mode": 4,
       "inputs": [
         {
           "name": "image",
@@ -743,7 +743,7 @@
         "collapsed": true
       },
       "order": 5,
-      "mode": 0,
+      "mode": 4,
       "inputs": [],
       "outputs": [
         {
@@ -777,7 +777,7 @@
         "collapsed": true
       },
       "order": 81,
-      "mode": 0,
+      "mode": 4,
       "inputs": [
         {
           "name": "image",
@@ -895,7 +895,7 @@
         "collapsed": true
       },
       "order": 124,
-      "mode": 0,
+      "mode": 4,
       "inputs": [
         {
           "name": "image_1",
@@ -949,7 +949,7 @@
         "collapsed": true
       },
       "order": 108,
-      "mode": 0,
+      "mode": 4,
       "inputs": [
         {
           "name": "image_1",
@@ -1399,7 +1399,7 @@
         "collapsed": true
       },
       "order": 85,
-      "mode": 0,
+      "mode": 4,
       "inputs": [
         {
           "name": "image",
@@ -1448,7 +1448,7 @@
         "collapsed": true
       },
       "order": 14,
-      "mode": 0,
+      "mode": 4,
       "inputs": [],
       "outputs": [
         {
@@ -1482,7 +1482,7 @@
         "collapsed": true
       },
       "order": 15,
-      "mode": 0,
+      "mode": 4,
       "inputs": [],
       "outputs": [
         {
@@ -1516,7 +1516,7 @@
         "collapsed": true
       },
       "order": 16,
-      "mode": 0,
+      "mode": 4,
       "inputs": [],
       "outputs": [
         {
@@ -1542,11 +1542,11 @@
       ],
       "size": [
         586.3075522928343,
-        596.8867586509909
+        588.6807097244546
       ],
       "flags": {},
       "order": 134,
-      "mode": 0,
+      "mode": 4,
       "inputs": [
         {
           "name": "images",
@@ -1607,13 +1607,13 @@
           "hidden": false,
           "paused": false,
           "params": {
-            "filename": "LTX2IV_00005-audio.mp4",
+            "filename": "LTX2IV_00007-audio.mp4",
             "subfolder": "LTX2",
             "type": "temp",
             "format": "video/h264-mp4",
             "frame_rate": 24,
-            "workflow": "LTX2IV_00005.png",
-            "fullpath": "C:\\Users\\runeg\\AppData\\Local\\Temp\\latentsync_c1253cec\\LTX2\\LTX2IV_00005-audio.mp4"
+            "workflow": "LTX2IV_00007.png",
+            "fullpath": "C:\\Users\\runeg\\AppData\\Local\\Temp\\latentsync_c1253cec\\LTX2\\LTX2IV_00007-audio.mp4"
           }
         }
       }
@@ -2489,7 +2489,7 @@
       ],
       "size": [
         241.980061511233,
-        255.89866825354244
+        249.82890094659467
       ],
       "flags": {},
       "order": 146,
@@ -4691,7 +4691,7 @@
       ],
       "size": [
         586.3075522928343,
-        681.9762487880818
+        668.9076129659395
       ],
       "flags": {},
       "order": 93,
@@ -4756,13 +4756,13 @@
           "hidden": false,
           "paused": false,
           "params": {
-            "filename": "LTX-2_00742-audio.mp4",
+            "filename": "LTX-2_00744-audio.mp4",
             "subfolder": "",
             "type": "output",
             "format": "video/h264-mp4",
             "frame_rate": 24,
-            "workflow": "LTX-2_00742.png",
-            "fullpath": "E:\\AI\\ComfyUI\\output\\LTX-2_00742-audio.mp4"
+            "workflow": "LTX-2_00744.png",
+            "fullpath": "E:\\AI\\ComfyUI\\output\\LTX-2_00744-audio.mp4"
           }
         }
       }
@@ -4842,49 +4842,6 @@
       ]
     },
     {
-      "id": 14,
-      "type": "RandomNoise",
-      "pos": [
-        2967.904594329974,
-        3349.620628144017
-      ],
-      "size": [
-        274.0120536645418,
-        82
-      ],
-      "flags": {},
-      "order": 57,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "NOISE",
-          "type": "NOISE",
-          "links": [
-            28
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "RandomNoise",
-        "enableTabs": false,
-        "tabWidth": 65,
-        "tabXOffset": 10,
-        "hasSecondTab": false,
-        "secondTabText": "Send Back",
-        "secondTabOffset": 80,
-        "secondTabWidth": 65
-      },
-      "widgets_values": [
-        1207,
-        "fixed"
-      ],
-      "color": "#006691",
-      "bgcolor": "rgba(24,24,27,.9)"
-    },
-    {
       "id": 21,
       "type": "SamplerCustomAdvanced",
       "pos": [
@@ -4893,7 +4850,7 @@
       ],
       "size": [
         238.15470099351288,
-        256.2511035137644
+        251.5641861096069
       ],
       "flags": {},
       "order": 153,
@@ -4967,7 +4924,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 58,
+      "order": 57,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -5049,7 +5006,7 @@
         58
       ],
       "flags": {},
-      "order": 59,
+      "order": 58,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -5122,49 +5079,6 @@
       ]
     },
     {
-      "id": 15,
-      "type": "RandomNoise",
-      "pos": [
-        1990.5690376538473,
-        3342.4935055451624
-      ],
-      "size": [
-        271.305509971064,
-        82
-      ],
-      "flags": {},
-      "order": 60,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "NOISE",
-          "type": "NOISE",
-          "links": [
-            16
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.56",
-        "Node name for S&R": "RandomNoise",
-        "enableTabs": false,
-        "tabWidth": 65,
-        "tabXOffset": 10,
-        "hasSecondTab": false,
-        "secondTabText": "Send Back",
-        "secondTabOffset": 80,
-        "secondTabWidth": 65
-      },
-      "widgets_values": [
-        123123123,
-        "fixed"
-      ],
-      "color": "#006691",
-      "bgcolor": "rgba(24,24,27,.9)"
-    },
-    {
       "id": 24,
       "type": "LTXVConcatAVLatent",
       "pos": [
@@ -5228,7 +5142,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 61,
+      "order": 59,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -5315,40 +5229,6 @@
       "ndPowerEnabled": false
     },
     {
-      "id": 112,
-      "type": "Fast Groups Bypasser (rgthree)",
-      "pos": [
-        4335.057300325043,
-        3151.062633686992
-      ],
-      "size": [
-        267.5462664492028,
-        60.33662599654235
-      ],
-      "flags": {},
-      "order": 62,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "OPT_CONNECTION",
-          "type": "*",
-          "links": []
-        }
-      ],
-      "properties": {
-        "matchColors": "",
-        "matchTitle": "Compare",
-        "showNav": true,
-        "showAllGraphs": false,
-        "sort": "position",
-        "customSortAlphabet": "",
-        "toggleRestriction": "default"
-      },
-      "color": "#008181",
-      "bgcolor": "rgba(24,24,27,.9)"
-    },
-    {
       "id": 45,
       "type": "LoadImage",
       "pos": [
@@ -5360,7 +5240,7 @@
         314.00000000000045
       ],
       "flags": {},
-      "order": 63,
+      "order": 60,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -5393,94 +5273,6 @@
       "ndPowerEnabled": false
     },
     {
-      "id": 56,
-      "type": "LoadImage",
-      "pos": [
-        631.4956762117778,
-        3672.7413847161033
-      ],
-      "size": [
-        283.27083587646484,
-        314.00000000000045
-      ],
-      "flags": {},
-      "order": 64,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            101
-          ]
-        },
-        {
-          "name": "MASK",
-          "type": "MASK",
-          "links": null
-        }
-      ],
-      "title": "MIDDLE FRAME",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.8.2",
-        "Node name for S&R": "LoadImage"
-      },
-      "widgets_values": [
-        "ltx-articsodacan3.png",
-        "image"
-      ],
-      "color": "#346434",
-      "bgcolor": "rgba(24,24,27,.9)",
-      "ndSuperSelectorEnabled": false,
-      "ndPowerEnabled": false
-    },
-    {
-      "id": 47,
-      "type": "LoadImage",
-      "pos": [
-        628.0804192089923,
-        4039.7524039998493
-      ],
-      "size": [
-        283.27083587646484,
-        314.00000000000045
-      ],
-      "flags": {},
-      "order": 65,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            69
-          ]
-        },
-        {
-          "name": "MASK",
-          "type": "MASK",
-          "links": null
-        }
-      ],
-      "title": "LAST FRAME",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.8.2",
-        "Node name for S&R": "LoadImage"
-      },
-      "widgets_values": [
-        "image (4) (1).png",
-        "image"
-      ],
-      "color": "#346434",
-      "bgcolor": "rgba(24,24,27,.9)",
-      "ndSuperSelectorEnabled": false,
-      "ndPowerEnabled": false
-    },
-    {
       "id": 233,
       "type": "GetNode",
       "pos": [
@@ -5494,7 +5286,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 66,
+      "order": 61,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -5528,7 +5320,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 67,
+      "order": 62,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -5779,7 +5571,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 68,
+      "order": 63,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -5813,7 +5605,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 69,
+      "order": 64,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -5845,7 +5637,7 @@
         71.66026910730216
       ],
       "flags": {},
-      "order": 70,
+      "order": 65,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -5934,7 +5726,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 71,
+      "order": 66,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -6126,7 +5918,7 @@
         136
       ],
       "flags": {},
-      "order": 72,
+      "order": 67,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -6340,7 +6132,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 73,
+      "order": 68,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -6372,7 +6164,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 74,
+      "order": 69,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -6621,7 +6413,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 75,
+      "order": 70,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -6663,7 +6455,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 76,
+      "order": 71,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -6701,7 +6493,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 77,
+      "order": 72,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -6724,6 +6516,180 @@
       ],
       "color": "#006691",
       "bgcolor": "rgba(24,24,27,.9)"
+    },
+    {
+      "id": 15,
+      "type": "RandomNoise",
+      "pos": [
+        1990.5690376538473,
+        3342.4935055451624
+      ],
+      "size": [
+        271.305509971064,
+        82
+      ],
+      "flags": {},
+      "order": 73,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "NOISE",
+          "type": "NOISE",
+          "links": [
+            16
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.56",
+        "Node name for S&R": "RandomNoise",
+        "enableTabs": false,
+        "tabWidth": 65,
+        "tabXOffset": 10,
+        "hasSecondTab": false,
+        "secondTabText": "Send Back",
+        "secondTabOffset": 80,
+        "secondTabWidth": 65
+      },
+      "widgets_values": [
+        42,
+        "fixed"
+      ],
+      "color": "#006691",
+      "bgcolor": "rgba(24,24,27,.9)"
+    },
+    {
+      "id": 14,
+      "type": "RandomNoise",
+      "pos": [
+        2967.904594329974,
+        3349.620628144017
+      ],
+      "size": [
+        274.0120536645418,
+        82
+      ],
+      "flags": {},
+      "order": 74,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "NOISE",
+          "type": "NOISE",
+          "links": [
+            28
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "RandomNoise",
+        "enableTabs": false,
+        "tabWidth": 65,
+        "tabXOffset": 10,
+        "hasSecondTab": false,
+        "secondTabText": "Send Back",
+        "secondTabOffset": 80,
+        "secondTabWidth": 65
+      },
+      "widgets_values": [
+        43,
+        "fixed"
+      ],
+      "color": "#006691",
+      "bgcolor": "rgba(24,24,27,.9)"
+    },
+    {
+      "id": 56,
+      "type": "LoadImage",
+      "pos": [
+        631.4956762117778,
+        3672.7413847161033
+      ],
+      "size": [
+        283.27083587646484,
+        314.00000000000045
+      ],
+      "flags": {},
+      "order": 75,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            101
+          ]
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null
+        }
+      ],
+      "title": "MIDDLE FRAME",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.8.2",
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "image (5) (1).png",
+        "image"
+      ],
+      "color": "#346434",
+      "bgcolor": "rgba(24,24,27,.9)",
+      "ndSuperSelectorEnabled": false,
+      "ndPowerEnabled": false
+    },
+    {
+      "id": 47,
+      "type": "LoadImage",
+      "pos": [
+        628.0804192089923,
+        4039.7524039998493
+      ],
+      "size": [
+        283.27083587646484,
+        314.00000000000045
+      ],
+      "flags": {},
+      "order": 76,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            69
+          ]
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null
+        }
+      ],
+      "title": "LAST FRAME",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.8.2",
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "ltx-articsodacan3.png",
+        "image"
+      ],
+      "color": "#346434",
+      "bgcolor": "rgba(24,24,27,.9)",
+      "ndSuperSelectorEnabled": false,
+      "ndPowerEnabled": false
     },
     {
       "id": 16,
@@ -6768,9 +6734,43 @@
         "secondTabWidth": 65
       },
       "widgets_values": [
-        "Make this image come alive with cinematic motion, smooth animation. \n\nThe man is talking, and he says : \"They say drinking soda can be bad for your health. But studies show that drinking LTX soda is good for you. This messsage is approved by penguins\". \n\nThe camera follows the soda can as the man puts it down in the snow.\nThe man keeps talking as he puts down the soda can, and camera slowly pans back to his fance, and he continue talking more. \n\nPerfect lip-sync to the attached audio. \n\nIn the background the Artic, with stunning northern lights in the sky, and penguins in the distance  "
+        "Make this image come alive with cinematic motion, smooth animation. \n\nThe man is talking, and he says : \"They say drinking soda can be bad for your health. But studies show that drinking LTX soda is good for you. This messsage is approved by penguins\". \n\nPerfect lip-sync to the attached audio. \n\nAt the end tracking camera that follows the soda can as the man puts it down in the snow.\n\nIn the background the Artic, with stunning northern lights in the sky, and penguins in the distance  "
       ],
       "color": "#346434",
+      "bgcolor": "rgba(24,24,27,.9)"
+    },
+    {
+      "id": 112,
+      "type": "Fast Groups Bypasser (rgthree)",
+      "pos": [
+        4335.057300325043,
+        3151.062633686992
+      ],
+      "size": [
+        267.5462664492028,
+        60.33662599654235
+      ],
+      "flags": {},
+      "order": 77,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "OPT_CONNECTION",
+          "type": "*",
+          "links": []
+        }
+      ],
+      "properties": {
+        "matchColors": "",
+        "matchTitle": "Compare",
+        "showNav": true,
+        "showAllGraphs": false,
+        "sort": "position",
+        "customSortAlphabet": "",
+        "toggleRestriction": "default"
+      },
+      "color": "#008181",
       "bgcolor": "rgba(24,24,27,.9)"
     }
   ],
@@ -8038,10 +8038,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.20992832109438161,
+      "scale": 0.2099283210943822,
       "offset": [
-        2532.4689278374235,
-        -1903.625508964768
+        2286.460869218693,
+        -1616.1986801745707
       ]
     },
     "frontendVersion": "1.39.19",
