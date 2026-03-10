@@ -1,8 +1,8 @@
 {
   "id": "d15f72da-ab9c-490d-9386-b750d889c6f8",
   "revision": 0,
-  "last_node_id": 381,
-  "last_link_id": 660,
+  "last_node_id": 382,
+  "last_link_id": 666,
   "nodes": [
     {
       "id": 218,
@@ -603,7 +603,7 @@
         150
       ],
       "flags": {},
-      "order": 135,
+      "order": 136,
       "mode": 0,
       "inputs": [
         {
@@ -1314,7 +1314,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 125,
+      "order": 124,
       "mode": 0,
       "inputs": [
         {
@@ -1354,7 +1354,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 106,
+      "order": 105,
       "mode": 0,
       "inputs": [
         {
@@ -1398,7 +1398,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 117,
+      "order": 115,
       "mode": 0,
       "inputs": [
         {
@@ -1438,7 +1438,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 124,
+      "order": 123,
       "mode": 0,
       "inputs": [
         {
@@ -1478,7 +1478,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 116,
+      "order": 114,
       "mode": 0,
       "inputs": [
         {
@@ -1529,7 +1529,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 105,
+      "order": 104,
       "mode": 0,
       "inputs": [
         {
@@ -1570,7 +1570,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 115,
+      "order": 113,
       "mode": 0,
       "inputs": [
         {
@@ -1678,7 +1678,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 84,
+      "order": 83,
       "mode": 0,
       "inputs": [
         {
@@ -1716,7 +1716,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 81,
+      "order": 80,
       "mode": 0,
       "inputs": [
         {
@@ -1756,7 +1756,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 83,
+      "order": 82,
       "mode": 0,
       "inputs": [
         {
@@ -1796,7 +1796,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 80,
+      "order": 95,
       "mode": 0,
       "inputs": [
         {
@@ -2247,49 +2247,6 @@
       ]
     },
     {
-      "id": 190,
-      "type": "DualCLIPLoader",
-      "pos": [
-        -1520.5822224509632,
-        4144.8324839301895
-      ],
-      "size": [
-        364.0273046899474,
-        130
-      ],
-      "flags": {
-        "collapsed": false
-      },
-      "order": 28,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "CLIP",
-          "type": "CLIP",
-          "links": [
-            550
-          ]
-        }
-      ],
-      "title": "CLIPLoader (Gemma + LTX Embeddings)",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.8.2",
-        "Node name for S&R": "DualCLIPLoader"
-      },
-      "widgets_values": [
-        "gemma_3_12B_it_fpmixed.safetensors",
-        "ltx-2.3_text_projection_bf16.safetensors",
-        "ltxv",
-        "default"
-      ],
-      "color": "#1f1f48",
-      "bgcolor": "rgba(24,24,27,.9)",
-      "ndSuperSelectorEnabled": false,
-      "ndPowerEnabled": false
-    },
-    {
       "id": 196,
       "type": "VAELoaderKJ",
       "pos": [
@@ -2301,7 +2258,7 @@
         110.28381432699462
       ],
       "flags": {},
-      "order": 29,
+      "order": 28,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2343,7 +2300,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 30,
+      "order": 29,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -2367,7 +2324,7 @@
         82
       ],
       "flags": {},
-      "order": 31,
+      "order": 30,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2412,7 +2369,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 82,
+      "order": 81,
       "mode": 0,
       "inputs": [
         {
@@ -2450,7 +2407,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 32,
+      "order": 31,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -2476,7 +2433,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 33,
+      "order": 32,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -2500,7 +2457,7 @@
         58
       ],
       "flags": {},
-      "order": 34,
+      "order": 33,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2538,7 +2495,7 @@
         61.42705146159551
       ],
       "flags": {},
-      "order": 35,
+      "order": 34,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2576,7 +2533,7 @@
         73.19414812714422
       ],
       "flags": {},
-      "order": 36,
+      "order": 35,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2627,7 +2584,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 37,
+      "order": 36,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2659,7 +2616,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 38,
+      "order": 37,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2691,7 +2648,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 39,
+      "order": 38,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2721,7 +2678,7 @@
         98
       ],
       "flags": {},
-      "order": 86,
+      "order": 85,
       "mode": 0,
       "inputs": [
         {
@@ -2777,7 +2734,7 @@
         82
       ],
       "flags": {},
-      "order": 40,
+      "order": 39,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2815,7 +2772,7 @@
         579.1223806730061
       ],
       "flags": {},
-      "order": 137,
+      "order": 138,
       "mode": 0,
       "inputs": [
         {
@@ -2877,13 +2834,13 @@
           "hidden": false,
           "paused": false,
           "params": {
-            "filename": "LTX-2_00686-audio.mp4",
+            "filename": "LTX-2_00796-audio.mp4",
             "subfolder": "",
             "type": "output",
             "format": "video/h264-mp4",
             "frame_rate": 24,
-            "workflow": "LTX-2_00686.png",
-            "fullpath": "E:\\AI\\ComfyUI\\output\\LTX-2_00686-audio.mp4"
+            "workflow": "LTX-2_00796.png",
+            "fullpath": "E:\\AI\\ComfyUI\\output\\LTX-2_00796-audio.mp4"
           }
         }
       }
@@ -2951,7 +2908,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 41,
+      "order": 40,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3052,7 +3009,7 @@
         46
       ],
       "flags": {},
-      "order": 134,
+      "order": 135,
       "mode": 0,
       "inputs": [
         {
@@ -3143,7 +3100,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 42,
+      "order": 41,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3173,7 +3130,7 @@
         82
       ],
       "flags": {},
-      "order": 43,
+      "order": 42,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3218,7 +3175,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 44,
+      "order": 43,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3305,7 +3262,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 45,
+      "order": 44,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3337,7 +3294,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 129,
+      "order": 128,
       "mode": 0,
       "inputs": [
         {
@@ -3377,7 +3334,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 130,
+      "order": 129,
       "mode": 0,
       "inputs": [
         {
@@ -3417,7 +3374,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 126,
+      "order": 125,
       "mode": 0,
       "inputs": [
         {
@@ -3591,7 +3548,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 94,
+      "order": 92,
       "mode": 0,
       "inputs": [
         {
@@ -3635,7 +3592,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 90,
+      "order": 89,
       "mode": 0,
       "inputs": [
         {
@@ -3685,7 +3642,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 46,
+      "order": 45,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3722,7 +3679,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 47,
+      "order": 46,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3762,7 +3719,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 48,
+      "order": 47,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -3788,7 +3745,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 49,
+      "order": 48,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -3814,7 +3771,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 50,
+      "order": 49,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -3900,7 +3857,7 @@
         82
       ],
       "flags": {},
-      "order": 51,
+      "order": 50,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3937,7 +3894,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 119,
+      "order": 117,
       "mode": 0,
       "inputs": [
         {
@@ -3995,7 +3952,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 52,
+      "order": 51,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -4100,7 +4057,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 88,
+      "order": 87,
       "mode": 0,
       "inputs": [
         {
@@ -4142,7 +4099,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 107,
+      "order": 106,
       "mode": 0,
       "inputs": [
         {
@@ -4241,7 +4198,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 87,
+      "order": 86,
       "mode": 4,
       "inputs": [
         {
@@ -4292,17 +4249,17 @@
       "id": 359,
       "type": "GetNode",
       "pos": [
-        -921.243456179311,
-        5236.3166092458705
+        -513.9779285253509,
+        5205.322976449082
       ],
       "size": [
-        210,
+        270,
         34
       ],
       "flags": {
         "collapsed": true
       },
-      "order": 53,
+      "order": 52,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -4326,17 +4283,17 @@
       "id": 360,
       "type": "GetNode",
       "pos": [
-        -921.243456179311,
-        5191.3463960469335
+        -513.9779285253509,
+        5160.352763250145
       ],
       "size": [
-        210,
+        270,
         34
       ],
       "flags": {
         "collapsed": true
       },
-      "order": 54,
+      "order": 53,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -4357,378 +4314,6 @@
       "bgcolor": "#29699c"
     },
     {
-      "id": 362,
-      "type": "SolidMask",
-      "pos": [
-        -921.243456179311,
-        5157.915175537283
-      ],
-      "size": [
-        270,
-        106
-      ],
-      "flags": {
-        "collapsed": false
-      },
-      "order": 91,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "width",
-          "type": "INT",
-          "widget": {
-            "name": "width"
-          },
-          "link": 638
-        },
-        {
-          "name": "height",
-          "type": "INT",
-          "widget": {
-            "name": "height"
-          },
-          "link": 639
-        }
-      ],
-      "outputs": [
-        {
-          "name": "MASK",
-          "type": "MASK",
-          "links": [
-            641
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.7.0",
-        "Node name for S&R": "SolidMask",
-        "ue_properties": {
-          "widget_ue_connectable": {
-            "width": true,
-            "height": true
-          },
-          "version": "7.5.2",
-          "input_ue_unconnectable": {}
-        }
-      },
-      "widgets_values": [
-        0,
-        512,
-        512
-      ]
-    },
-    {
-      "id": 365,
-      "type": "SetNode",
-      "pos": [
-        -1148.607799480073,
-        5074.944530901295
-      ],
-      "size": [
-        210,
-        34
-      ],
-      "flags": {
-        "collapsed": true
-      },
-      "order": 113,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "AUDIO",
-          "type": "AUDIO",
-          "link": 644
-        }
-      ],
-      "outputs": [
-        {
-          "name": "*",
-          "type": "*",
-          "links": null
-        }
-      ],
-      "title": "Set_org_audio",
-      "properties": {
-        "previousName": "",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "version": "7.5.2",
-          "input_ue_unconnectable": {}
-        }
-      },
-      "widgets_values": [
-        "org_audio"
-      ]
-    },
-    {
-      "id": 366,
-      "type": "SetNode",
-      "pos": [
-        -876.6356856141393,
-        5350.728342001058
-      ],
-      "size": [
-        210,
-        34
-      ],
-      "flags": {
-        "collapsed": true
-      },
-      "order": 132,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "LATENT",
-          "type": "LATENT",
-          "link": 645
-        }
-      ],
-      "outputs": [
-        {
-          "name": "*",
-          "type": "*",
-          "links": null
-        }
-      ],
-      "title": "Set_latent_custom_audio",
-      "properties": {
-        "previousName": ""
-      },
-      "widgets_values": [
-        "latent_custom_audio"
-      ],
-      "color": "#422342",
-      "bgcolor": "rgba(24,24,27,.9)"
-    },
-    {
-      "id": 367,
-      "type": "SimpleCalculatorKJ",
-      "pos": [
-        -1190.961925402043,
-        5078.393421604186
-      ],
-      "size": [
-        210,
-        108
-      ],
-      "flags": {
-        "collapsed": true
-      },
-      "order": 92,
-      "mode": 0,
-      "inputs": [
-        {
-          "label": "a",
-          "name": "variables.a",
-          "shape": 7,
-          "type": "INT,FLOAT,BOOLEAN",
-          "link": null
-        },
-        {
-          "label": "b",
-          "name": "variables.b",
-          "shape": 7,
-          "type": "INT,FLOAT,BOOLEAN",
-          "link": null
-        },
-        {
-          "name": "a",
-          "shape": 7,
-          "type": "*",
-          "link": 646
-        },
-        {
-          "name": "b",
-          "shape": 7,
-          "type": "*",
-          "link": 647
-        }
-      ],
-      "outputs": [
-        {
-          "name": "FLOAT",
-          "type": "FLOAT",
-          "links": [
-            651
-          ]
-        },
-        {
-          "name": "INT",
-          "type": "INT",
-          "links": []
-        },
-        {
-          "name": "BOOLEAN",
-          "type": "BOOLEAN",
-          "links": null
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfyui-kjnodes",
-        "ver": "c8e7f48a7f68b7a31ee336bc0be54bedbca05ffa",
-        "Node name for S&R": "SimpleCalculatorKJ"
-      },
-      "widgets_values": [
-        "a/b"
-      ]
-    },
-    {
-      "id": 368,
-      "type": "GetNode",
-      "pos": [
-        -1164.3568681428087,
-        5082.216297509603
-      ],
-      "size": [
-        210,
-        34
-      ],
-      "flags": {
-        "collapsed": true
-      },
-      "order": 55,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "INT",
-          "type": "INT",
-          "links": [
-            646
-          ]
-        }
-      ],
-      "title": "Get_frames",
-      "properties": {},
-      "widgets_values": [
-        "frames"
-      ],
-      "color": "#1b4669",
-      "bgcolor": "#29699c"
-    },
-    {
-      "id": 369,
-      "type": "GetNode",
-      "pos": [
-        -1168.7143640762285,
-        5090.79506408084
-      ],
-      "size": [
-        210,
-        34
-      ],
-      "flags": {
-        "collapsed": true
-      },
-      "order": 56,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "FLOAT",
-          "type": "FLOAT",
-          "links": [
-            647
-          ]
-        }
-      ],
-      "title": "Get_fps",
-      "properties": {},
-      "widgets_values": [
-        "fps"
-      ],
-      "color": "#346434",
-      "bgcolor": "rgba(24,24,27,.9)"
-    },
-    {
-      "id": 370,
-      "type": "MelBandRoFormerModelLoader",
-      "pos": [
-        -1540.625827218746,
-        5284.050916079685
-      ],
-      "size": [
-        275.21982482414546,
-        71.66026910730216
-      ],
-      "flags": {},
-      "order": 57,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "model",
-          "type": "MELROFORMERMODEL",
-          "links": [
-            648
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "ComfyUI-MelBandRoFormer",
-        "ver": "b40e263224778ec417114d91d8b3b39934e30de5",
-        "Node name for S&R": "MelBandRoFormerModelLoader",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "version": "7.5.2",
-          "input_ue_unconnectable": {}
-        }
-      },
-      "widgets_values": [
-        "MelBandRoformer\\MelBandRoformer_fp16.safetensors"
-      ],
-      "ndSuperSelectorEnabled": false,
-      "ndPowerEnabled": false
-    },
-    {
-      "id": 363,
-      "type": "SetLatentNoiseMask",
-      "pos": [
-        -921.243456179311,
-        5326.752448444212
-      ],
-      "size": [
-        270,
-        46
-      ],
-      "flags": {},
-      "order": 128,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "samples",
-          "type": "LATENT",
-          "link": 640
-        },
-        {
-          "name": "mask",
-          "type": "MASK",
-          "link": 641
-        }
-      ],
-      "outputs": [
-        {
-          "name": "LATENT",
-          "type": "LATENT",
-          "links": [
-            645
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.7.0",
-        "Node name for S&R": "SetLatentNoiseMask",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "version": "7.5.2",
-          "input_ue_unconnectable": {}
-        }
-      },
-      "widgets_values": []
-    },
-    {
       "id": 375,
       "type": "GetNode",
       "pos": [
@@ -4742,7 +4327,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 58,
+      "order": 54,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -4776,7 +4361,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 59,
+      "order": 55,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -4808,7 +4393,7 @@
         91.69542099724458
       ],
       "flags": {},
-      "order": 93,
+      "order": 91,
       "mode": 0,
       "inputs": [
         {
@@ -4857,7 +4442,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 60,
+      "order": 56,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -4893,7 +4478,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 118,
+      "order": 116,
       "mode": 0,
       "inputs": [
         {
@@ -4917,7 +4502,7 @@
         "Node name for S&R": "easy showAnything"
       },
       "widgets_values": [
-        "Style: realistic - cinematic - The man glares intently at the camera, his expression conveying a palpable sense of menace. He speaks in a low, gravelly voice, \"If you say a bad word about LTX 2.3, I will find you.... and I will kill you.\" The background is blurred, focusing attention on the man's face and intense gaze. The lighting casts dramatic shadows, emphasizing his features and creating a sense of foreboding."
+        "Style: realistic - cinematic - The man stares intently at the viewer, his expression a mix of intensity and menace. He speaks in a low, gravelly voice, \"If you say a bad word about LTX 2.3, I will find you.... and I will kill you.\" His hands clench into fists, and he takes a step forward, his body language conveying a palpable sense of threat. The background is dark and blurred, focusing all attention on the man's face and the intensity of his words."
       ],
       "color": "#008181",
       "bgcolor": "rgba(24,24,27,.9)"
@@ -4926,17 +4511,17 @@
       "id": 361,
       "type": "GetNode",
       "pos": [
-        -872.5193520240725,
-        5079.147317090764
+        -513.9779285253509,
+        5048.153684293975
       ],
       "size": [
-        210,
+        270,
         34
       ],
       "flags": {
         "collapsed": true
       },
-      "order": 61,
+      "order": 57,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -4963,134 +4548,6 @@
       "bgcolor": "rgba(24,24,27,.9)"
     },
     {
-      "id": 364,
-      "type": "LTXVAudioVAEEncode",
-      "pos": [
-        -915.0233577765149,
-        5046.350413913309
-      ],
-      "size": [
-        270,
-        58.01664226661978
-      ],
-      "flags": {},
-      "order": 123,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "audio",
-          "type": "AUDIO",
-          "link": 658
-        },
-        {
-          "label": "Audio VAE",
-          "name": "audio_vae",
-          "type": "VAE",
-          "link": 643
-        }
-      ],
-      "outputs": [
-        {
-          "name": "Audio Latent",
-          "type": "LATENT",
-          "links": [
-            640
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.7.0",
-        "Node name for S&R": "LTXVAudioVAEEncode",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "version": "7.5.2",
-          "input_ue_unconnectable": {}
-        }
-      },
-      "widgets_values": []
-    },
-    {
-      "id": 373,
-      "type": "TrimAudioDuration",
-      "pos": [
-        -1216.1696299300165,
-        5045.725670571694
-      ],
-      "size": [
-        234.1038076399327,
-        82
-      ],
-      "flags": {},
-      "order": 104,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "audio",
-          "type": "AUDIO",
-          "link": 650
-        },
-        {
-          "name": "duration",
-          "type": "FLOAT",
-          "widget": {
-            "name": "duration"
-          },
-          "link": 651
-        }
-      ],
-      "outputs": [
-        {
-          "name": "AUDIO",
-          "type": "AUDIO",
-          "links": [
-            644,
-            649
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.7.0",
-        "Node name for S&R": "TrimAudioDuration",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "version": "7.5.2",
-          "input_ue_unconnectable": {}
-        }
-      },
-      "widgets_values": [
-        0,
-        8
-      ]
-    },
-    {
-      "id": 377,
-      "type": "MarkdownNote",
-      "pos": [
-        -1934.4967993785783,
-        4962.417605686452
-      ],
-      "size": [
-        276.14236736658677,
-        250.18164337079816
-      ],
-      "flags": {
-        "collapsed": false
-      },
-      "order": 62,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "title": "Custom Audio",
-      "properties": {},
-      "widgets_values": [
-        "Use a reference audio instead of LTX own audio, and LTX video will lip-sync to the audio you provide. For best possible results you should prompt that the subject is talking.  And if you transcribe what is said in your audio input, results might be even better \n\nMel-band RoFormer is optional for extracting a clean vocal only audio for the sampler\n\nhttps://huggingface.co/Kijai/MelBandRoFormer_comfy/tree/main\n\nfolder: models\\diffusion_models\n"
-      ],
-      "color": "#222",
-      "bgcolor": "#000"
-    },
-    {
       "id": 201,
       "type": "LTXVAudioVAEDecode",
       "pos": [
@@ -5102,7 +4559,7 @@
         46
       ],
       "flags": {},
-      "order": 136,
+      "order": 137,
       "mode": 0,
       "inputs": [
         {
@@ -5154,7 +4611,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 63,
+      "order": 58,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -5184,7 +4641,7 @@
         26
       ],
       "flags": {},
-      "order": 138,
+      "order": 139,
       "mode": 0,
       "inputs": [
         {
@@ -5206,102 +4663,6 @@
       }
     },
     {
-      "id": 371,
-      "type": "MelBandRoFormerSampler",
-      "pos": [
-        -1234.1330012663198,
-        5292.499014732888
-      ],
-      "size": [
-        234.1038076399327,
-        46
-      ],
-      "flags": {},
-      "order": 114,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "model",
-          "type": "MELROFORMERMODEL",
-          "link": 648
-        },
-        {
-          "name": "audio",
-          "type": "AUDIO",
-          "link": 649
-        }
-      ],
-      "outputs": [
-        {
-          "name": "vocals",
-          "type": "AUDIO",
-          "links": [
-            658
-          ]
-        },
-        {
-          "name": "instruments",
-          "type": "AUDIO",
-          "links": null
-        }
-      ],
-      "properties": {
-        "cnr_id": "ComfyUI-MelBandRoFormer",
-        "ver": "b40e263224778ec417114d91d8b3b39934e30de5",
-        "Node name for S&R": "MelBandRoFormerSampler",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "version": "7.5.2",
-          "input_ue_unconnectable": {}
-        }
-      },
-      "widgets_values": []
-    },
-    {
-      "id": 372,
-      "type": "LoadAudio",
-      "pos": [
-        -1557.3091678181127,
-        5029.33003108635
-      ],
-      "size": [
-        312.8514201610633,
-        136
-      ],
-      "flags": {},
-      "order": 64,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "AUDIO",
-          "type": "AUDIO",
-          "links": [
-            650
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.7.0",
-        "Node name for S&R": "LoadAudio",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "version": "7.5.2",
-          "input_ue_unconnectable": {}
-        }
-      },
-      "widgets_values": [
-        "ComfyUI_00128_.mp3",
-        null,
-        null
-      ],
-      "color": "#346434",
-      "bgcolor": "rgba(24,24,27,.9)",
-      "ndSuperSelectorEnabled": false,
-      "ndPowerEnabled": false
-    },
-    {
       "id": 167,
       "type": "LoadImage",
       "pos": [
@@ -5313,7 +4674,7 @@
         550.0309462039886
       ],
       "flags": {},
-      "order": 65,
+      "order": 59,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -5358,7 +4719,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 95,
+      "order": 93,
       "mode": 0,
       "inputs": [
         {
@@ -5445,7 +4806,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 66,
+      "order": 60,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -5483,7 +4844,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 67,
+      "order": 61,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -5522,7 +4883,7 @@
         58
       ],
       "flags": {},
-      "order": 68,
+      "order": 62,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -5555,7 +4916,7 @@
         58
       ],
       "flags": {},
-      "order": 69,
+      "order": 63,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -5595,7 +4956,7 @@
         68.88020833333334
       ],
       "flags": {},
-      "order": 70,
+      "order": 64,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -5637,7 +4998,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 96,
+      "order": 94,
       "mode": 0,
       "inputs": [
         {
@@ -5689,7 +5050,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 71,
+      "order": 65,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -5724,7 +5085,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 89,
+      "order": 88,
       "mode": 0,
       "inputs": [
         {
@@ -5780,7 +5141,7 @@
         58
       ],
       "flags": {},
-      "order": 72,
+      "order": 66,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -5813,7 +5174,7 @@
         98.86928985228224
       ],
       "flags": {},
-      "order": 85,
+      "order": 84,
       "mode": 0,
       "inputs": [
         {
@@ -5851,6 +5212,693 @@
       "widgets_values": [
         8
       ]
+    },
+    {
+      "id": 190,
+      "type": "DualCLIPLoader",
+      "pos": [
+        -1520.5822224509632,
+        4144.8324839301895
+      ],
+      "size": [
+        364.0273046899474,
+        130
+      ],
+      "flags": {
+        "collapsed": false
+      },
+      "order": 67,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            550
+          ]
+        }
+      ],
+      "title": "CLIPLoader (Gemma + LTX Embeddings)",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.8.2",
+        "Node name for S&R": "DualCLIPLoader"
+      },
+      "widgets_values": [
+        "gemma_3_12B_it_fp8_scaled.safetensors",
+        "ltx-2.3_text_projection_bf16.safetensors",
+        "ltxv",
+        "default"
+      ],
+      "color": "#1f1f48",
+      "bgcolor": "rgba(24,24,27,.9)",
+      "ndSuperSelectorEnabled": false,
+      "ndPowerEnabled": false
+    },
+    {
+      "id": 372,
+      "type": "LoadAudio",
+      "pos": [
+        -1542.1310910322222,
+        5029.33003108635
+      ],
+      "size": [
+        312.8514201610633,
+        136
+      ],
+      "flags": {},
+      "order": 68,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "AUDIO",
+          "type": "AUDIO",
+          "links": [
+            650
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.7.0",
+        "Node name for S&R": "LoadAudio",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "ComfyUI_00128_.mp3",
+        null,
+        null
+      ],
+      "color": "#346434",
+      "bgcolor": "rgba(24,24,27,.9)",
+      "ndSuperSelectorEnabled": false,
+      "ndPowerEnabled": false
+    },
+    {
+      "id": 370,
+      "type": "MelBandRoFormerModelLoader",
+      "pos": [
+        -1516.014763868401,
+        5276.4869654169615
+      ],
+      "size": [
+        478.6060537550768,
+        70.14246142871252
+      ],
+      "flags": {},
+      "order": 69,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "model",
+          "type": "MELROFORMERMODEL",
+          "links": [
+            648
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "ComfyUI-MelBandRoFormer",
+        "ver": "b40e263224778ec417114d91d8b3b39934e30de5",
+        "Node name for S&R": "MelBandRoFormerModelLoader",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "MelBandRoformer\\MelBandRoformer_fp16.safetensors"
+      ],
+      "ndSuperSelectorEnabled": false,
+      "ndPowerEnabled": false
+    },
+    {
+      "id": 371,
+      "type": "MelBandRoFormerSampler",
+      "pos": [
+        -985.1754287239143,
+        5288.797123168457
+      ],
+      "size": [
+        234.1038076399327,
+        46
+      ],
+      "flags": {},
+      "order": 119,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MELROFORMERMODEL",
+          "link": 648
+        },
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "link": 649
+        }
+      ],
+      "outputs": [
+        {
+          "name": "vocals",
+          "type": "AUDIO",
+          "links": [
+            664
+          ]
+        },
+        {
+          "name": "instruments",
+          "type": "AUDIO",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "ComfyUI-MelBandRoFormer",
+        "ver": "b40e263224778ec417114d91d8b3b39934e30de5",
+        "Node name for S&R": "MelBandRoFormerSampler",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 367,
+      "type": "SimpleCalculatorKJ",
+      "pos": [
+        -1173.5566324946267,
+        5108.8119482493885
+      ],
+      "size": [
+        210,
+        108
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 96,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "a",
+          "name": "variables.a",
+          "shape": 7,
+          "type": "INT,FLOAT,BOOLEAN",
+          "link": null
+        },
+        {
+          "label": "b",
+          "name": "variables.b",
+          "shape": 7,
+          "type": "INT,FLOAT,BOOLEAN",
+          "link": null
+        },
+        {
+          "name": "a",
+          "shape": 7,
+          "type": "*",
+          "link": 646
+        },
+        {
+          "name": "b",
+          "shape": 7,
+          "type": "*",
+          "link": 647
+        }
+      ],
+      "outputs": [
+        {
+          "name": "FLOAT",
+          "type": "FLOAT",
+          "links": [
+            651
+          ]
+        },
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": []
+        },
+        {
+          "name": "BOOLEAN",
+          "type": "BOOLEAN",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-kjnodes",
+        "ver": "c8e7f48a7f68b7a31ee336bc0be54bedbca05ffa",
+        "Node name for S&R": "SimpleCalculatorKJ"
+      },
+      "widgets_values": [
+        "a/b"
+      ]
+    },
+    {
+      "id": 369,
+      "type": "GetNode",
+      "pos": [
+        -1127.313211834411,
+        5140.699702482291
+      ],
+      "size": [
+        210,
+        34
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 70,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "FLOAT",
+          "type": "FLOAT",
+          "links": [
+            647
+          ]
+        }
+      ],
+      "title": "Get_fps",
+      "properties": {},
+      "widgets_values": [
+        "fps"
+      ],
+      "color": "#346434",
+      "bgcolor": "rgba(24,24,27,.9)"
+    },
+    {
+      "id": 365,
+      "type": "SetNode",
+      "pos": [
+        -1144.8131548449498,
+        5107.19995108973
+      ],
+      "size": [
+        210,
+        34
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 118,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "AUDIO",
+          "type": "AUDIO",
+          "link": 644
+        }
+      ],
+      "outputs": [
+        {
+          "name": "*",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "title": "Set_org_audio",
+      "properties": {
+        "previousName": "",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "org_audio"
+      ]
+    },
+    {
+      "id": 362,
+      "type": "SolidMask",
+      "pos": [
+        -513.9779285253509,
+        5145.939672953211
+      ],
+      "size": [
+        270,
+        106
+      ],
+      "flags": {
+        "collapsed": false
+      },
+      "order": 90,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "width",
+          "type": "INT",
+          "widget": {
+            "name": "width"
+          },
+          "link": 638
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "widget": {
+            "name": "height"
+          },
+          "link": 639
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": [
+            641
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.7.0",
+        "Node name for S&R": "SolidMask",
+        "ue_properties": {
+          "widget_ue_connectable": {
+            "width": true,
+            "height": true
+          },
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        0,
+        512,
+        512
+      ]
+    },
+    {
+      "id": 366,
+      "type": "SetNode",
+      "pos": [
+        -513.9779285253509,
+        5330.359362954391
+      ],
+      "size": [
+        270,
+        34
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 134,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "link": 645
+        }
+      ],
+      "outputs": [
+        {
+          "name": "*",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "title": "Set_latent_custom_audio",
+      "properties": {
+        "previousName": ""
+      },
+      "widgets_values": [
+        "latent_custom_audio"
+      ],
+      "color": "#422342",
+      "bgcolor": "rgba(24,24,27,.9)"
+    },
+    {
+      "id": 363,
+      "type": "SetLatentNoiseMask",
+      "pos": [
+        -513.9779285253509,
+        5315.702808544085
+      ],
+      "size": [
+        270,
+        46
+      ],
+      "flags": {},
+      "order": 132,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "samples",
+          "type": "LATENT",
+          "link": 640
+        },
+        {
+          "name": "mask",
+          "type": "MASK",
+          "link": 641
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            645
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.7.0",
+        "Node name for S&R": "SetLatentNoiseMask",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 364,
+      "type": "LTXVAudioVAEEncode",
+      "pos": [
+        -513.9779285253509,
+        5040.157758584662
+      ],
+      "size": [
+        270,
+        58.01664226661978
+      ],
+      "flags": {},
+      "order": 130,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "link": 666
+        },
+        {
+          "label": "Audio VAE",
+          "name": "audio_vae",
+          "type": "VAE",
+          "link": 643
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Audio Latent",
+          "type": "LATENT",
+          "links": [
+            640
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.7.0",
+        "Node name for S&R": "LTXVAudioVAEEncode",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 368,
+      "type": "GetNode",
+      "pos": [
+        -1133.1664221024087,
+        5070.69362845609
+      ],
+      "size": [
+        210,
+        34
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 71,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": [
+            646
+          ]
+        }
+      ],
+      "title": "Get_frames",
+      "properties": {},
+      "widgets_values": [
+        "frames"
+      ],
+      "color": "#1b4669",
+      "bgcolor": "#29699c"
+    },
+    {
+      "id": 373,
+      "type": "TrimAudioDuration",
+      "pos": [
+        -1186.999489474455,
+        5063.439296866987
+      ],
+      "size": [
+        234.1038076399327,
+        82
+      ],
+      "flags": {},
+      "order": 107,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "link": 650
+        },
+        {
+          "name": "duration",
+          "type": "FLOAT",
+          "widget": {
+            "name": "duration"
+          },
+          "link": 651
+        }
+      ],
+      "outputs": [
+        {
+          "name": "AUDIO",
+          "type": "AUDIO",
+          "links": [
+            644,
+            649,
+            665
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.7.0",
+        "Node name for S&R": "TrimAudioDuration",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        0,
+        8
+      ]
+    },
+    {
+      "id": 377,
+      "type": "MarkdownNote",
+      "pos": [
+        -1934.4967993785783,
+        4962.417605686452
+      ],
+      "size": [
+        276.14236736658677,
+        250.18164337079816
+      ],
+      "flags": {
+        "collapsed": false
+      },
+      "order": 72,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "Custom Audio",
+      "properties": {},
+      "widgets_values": [
+        "Use a reference audio instead of LTX own audio, and LTX video will lip-sync to the audio you provide. For best possible results you should prompt that the subject is talking.  And if you transcribe what is said in your audio input, results might be even better \n\nMel-band RoFormer is optional for extracting a clean vocal only audio for the sampler. This can help with a busy original audio if you want to only focus on lip-sync and dialog\n\nhttps://huggingface.co/Kijai/MelBandRoFormer_comfy/tree/main\n\nfolder: models\\diffusion_models\n"
+      ],
+      "color": "#222",
+      "bgcolor": "#000"
+    },
+    {
+      "id": 382,
+      "type": "ComfySwitchNode",
+      "pos": [
+        -909.2286387671224,
+        5057.640310824566
+      ],
+      "size": [
+        314.0164226790823,
+        81.03561535717836
+      ],
+      "flags": {},
+      "order": 126,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "on_false",
+          "type": "AUDIO",
+          "link": 665
+        },
+        {
+          "name": "on_true",
+          "type": "AUDIO",
+          "link": 664
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output",
+          "type": "AUDIO",
+          "links": [
+            666
+          ]
+        }
+      ],
+      "title": "USE ONLY VOCALS",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.16.4",
+        "Node name for S&R": "ComfySwitchNode"
+      },
+      "widgets_values": [
+        false
+      ],
+      "color": "#346434",
+      "bgcolor": "rgba(24,24,27,.9)"
     }
   ],
   "links": [
@@ -6743,14 +6791,6 @@
       "AUDIO"
     ],
     [
-      658,
-      371,
-      0,
-      364,
-      0,
-      "AUDIO"
-    ],
-    [
       659,
       380,
       0,
@@ -6765,6 +6805,30 @@
       113,
       3,
       "SIGMAS"
+    ],
+    [
+      664,
+      371,
+      0,
+      382,
+      1,
+      "AUDIO"
+    ],
+    [
+      665,
+      373,
+      0,
+      382,
+      0,
+      "AUDIO"
+    ],
+    [
+      666,
+      382,
+      0,
+      364,
+      0,
+      "AUDIO"
     ]
   ],
   "groups": [
@@ -6943,8 +7007,8 @@
       "bounding": [
         -1587.1929701059898,
         4937.872573433027,
-        986.9850096444186,
-        479.9014845532911
+        1398.8239095374113,
+        474.84566717591224
       ],
       "color": "#3f789e",
       "font_size": 24,
@@ -6954,10 +7018,10 @@
       "id": 30,
       "title": "Optional",
       "bounding": [
-        -1562.029340957206,
-        5200.18775371507,
-        603.1146957625635,
-        176.8200453639647
+        -1542.2978411355482,
+        5197.152138357889,
+        949.1748464808647,
+        175.30223768537599
       ],
       "color": "#3f789e",
       "font_size": 24,
@@ -6967,10 +7031,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.20992832109438023,
+      "scale": 0.30735605491428386,
       "offset": [
-        3268.6354634134173,
-        -2295.0725701832926
+        3273.291892668856,
+        -2950.4274071687278
       ]
     },
     "frontendVersion": "1.39.19",
