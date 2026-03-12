@@ -1,0 +1,122 @@
+[
+  {
+    "name": "T2V_Basic",
+    "wf_type": "t2v",
+    "desc": "Text-to-Video with two-pass spatial upscaling and generated audio.",
+    "status": "ok",
+    "video": "T2V_Basic.mp4",
+    "error": null,
+    "elapsed": 190,
+    "prompt": "Make this image come alive with fluid motion.\n\nA beautiful blonde woman smiles towards the viewer.\n\nThen she talks and says with a soft female british voice : \"Lets go and make some great videos with LTX 2.3\".\n\nSteady camera slowly panning in towards the main subject.\nThe scene is set to a sunny windy day outside with the city in the background. Ambient low volume city sound in the background."
+  },
+  {
+    "name": "T2V_Basic_ComfyUI_Template",
+    "wf_type": "t2v",
+    "desc": "Text-to-Video via vMonad MediaGen ltx23_t2v strategy (ComfyUI workflow template).",
+    "prompt": "A beautiful blonde woman smiles towards the viewer. Then she talks and says with a soft female british voice: \"Lets go and make some great videos with LTX 2.3\". Steady camera slowly panning in towards the main subject. The scene is set to a sunny windy day outside with the city in the background. Ambient low volume city sound in the background.",
+    "status": "ok",
+    "video": "T2V_Basic_ComfyUI_Template.mp4",
+    "error": null,
+    "elapsed": 240
+  },
+  {
+    "name": "T2V_Single_Pass",
+    "wf_type": "t2v",
+    "desc": "Text-to-Video single-pass. Fastest generation, no upscale.",
+    "status": "ok",
+    "video": "T2V_Single_Pass.mp4",
+    "error": null,
+    "elapsed": 91,
+    "prompt": "Make this image come alive with fluid motion.\n\nA beautiful blonde woman smiles towards the viewer.\n\nThen she talks and says with a soft female british voice : \"Lets go and make some great videos with LTX 2.3\".\n\nSteady camera slowly panning in towards the main subject.\nThe scene is set to a sunny windy day outside with the city in the background. Ambient low volume city sound in the background."
+  },
+  {
+    "name": "I2V_T2V_Basic",
+    "wf_type": "i2v",
+    "desc": "Image-to-Video with two-pass spatial upscaling.",
+    "status": "ok",
+    "video": "I2V_T2V_Basic.mp4",
+    "error": null,
+    "elapsed": 120,
+    "prompt": "Make this image come alive with fluid motion.\n\nA beautiful blonde woman smiles towards the viewer.\n\nThen she talks and says with a soft female british voice : \"Lets make some great videos with LTX 2.3. Sometimes the sentence needs to extended to avoid cutting into a random scene\".\n\nSteady camera slowly panning in towards the main subject."
+  },
+  {
+    "name": "I2V_T2V_Single_Pass",
+    "wf_type": "i2v",
+    "desc": "Image-to-Video single-pass. Faster, no upscale.",
+    "status": "ok",
+    "video": "I2V_T2V_Single_Pass.mp4",
+    "error": null,
+    "elapsed": 120,
+    "prompt": "Make this image come alive with fluid motion.\n\nA beautiful blonde woman smiles towards the viewer.\n\nThen she talks and says with a soft female british voice : \"Lets make some great videos with LTX 2.3. Sometimes the sentence needs to extended to avoid cutting into a random scene. My image compression doesn't seem to have any effect on me\".\n\nSteady camera slowly panning in towards the main subject."
+  },
+  {
+    "name": "I2V_T2V_Basic_GGUF",
+    "wf_type": "i2v",
+    "desc": "Image-to-Video using GGUF quantized model for lower VRAM.",
+    "status": "ok",
+    "video": "I2V_T2V_Basic_GGUF.mp4",
+    "error": null,
+    "elapsed": 213,
+    "prompt": "Make this image come alive with fluid motion.\n\nA beautiful blonde woman smiles towards the viewer.\n\nThen she talks and says with a soft female british voice : \"Lets make some great videos with LTX 2.3. This is a gguf workflow for low vram support.\n\nSteady camera slowly panning in towards the main subject."
+  },
+  {
+    "name": "I2V_T2V_Basic_Custom_Audio",
+    "wf_type": "i2v_audio",
+    "desc": "Image-to-Video with custom audio input overlay.",
+    "status": "ok",
+    "video": "I2V_T2V_Basic_Custom_Audio.mp4",
+    "error": null,
+    "elapsed": 80,
+    "prompt": "A young woman with long dark wavy hair faces the camera in a close-up portrait on a coastal cliff at golden hour sunset. She wears a deep red V-neck dress with spaghetti straps and a ruffled off-shoulder sleeve. Warm brown eyes, soft features, subtle smile. Blurred ocean on the left, green hillside on the right, orange sunset glow behind her right shoulder. Shallow depth of field. A gentle breeze lifts a few strands of her hair."
+  },
+  {
+    "name": "FL2V_First_Last_Frame_Injection",
+    "wf_type": "fl2v",
+    "desc": "First + Last frame interpolation via latent injection.",
+    "status": "ok",
+    "video": "FL2V_First_Last_Frame_Injection.mp4",
+    "error": null,
+    "elapsed": 70,
+    "prompt": "A young woman with long dark wavy hair in a deep red V-neck dress on a coastal cliff at golden hour. She starts facing the camera with a gentle expression, then turns her head slightly to her right to look off into the distance with a contemplative expression, then turns back to face the camera with a warm smile. Same background throughout - blurred ocean on the left, green hillside and orange sunset glow on the right. Wind gently shifts her hair. No new objects appear."
+  },
+  {
+    "name": "FL2V_Custom_Audio",
+    "wf_type": "fl2v_audio",
+    "desc": "First + Last frame interpolation with custom audio.",
+    "status": "ok",
+    "video": "FL2V_Custom_Audio.mp4",
+    "error": null,
+    "elapsed": 62,
+    "prompt": "A young woman with long dark wavy hair in a deep red V-neck dress on a coastal cliff at golden hour. She starts facing the camera with a gentle expression, then turns her head slightly to her right to look off into the distance with a contemplative expression, then turns back to face the camera with a warm smile. Same background throughout - blurred ocean on the left, green hillside and orange sunset glow on the right. Wind gently shifts her hair. No new objects appear."
+  },
+  {
+    "name": "FML2V_First_Middle_Last_Frame_Guider",
+    "wf_type": "fml2v",
+    "desc": "First + Middle + Last frame guider.",
+    "status": "ok",
+    "video": "FML2V_First_Middle_Last_Frame_Guider.mp4",
+    "error": null,
+    "elapsed": 140,
+    "prompt": "A young woman with long dark wavy hair in a deep red V-neck dress on a coastal cliff at golden hour sunset. She begins facing the camera with a subtle smile, gently turns her head to her right looking off to the side with a contemplative expression, then turns back to face the camera with a warm smile. The sunset glow behind her shifts slightly warmer and more orange. Same blurred ocean left, same green hillside right. Hair moves gently with the wind. No new objects."
+  },
+  {
+    "name": "FML2V_First_Middle_Last_Frame_Injection",
+    "wf_type": "fml2v",
+    "desc": "First + Middle + Last frame via latent injection.",
+    "status": "ok",
+    "video": "FML2V_First_Middle_Last_Frame_Injection.mp4",
+    "error": null,
+    "elapsed": 100,
+    "prompt": "A young woman with long dark wavy hair in a deep red V-neck dress on a coastal cliff at golden hour sunset. She begins facing the camera with a subtle smile, gently turns her head to her right looking off to the side with a contemplative expression, then turns back to face the camera with a warm smile. The sunset glow behind her shifts slightly warmer and more orange. Same blurred ocean left, same green hillside right. Hair moves gently with the wind. No new objects."
+  },
+  {
+    "name": "FML2V_Guider_Custom_Audio",
+    "wf_type": "fml2v_audio",
+    "desc": "FML guider with custom audio overlay.",
+    "status": "ok",
+    "video": "FML2V_Guider_Custom_Audio.mp4",
+    "error": null,
+    "elapsed": 90,
+    "prompt": "A young woman with long dark wavy hair in a deep red V-neck dress on a coastal cliff at golden hour sunset. She begins facing the camera with a subtle smile, gently turns her head to her right looking off to the side with a contemplative expression, then turns back to face the camera with a warm smile. The sunset glow behind her shifts slightly warmer and more orange. Same blurred ocean left, same green hillside right. Hair moves gently with the wind. No new objects."
+  }
+]
