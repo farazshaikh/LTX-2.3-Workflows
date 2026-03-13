@@ -72,7 +72,7 @@
   {
     "name": "FL2V_First_Last_Frame_Injection",
     "wf_type": "fl2v",
-    "desc": "First + Last frame interpolation via latent injection. Teacher walks from blackboard to window.",
+    "desc": "First + Last frame injection. Teacher walks from blackboard to window in classroom scene.",
     "status": "ok",
     "video": "FL2V_First_Last_Frame_Injection.mp4",
     "error": null,
@@ -92,12 +92,12 @@
   {
     "name": "FML2V_First_Middle_Last_Frame_Guider",
     "wf_type": "fml2v",
-    "desc": "First + Middle + Last frame guider.",
+    "desc": "First + Middle + Last frame guider. Coca-Cola bar advertisement with bottle opening and drinking sequence.",
     "status": "ok",
     "video": "FML2V_First_Middle_Last_Frame_Guider.mp4",
     "error": null,
     "elapsed": 140,
-    "prompt": "A young woman with long dark wavy hair in a deep red V-neck dress on a coastal cliff at golden hour sunset. She begins facing the camera with a subtle smile, gently turns her head to her right looking off to the side with a contemplative expression, then turns back to face the camera with a warm smile. The sunset glow behind her shifts slightly warmer and more orange. Same blurred ocean left, same green hillside right. Hair moves gently with the wind. No new objects."
+    "prompt": "Make this image come alive with cinematic motion, smooth animation. Cinematic high-quality Coca-Cola advertisement video. The scene starts with a close-up of a capped Coca-Cola glass bottle on a dark wood bar counter. The woman in the background says \"That looks tempting.\" She leans forward and grabs the Coca-Cola bottle, twists off the cap and places it on the counter. She says \"Oh, its one of those classic ones. Refreshing.\" The woman stands up, holds the open Coca-Cola bottle, and says \"A Coke a day keeps the boredom away.\" She tilts her head back and drinks from the open bottle. Ambient bar room sounds in the background. Cinematic, photorealistic, warm amber lighting throughout"
   },
   {
     "name": "FML2V_First_Middle_Last_Frame_Injection",
