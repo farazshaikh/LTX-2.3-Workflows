@@ -27,7 +27,7 @@
   },
   "4": {
     "inputs": {
-      "sampler_name": "euler_cfg_pp"
+      "sampler_name": "euler"
     },
     "class_type": "KSamplerSelect",
     "_meta": {
@@ -148,7 +148,7 @@
   },
   "14": {
     "inputs": {
-      "noise_seed": 43
+      "noise_seed": 456
     },
     "class_type": "RandomNoise",
     "_meta": {
@@ -166,7 +166,7 @@
   },
   "16": {
     "inputs": {
-      "text": "Make this image come alive with cinematic motion,\n\nThe woman is talking, and she says : \"The old gods are silent. But I am not. I have walked through fire and shadow, and I am still here. You think you can break what the world itself could not? Come then. Let us see who remains standing.\"\n\nPerfect lip-sync to the attached audio. \n\n ",
+      "text": "Make this image come alive with cinematic motion, smooth animation. \n\nA beautiful teacher is standing next to a blackboard. On the blackboard it says \"LTX-2.3\". The teacher is looking towards the viewer. \n\nShe starts walking across the classrom\n\nShe talks and then she says \"The kids dont know it, but I will not call to class today. I am too busy playing around with LTX 2 point 3\"\n\nShe walks over to the window, outside there as kids playing. \"They are playing around. So will I\" \n\ncinematic, photo realistic. Highly detailed and intricate",
       "clip": [
         "190",
         0
@@ -224,7 +224,7 @@
         0
       ],
       "audio_latent": [
-        "235",
+        "9",
         0
       ]
     },
@@ -401,7 +401,7 @@
       "pingpong": false,
       "save_output": true,
       "images": [
-        "149",
+        "218",
         0
       ],
       "audio": [
@@ -442,7 +442,7 @@
   },
   "45": {
     "inputs": {
-      "image": "last_frame.png"
+      "image": "teacher_first.png"
     },
     "class_type": "LoadImage",
     "_meta": {
@@ -451,7 +451,7 @@
   },
   "47": {
     "inputs": {
-      "image": "armor_last_frame.png"
+      "image": "teacher_last (1).png"
     },
     "class_type": "LoadImage",
     "_meta": {
@@ -510,6 +510,113 @@
       "title": "LTXVPreprocess"
     }
   },
+  "74": {
+    "inputs": {
+      "inputcount": 2,
+      "direction": "down",
+      "match_image_size": true,
+      "Update inputs": null,
+      "image_1": [
+        "84",
+        0
+      ],
+      "image_2": [
+        "86",
+        0
+      ]
+    },
+    "class_type": "ImageConcatMulti",
+    "_meta": {
+      "title": "Image Concatenate Multi"
+    }
+  },
+  "82": {
+    "inputs": {
+      "inputcount": 2,
+      "direction": "right",
+      "match_image_size": true,
+      "Update inputs": null,
+      "image_1": [
+        "74",
+        0
+      ],
+      "image_2": [
+        "87",
+        0
+      ]
+    },
+    "class_type": "ImageConcatMulti",
+    "_meta": {
+      "title": "Image Concatenate Multi"
+    }
+  },
+  "83": {
+    "inputs": {
+      "frame_rate": [
+        "164",
+        0
+      ],
+      "loop_count": 0,
+      "filename_prefix": "LTX2/LTX2IV",
+      "format": "video/h264-mp4",
+      "pix_fmt": "yuv420p",
+      "crf": 19,
+      "save_metadata": true,
+      "trim_to_audio": false,
+      "pingpong": false,
+      "save_output": false,
+      "images": [
+        "82",
+        0
+      ],
+      "audio": [
+        "150",
+        0
+      ]
+    },
+    "class_type": "VHS_VideoCombine",
+    "_meta": {
+      "title": "Video Combine 🎥🅥🅗🅢"
+    }
+  },
+  "84": {
+    "inputs": {
+      "upscale_method": "lanczos",
+      "scale_by": 0.5,
+      "image": [
+        "44",
+        0
+      ]
+    },
+    "class_type": "ImageScaleBy",
+    "_meta": {
+      "title": "Upscale Image By"
+    }
+  },
+  "86": {
+    "inputs": {
+      "upscale_method": "lanczos",
+      "scale_by": 0.5,
+      "image": [
+        "48",
+        0
+      ]
+    },
+    "class_type": "ImageScaleBy",
+    "_meta": {
+      "title": "Upscale Image By"
+    }
+  },
+  "87": {
+    "inputs": {
+      "upscale_method": "lanczos",
+      "scale_by": 0.5
+    },
+    "class_type": "ImageScaleBy",
+    "_meta": {
+      "title": "Upscale Image By"
+    }
+  },
   "92": {
     "inputs": {
       "expression": "a",
@@ -533,26 +640,6 @@
     "class_type": "LTXVSeparateAVLatent",
     "_meta": {
       "title": "LTXVSeparateAVLatent"
-    }
-  },
-  "149": {
-    "inputs": {
-      "tile_size": 512,
-      "overlap": 64,
-      "temporal_size": 4096,
-      "temporal_overlap": 8,
-      "samples": [
-        "146",
-        0
-      ],
-      "vae": [
-        "181",
-        0
-      ]
-    },
-    "class_type": "VAEDecodeTiled",
-    "_meta": {
-      "title": "VAE Decode (Tiled)"
     }
   },
   "150": {
@@ -582,7 +669,7 @@
   },
   "166": {
     "inputs": {
-      "value": 1280
+      "value": 960
     },
     "class_type": "INTConstant",
     "_meta": {
@@ -591,7 +678,7 @@
   },
   "167": {
     "inputs": {
-      "value": 720
+      "value": 544
     },
     "class_type": "INTConstant",
     "_meta": {
@@ -617,7 +704,7 @@
   },
   "169": {
     "inputs": {
-      "value": 5
+      "value": 10
     },
     "class_type": "INTConstant",
     "_meta": {
@@ -660,20 +747,6 @@
     "class_type": "LatentUpscaleModelLoader",
     "_meta": {
       "title": "Load Latent Upscale Model"
-    }
-  },
-  "186": {
-    "inputs": {
-      "lora_name": "LTX/LTX-2/ltx-2.3-22b-distilled-lora-384.safetensors",
-      "strength_model": 0.3,
-      "model": [
-        "187",
-        0
-      ]
-    },
-    "class_type": "LoraLoaderModelOnly",
-    "_meta": {
-      "title": "Load LoRA"
     }
   },
   "187": {
@@ -746,7 +819,7 @@
     "inputs": {
       "preview_rate": 8,
       "model": [
-        "186",
+        "187",
         0
       ],
       "vae": [
@@ -806,139 +879,20 @@
       "title": "ManualSigmas"
     }
   },
-  "219": {
-    "inputs": {
-      "value": 0,
-      "width": [
-        "166",
-        0
-      ],
-      "height": [
-        "167",
-        0
-      ]
-    },
-    "class_type": "SolidMask",
-    "_meta": {
-      "title": "SolidMask"
-    }
-  },
-  "222": {
-    "inputs": {
-      "expression": "a/b",
-      "a": [
-        "168",
-        1
-      ],
-      "b": [
-        "164",
-        0
-      ]
-    },
-    "class_type": "SimpleCalculatorKJ",
-    "_meta": {
-      "title": "SimpleCalculatorKJ"
-    }
-  },
-  "225": {
-    "inputs": {
-      "model_name": "MelBandRoformer.ckpt"
-    },
-    "class_type": "MelBandRoFormerModelLoader",
-    "_meta": {
-      "title": "Mel-Band RoFormer Model Loader"
-    }
-  },
-  "226": {
+  "218": {
     "inputs": {
       "samples": [
-        "228",
+        "146",
         0
       ],
-      "mask": [
-        "219",
+      "vae": [
+        "181",
         0
       ]
     },
-    "class_type": "SetLatentNoiseMask",
+    "class_type": "VAEDecode",
     "_meta": {
-      "title": "Set Latent Noise Mask"
-    }
-  },
-  "228": {
-    "inputs": {
-      "audio": [
-        "231",
-        0
-      ],
-      "audio_vae": [
-        "175",
-        0
-      ]
-    },
-    "class_type": "LTXVAudioVAEEncode",
-    "_meta": {
-      "title": "LTXV Audio VAE Encode"
-    }
-  },
-  "229": {
-    "inputs": {
-      "start_index": 0,
-      "duration": [
-        "222",
-        0
-      ],
-      "audio": [
-        "232",
-        0
-      ]
-    },
-    "class_type": "TrimAudioDuration",
-    "_meta": {
-      "title": "Trim Audio Duration"
-    }
-  },
-  "231": {
-    "inputs": {
-      "model": [
-        "225",
-        0
-      ],
-      "audio": [
-        "229",
-        0
-      ]
-    },
-    "class_type": "MelBandRoFormerSampler",
-    "_meta": {
-      "title": "Mel-Band RoFormer Sampler"
-    }
-  },
-  "232": {
-    "inputs": {
-      "audio": "speech.wav",
-      "audioUI": "/api/view?filename=speech.wav&type=input&subfolder=&rand=0.6291919210273302"
-    },
-    "class_type": "LoadAudio",
-    "_meta": {
-      "title": "Load Audio"
-    }
-  },
-  "235": {
-    "inputs": {
-      "switch": true,
-      "on_false": [
-        "9",
-        0
-      ],
-      "on_true": [
-        "226",
-        0
-      ]
-    },
-    "class_type": "ComfySwitchNode",
-    "_meta": {
-      "title": "Custom Audio = true |  LTX Audio  = false"
+      "title": "VAE Decode"
     }
   }
 }

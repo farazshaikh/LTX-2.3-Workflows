@@ -72,22 +72,22 @@
   {
     "name": "FL2V_First_Last_Frame_Injection",
     "wf_type": "fl2v",
-    "desc": "First + Last frame interpolation via latent injection.",
+    "desc": "First + Last frame interpolation via latent injection. Teacher walks from blackboard to window.",
     "status": "ok",
     "video": "FL2V_First_Last_Frame_Injection.mp4",
     "error": null,
     "elapsed": 70,
-    "prompt": "A young woman with long dark wavy hair in a deep red V-neck dress on a coastal cliff at golden hour. She starts facing the camera with a gentle expression, then turns her head slightly to her right to look off into the distance with a contemplative expression, then turns back to face the camera with a warm smile. Same background throughout - blurred ocean on the left, green hillside and orange sunset glow on the right. Wind gently shifts her hair. No new objects appear."
+    "prompt": "Make this image come alive with cinematic motion, smooth animation.\n\nA beautiful teacher is standing next to a blackboard. On the blackboard it says \"LTX-2.3\". The teacher is looking towards the viewer.\n\nShe starts walking across the classroom\n\nShe talks and then she says \"The kids dont know it, but I will not call to class today. I am too busy playing around with LTX 2 point 3\"\n\nShe walks over to the window, outside there as kids playing. \"They are playing around. So will I\"\n\ncinematic, photo realistic. Highly detailed and intricate"
   },
   {
     "name": "FL2V_Custom_Audio",
     "wf_type": "fl2v_audio",
-    "desc": "First + Last frame interpolation with custom audio.",
+    "desc": "First + Last frame interpolation with custom audio. Red dress to warrior armor transformation.",
     "status": "ok",
     "video": "FL2V_Custom_Audio.mp4",
     "error": null,
     "elapsed": 62,
-    "prompt": "A young woman with long dark wavy hair in a deep red V-neck dress on a coastal cliff at golden hour. She starts facing the camera with a gentle expression, then turns her head slightly to her right to look off into the distance with a contemplative expression, then turns back to face the camera with a warm smile. Same background throughout - blurred ocean on the left, green hillside and orange sunset glow on the right. Wind gently shifts her hair. No new objects appear."
+    "prompt": "A young woman stands on a coastal cliff at golden hour sunset, facing the camera. Wind blows her dark wavy hair. Her red dress transforms into gleaming silver-gold warrior armor with ornate shoulder pauldrons and engraved chest plate. The transformation ripples across her body like liquid metal. Same woman, same background. Solo shot. Steady camera."
   },
   {
     "name": "FML2V_First_Middle_Last_Frame_Guider",

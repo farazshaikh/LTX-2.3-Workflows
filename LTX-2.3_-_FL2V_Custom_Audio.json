@@ -5969,97 +5969,6 @@
       "bgcolor": "rgba(24,24,27,.9)"
     },
     {
-      "id": 47,
-      "type": "LoadImage",
-      "pos": [
-        637.0814739882576,
-        3914.191308543339
-      ],
-      "size": [
-        284.7886435550538,
-        474.0421950534628
-      ],
-      "flags": {
-        "collapsed": false
-      },
-      "order": 60,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            69
-          ]
-        },
-        {
-          "name": "MASK",
-          "type": "MASK",
-          "links": null
-        }
-      ],
-      "title": "LAST FRAME",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.8.2",
-        "Node name for S&R": "LoadImage",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "version": "7.7",
-          "input_ue_unconnectable": {}
-        }
-      },
-      "widgets_values": [
-        "last_frame_armor.png",
-        "image"
-      ],
-      "color": "#346434",
-      "bgcolor": "rgba(24,24,27,.9)"
-    },
-    {
-      "id": 232,
-      "type": "LoadAudio",
-      "pos": [
-        162.66365324927642,
-        4770.794086765962
-      ],
-      "size": [
-        312.8514201610633,
-        136
-      ],
-      "flags": {},
-      "order": 61,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "AUDIO",
-          "type": "AUDIO",
-          "links": [
-            320
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.7.0",
-        "Node name for S&R": "LoadAudio",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "version": "7.5.2",
-          "input_ue_unconnectable": {}
-        }
-      },
-      "widgets_values": [
-        "speech.wav",
-        null,
-        null
-      ],
-      "color": "#346434",
-      "bgcolor": "rgba(24,24,27,.9)"
-    },
-    {
       "id": 187,
       "type": "UNETLoader",
       "pos": [
@@ -6073,7 +5982,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 62,
+      "order": 60,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -6116,7 +6025,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 63,
+      "order": 61,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -6159,7 +6068,7 @@
         58
       ],
       "flags": {},
-      "order": 64,
+      "order": 62,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -6199,7 +6108,7 @@
         71.66026910730216
       ],
       "flags": {},
-      "order": 65,
+      "order": 63,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -6285,7 +6194,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 66,
+      "order": 64,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -6328,7 +6237,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 67,
+      "order": 65,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -6369,7 +6278,7 @@
         73.19414812714422
       ],
       "flags": {},
-      "order": 68,
+      "order": 66,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -6423,7 +6332,7 @@
         58
       ],
       "flags": {},
-      "order": 69,
+      "order": 67,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -6533,13 +6442,13 @@
           "hidden": false,
           "paused": false,
           "params": {
-            "filename": "LTX-2_00039-audio.mp4",
+            "filename": "LTX-2_00066-audio.mp4",
             "subfolder": "",
             "type": "output",
             "format": "video/h264-mp4",
             "frame_rate": 24,
-            "workflow": "LTX-2_00039.png",
-            "fullpath": "/home/faraz/comfyui-5090/ComfyUI/output/out_20260310/LTX-2_00039-audio.mp4"
+            "workflow": "LTX-2_00066.png",
+            "fullpath": "/home/faraz/comfyui-5090/ComfyUI/output/out_20260310/LTX-2_00066-audio.mp4"
           }
         }
       }
@@ -6556,7 +6465,7 @@
         82
       ],
       "flags": {},
-      "order": 70,
+      "order": 68,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -6604,7 +6513,7 @@
         82
       ],
       "flags": {},
-      "order": 71,
+      "order": 69,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -6641,59 +6550,6 @@
       "bgcolor": "rgba(24,24,27,.9)"
     },
     {
-      "id": 16,
-      "type": "CLIPTextEncode",
-      "pos": [
-        993.5218128090025,
-        3909.7699566160263
-      ],
-      "size": [
-        465.4815153917275,
-        339.6336576737831
-      ],
-      "flags": {},
-      "order": 80,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "clip",
-          "type": "CLIP",
-          "link": 186
-        }
-      ],
-      "outputs": [
-        {
-          "name": "CONDITIONING",
-          "type": "CONDITIONING",
-          "links": [
-            279
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.56",
-        "Node name for S&R": "CLIPTextEncode",
-        "enableTabs": false,
-        "tabWidth": 65,
-        "tabXOffset": 10,
-        "hasSecondTab": false,
-        "secondTabText": "Send Back",
-        "secondTabOffset": 80,
-        "secondTabWidth": 65,
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "version": "7.7",
-          "input_ue_unconnectable": {}
-        }
-      },
-      "widgets_values": [
-        "Make this image come alive with cinematic motion, smooth animation.\n\nThe woman is talking, and she says : \"The old gods are silent. But I am not. I have walked through fire and shadow, and I am still here. You think you can break what the world itself could not? Come then. Let us see who remains standing.\"\n\nPerfect lip-sync to the attached audio. \n "
-      ],
-      "color": "#346434",
-      "bgcolor": "rgba(24,24,27,.9)"
-    },
-    {
       "id": 215,
       "type": "ManualSigmas",
       "pos": [
@@ -6705,7 +6561,7 @@
         58
       ],
       "flags": {},
-      "order": 72,
+      "order": 70,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -6745,7 +6601,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 73,
+      "order": 71,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -6841,6 +6697,150 @@
         0.3
       ],
       "color": "#1f1f48",
+      "bgcolor": "rgba(24,24,27,.9)"
+    },
+    {
+      "id": 47,
+      "type": "LoadImage",
+      "pos": [
+        637.0814739882576,
+        3914.191308543339
+      ],
+      "size": [
+        284.7886435550538,
+        474.0421950534628
+      ],
+      "flags": {
+        "collapsed": false
+      },
+      "order": 72,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            69
+          ]
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null
+        }
+      ],
+      "title": "LAST FRAME",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.8.2",
+        "Node name for S&R": "LoadImage",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.7",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "armor_last_frame.png",
+        "image"
+      ],
+      "color": "#346434",
+      "bgcolor": "rgba(24,24,27,.9)"
+    },
+    {
+      "id": 232,
+      "type": "LoadAudio",
+      "pos": [
+        162.66365324927642,
+        4770.794086765962
+      ],
+      "size": [
+        312.8514201610633,
+        136
+      ],
+      "flags": {},
+      "order": 73,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "AUDIO",
+          "type": "AUDIO",
+          "links": [
+            320
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.7.0",
+        "Node name for S&R": "LoadAudio",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "speech.wav",
+        null,
+        null
+      ],
+      "color": "#346434",
+      "bgcolor": "rgba(24,24,27,.9)"
+    },
+    {
+      "id": 16,
+      "type": "CLIPTextEncode",
+      "pos": [
+        993.5218128090025,
+        3909.7699566160263
+      ],
+      "size": [
+        465.4815153917275,
+        339.6336576737831
+      ],
+      "flags": {},
+      "order": 80,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 186
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            279
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.56",
+        "Node name for S&R": "CLIPTextEncode",
+        "enableTabs": false,
+        "tabWidth": 65,
+        "tabXOffset": 10,
+        "hasSecondTab": false,
+        "secondTabText": "Send Back",
+        "secondTabOffset": 80,
+        "secondTabWidth": 65,
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.7",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "Make this image come alive with cinematic motion,\n\nThe woman is talking, and she says : \"The old gods are silent. But I am not. I have walked through fire and shadow, and I am still here. You think you can break what the world itself could not? Come then. Let us see who remains standing.\"\n\nPerfect lip-sync to the attached audio. \n\n "
+      ],
+      "color": "#346434",
       "bgcolor": "rgba(24,24,27,.9)"
     }
   ],
@@ -7964,10 +7964,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.7247295000000095,
+      "scale": 0.7272839811183817,
       "offset": [
-        -2215.5816941541125,
-        -2841.2646292371364
+        200.38474922469706,
+        -3404.091428240516
       ]
     },
     "frontendVersion": "1.39.19",
