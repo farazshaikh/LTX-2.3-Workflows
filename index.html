@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8">
+<title>RuneXX LTX 2.3 Workflow Showcase</title>
+<style>
+*{box-sizing:border-box}
+body{font-family:'Segoe UI',system-ui,sans-serif;background:#080808;color:#ddd;margin:0;padding:24px}
+h1{text-align:center;color:#ff6b35;font-size:2.2em;margin:0 0 4px}
+.sub{text-align:center;color:#666;margin:0 0 12px;font-size:0.95em}
+.sub a{color:#ff6b35}
+.principles{max-width:900px;margin:0 auto 28px;padding:16px 22px;background:#111;border:1px solid #252525;border-radius:10px}
+.principles h3{color:#ff6b35;margin:0 0 8px;font-size:1em}
+.principles ul{margin:0;padding:0 0 0 18px;color:#999;font-size:0.85em;line-height:1.6}
+.principles li b{color:#ccc}
+.sources{display:flex;justify-content:center;gap:20px;margin:0 auto 32px;max-width:1200px}
+.src{text-align:center;flex:1;max-width:350px}
+.src img{width:100%;border-radius:8px;border:1px solid #333}
+.src p{color:#666;font-size:0.8em;margin:6px 0 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(520px,1fr));gap:20px;max-width:1800px;margin:0 auto}
+.card{background:#141414;border:1px solid #2a2a2a;border-radius:10px;overflow:hidden}
+.hdr{padding:14px 18px;background:#1a1a1a;border-bottom:1px solid #2a2a2a;display:flex;justify-content:space-between;align-items:center}
+.hdr h2{margin:0;font-size:1.05em;color:#ff6b35}
+.tag{color:#555;font-size:0.75em;font-family:monospace}
+.body{padding:14px 18px}
+.body video{width:100%;border-radius:6px;background:#000}
+.desc{color:#999;font-size:0.85em;line-height:1.4;margin:10px 0 4px}
+.prompt-toggle{color:#ff6b35;font-size:0.8em;cursor:pointer;margin:8px 0 4px;user-select:none}
+.prompt-toggle:hover{color:#ff8f5e}
+.prompt{color:#888;font-size:0.78em;line-height:1.5;margin:4px 0 8px;padding:10px 14px;background:#0a0a0a;border:1px solid #222;border-radius:6px;white-space:pre-wrap;word-break:break-word;font-family:'SF Mono',Consolas,monospace}
+.meta{color:#555;font-size:0.78em;margin:4px 0 0}
+</style></head>
+<body>
+<h1>RuneXX LTX 2.3 Workflows</h1>
+<p class="sub">All 11 workflow variants | Landscape keyframes 1344x768 | Custom speech audio 8.9s</p>
+<div class="principles">
+  <h3>Prompting Principles Applied</h3>
+  <ul>
+    <li><b>Face-forward keyframes</b> -- all frames have the subject facing the camera with clear facial features to prevent AI face hallucination</li>
+    <li><b>"Describe what you see + one subtle motion"</b> -- i2v prompts precisely describe the source image content and add only minimal motion cues</li>
+    <li><b>No object injection</b> -- nothing appears in prompts that isn't already visible in the keyframes (prevents scene drift)</li>
+    <li><b>Frame-to-frame coherence</b> -- middle derived from first, last derived from middle. Same woman, dress, background throughout</li>
+    <li><b>Minimal transitions</b> -- only head turn and expression change between frames, no scene/location shifts</li>
+  </ul>
+</div>
+
+    <div class="sources">
+      <div class="src"><img src="results/first_frame.png"><p>First Frame (facing camera)</p></div>
+      <div class="src"><img src="results/middle_frame.png"><p>Middle Frame (head turned right)</p></div>
+      <div class="src"><img src="results/last_frame.png"><p>Last Frame (facing camera, warm smile)</p></div>
+    </div>
+<div class="grid">
+    <div class="card">
+      <div class="hdr"><h2>T2V_Basic</h2><div class="tag">t2v</div></div>
+      <div class="body"><video controls loop autoplay muted playsinline><source src="results/T2V_Basic.mp4" type="video/mp4"></video><p class="desc">Text-to-Video with two-pass spatial upscaling and generated audio.</p><details><summary class="prompt-toggle">Prompt used</summary><pre class="prompt">Make this image come alive with fluid motion.
+
+A beautiful blonde woman smiles towards the viewer.
+
+Then she talks and says with a soft female british voice : "Lets go and make some great videos with LTX 2.3".
+
+Steady camera slowly panning in towards the main subject.
+The scene is set to a sunny windy day outside with the city in the background. Ambient low volume city sound in the background.</pre></details><p class="meta">Status: <span style="color:#4caf50">OK</span> | Time: 190s</p></div>
+    </div>
+    <div class="card">
+      <div class="hdr"><h2>T2V_Basic_ComfyUI_Template</h2><div class="tag">t2v</div></div>
+      <div class="body"><video controls loop autoplay muted playsinline><source src="results/T2V_Basic_ComfyUI_Template.mp4" type="video/mp4"></video><p class="desc">Text-to-Video via vMonad MediaGen ltx23_t2v strategy (ComfyUI workflow template).</p><details><summary class="prompt-toggle">Prompt used</summary><pre class="prompt">A beautiful blonde woman smiles towards the viewer. Then she talks and says with a soft female british voice: "Lets go and make some great videos with LTX 2.3". Steady camera slowly panning in towards the main subject. The scene is set to a sunny windy day outside with the city in the background. Ambient low volume city sound in the background.</pre></details><p class="meta">Status: <span style="color:#4caf50">OK</span> | Time: 240s</p></div>
+    </div>
+    <div class="card">
+      <div class="hdr"><h2>T2V_Single_Pass</h2><div class="tag">t2v</div></div>
+      <div class="body"><video controls loop autoplay muted playsinline><source src="results/T2V_Single_Pass.mp4" type="video/mp4"></video><p class="desc">Text-to-Video single-pass. Fastest generation, no upscale.</p><details><summary class="prompt-toggle">Prompt used</summary><pre class="prompt">Make this image come alive with fluid motion.
+
+A beautiful blonde woman smiles towards the viewer.
+
+Then she talks and says with a soft female british voice : "Lets go and make some great videos with LTX 2.3".
+
+Steady camera slowly panning in towards the main subject.
+The scene is set to a sunny windy day outside with the city in the background. Ambient low volume city sound in the background.</pre></details><p class="meta">Status: <span style="color:#4caf50">OK</span> | Time: 91s</p></div>
+    </div>
+    <div class="card">
+      <div class="hdr"><h2>I2V_T2V_Basic</h2><div class="tag">i2v</div></div>
+      <div class="body"><video controls loop autoplay muted playsinline><source src="results/I2V_T2V_Basic.mp4" type="video/mp4"></video><p class="desc">Image-to-Video with two-pass spatial upscaling.</p><details><summary class="prompt-toggle">Prompt used</summary><pre class="prompt">Make this image come alive with fluid motion.
+
+A beautiful blonde woman smiles towards the viewer.
+
+Then she talks and says with a soft female british voice : "Lets make some great videos with LTX 2.3. Sometimes the sentence needs to extended to avoid cutting into a random scene".
+
+Steady camera slowly panning in towards the main subject.</pre></details><p class="meta">Status: <span style="color:#4caf50">OK</span> | Time: 120s</p></div>
+    </div>
+    <div class="card">
+      <div class="hdr"><h2>I2V_T2V_Single_Pass</h2><div class="tag">i2v</div></div>
+      <div class="body"><video controls loop autoplay muted playsinline><source src="results/I2V_T2V_Single_Pass.mp4" type="video/mp4"></video><p class="desc">Image-to-Video single-pass. Faster, no upscale.</p><details><summary class="prompt-toggle">Prompt used</summary><pre class="prompt">Make this image come alive with fluid motion.
+
+A beautiful blonde woman smiles towards the viewer.
+
+Then she talks and says with a soft female british voice : "Lets make some great videos with LTX 2.3. Sometimes the sentence needs to extended to avoid cutting into a random scene. My image compression doesn't seem to have any effect on me".
+
+Steady camera slowly panning in towards the main subject.</pre></details><p class="meta">Status: <span style="color:#4caf50">OK</span> | Time: 120s</p></div>
+    </div>
+    <div class="card">
+      <div class="hdr"><h2>I2V_T2V_Basic_GGUF</h2><div class="tag">i2v</div></div>
+      <div class="body"><video controls loop autoplay muted playsinline><source src="results/I2V_T2V_Basic_GGUF.mp4" type="video/mp4"></video><p class="desc">Image-to-Video using GGUF quantized model for lower VRAM.</p><details><summary class="prompt-toggle">Prompt used</summary><pre class="prompt">Make this image come alive with fluid motion.
+
+A beautiful blonde woman smiles towards the viewer.
+
+Then she talks and says with a soft female british voice : "Lets make some great videos with LTX 2.3. This is a gguf workflow for low vram support.
+
+Steady camera slowly panning in towards the main subject.</pre></details><p class="meta">Status: <span style="color:#4caf50">OK</span> | Time: 213s</p></div>
+    </div>
+    <div class="card">
+      <div class="hdr"><h2>I2V_T2V_Basic_Custom_Audio</h2><div class="tag">i2v_audio + custom audio</div></div>
+      <div class="body"><video controls loop autoplay muted playsinline><source src="results/I2V_T2V_Basic_Custom_Audio.mp4" type="video/mp4"></video><p class="desc">Image-to-Video with custom audio input overlay.</p><details><summary class="prompt-toggle">Prompt used</summary><pre class="prompt">A woman in a red dress on a coastal cliff at sunset. She faces the camera and speaks directly to the viewer. Her lips move as she says: "The old gods are silent. But I am not. I have walked through fire and shadow, and I am still here." Solo shot, one person. Wind in her hair. Golden hour lighting.</pre></details><p class="meta">Status: <span style="color:#4caf50">OK</span> | Time: 140s</p></div>
+    </div>
+    <div class="card">
+      <div class="hdr"><h2>FL2V_First_Last_Frame_Injection</h2><div class="tag">fl2v</div></div>
+      <div class="body"><video controls loop autoplay muted playsinline><source src="results/FL2V_First_Last_Frame_Injection.mp4" type="video/mp4"></video><p class="desc">First + Last frame injection. Teacher walks from blackboard to window in classroom scene.</p><details><summary class="prompt-toggle">Prompt used</summary><pre class="prompt">Make this image come alive with cinematic motion, smooth animation.
+
+A beautiful teacher is standing next to a blackboard. On the blackboard it says "LTX-2.3". The teacher is looking towards the viewer.
+
+She starts walking across the classroom
+
+She talks and then she says "The kids dont know it, but I will not call to class today. I am too busy playing around with LTX 2 point 3"
+
+She walks over to the window, outside there as kids playing. "They are playing around. So will I"
+
+cinematic, photo realistic. Highly detailed and intricate</pre></details><p class="meta">Status: <span style="color:#4caf50">OK</span> | Time: 70s</p></div>
+    </div>
+    <div class="card">
+      <div class="hdr"><h2>FL2V_Custom_Audio</h2><div class="tag">fl2v_audio + custom audio</div></div>
+      <div class="body"><video controls loop autoplay muted playsinline><source src="results/FL2V_Custom_Audio.mp4" type="video/mp4"></video><p class="desc">First + Last frame interpolation with custom audio. Red dress to warrior armor transformation.</p><details><summary class="prompt-toggle">Prompt used</summary><pre class="prompt">A young woman stands on a coastal cliff at golden hour sunset, facing the camera. Wind blows her dark wavy hair. Her red dress transforms into gleaming silver-gold warrior armor with ornate shoulder pauldrons and engraved chest plate. The transformation ripples across her body like liquid metal. Same woman, same background. Solo shot. Steady camera.</pre></details><p class="meta">Status: <span style="color:#4caf50">OK</span> | Time: 62s</p></div>
+    </div>
+    <div class="card">
+      <div class="hdr"><h2>FML2V_First_Middle_Last_Frame_Guider</h2><div class="tag">fml2v</div></div>
+      <div class="body"><video controls loop autoplay muted playsinline><source src="results/FML2V_First_Middle_Last_Frame_Guider.mp4" type="video/mp4"></video><p class="desc">First + Middle + Last frame guider. Coca-Cola bar advertisement with bottle opening and drinking sequence.</p><details><summary class="prompt-toggle">Prompt used</summary><pre class="prompt">Make this image come alive with cinematic motion, smooth animation. Cinematic high-quality Coca-Cola advertisement video. The scene starts with a close-up of a capped Coca-Cola glass bottle on a dark wood bar counter. The woman in the background says "That looks tempting." She leans forward and grabs the Coca-Cola bottle, twists off the cap and places it on the counter. She says "Oh, its one of those classic ones. Refreshing." The woman stands up, holds the open Coca-Cola bottle, and says "A Coke a day keeps the boredom away." She tilts her head back and drinks from the open bottle. Ambient bar room sounds in the background. Cinematic, photorealistic, warm amber lighting throughout</pre></details><p class="meta">Status: <span style="color:#4caf50">OK</span> | Time: 140s</p></div>
+    </div>
+    <div class="card">
+      <div class="hdr"><h2>FML2V_First_Middle_Last_Frame_Injection</h2><div class="tag">fml2v</div></div>
+      <div class="body"><video controls loop autoplay muted playsinline><source src="results/FML2V_First_Middle_Last_Frame_Injection.mp4" type="video/mp4"></video><p class="desc">First + Middle + Last frame injection with custom audio. Coca-Cola bar ad with SRT-timed lip sync.</p><details><summary class="prompt-toggle">Prompt used</summary><pre class="prompt">Cinematic Coca-Cola bar advertisement. Warm amber lighting. Same woman with dark wavy hair in black top throughout. Solo shot. [0.0s] Woman at bar counter, blurred Coca-Cola bottle in foreground. [0.0s-1.1s] She says "That looks tempting." [1.1s-3.2s] She reaches forward, grabs the Coca-Cola bottle, twists off the cap, places cap on counter. [3.2s-4.8s] She holds the open bottle and says "Mmm, refreshing." [4.8s-7.0s] She slowly raises the bottle toward her face. [7.0s-8.8s] She says "A Coke a day keeps the boredom away." [8.8s-9.8s] She tilts head back and drinks from the open bottle. Cinematic, photorealistic. Warm amber bar lighting.</pre></details><p class="meta">Status: <span style="color:#4caf50">OK</span> | Time: 100s</p></div>
+    </div>
+    <div class="card">
+      <div class="hdr"><h2>FML2V_Guider_Custom_Audio</h2><div class="tag">fml2v_audio + custom audio</div></div>
+      <div class="body"><video controls loop autoplay muted playsinline><source src="results/FML2V_Guider_Custom_Audio.mp4" type="video/mp4"></video><p class="desc">FML2V Guider with custom audio. F-16 cockpit fighter pilot scene with lip-sync.</p><details><summary class="prompt-toggle">Prompt used</summary><pre class="prompt">Make this image come alive with cinematic motion, smooth animation.
+
+The woman is talking, and she says: "Tower, this is Maverick. I have visual on the target. Engaging afterburners. Let's show them what we've got."
+
+Perfect lip-sync to the attached audio.</pre></details><p class="meta">Status: <span style="color:#4caf50">OK</span> | Time: 90s</p></div>
+    </div></div>
+</body></html>
