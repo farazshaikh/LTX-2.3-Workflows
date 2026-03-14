@@ -53,7 +53,13 @@ h1{text-align:center;color:#ff6b35;font-size:2.2em;margin:0 0 4px}
   <ul>
     <li><b>Dual-pass architecture</b> -- LTX 2.3 uses a two-pass pipeline where the second pass performs spatio-temporal upscaling. The LTX 2.0 version had significant artifacts in the second pass, but 2.3 has fixed these issues -- <em>always run two-pass</em> for best results.</li>
     <li><b>Single pass trade-off</b> -- single pass produces lower resolution output but can make characters look more realistic. Useful for quick previews or when VRAM is limited.</li>
-    <li><b>Post-generation upscaling</b> -- for further resolution enhancement after generation, use <a href="https://github.com/hzwer/ECCV2022-RIFE" style="color:#ff6b35">RIFE</a> for frame interpolation, or <a href="https://huggingface.co/Kim2091/ClearRealityV1" style="color:#ff6b35">ClearRealityV1</a> (4x super-resolution upscaler, available via vMonad MediaGen <code>upscale_v2v</code> workflow).</li>
+    <li><b>Post-generation upscaling</b> -- for further resolution enhancement after generation:
+      <ul>
+        <li><b>FlashVSR</b> (recommended) -- fast video super-resolution, available via vMonad MediaGen <code>flashvsr_v2v_upscale</code></li>
+        <li><b>ClearRealityV1</b> -- 4x super-resolution upscaler, available via vMonad MediaGen <code>upscale_v2v</code></li>
+        <li><b>Frame Interpolation</b> -- RIFE-based frame interpolation for smoother motion, available via vMonad MediaGen <code>frame_interpolation_v2v</code></li>
+      </ul>
+    </li>
   </ul>
   <h3>Prompting Tips</h3>
   <ul>
