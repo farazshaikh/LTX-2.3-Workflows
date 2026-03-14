@@ -18,7 +18,7 @@ tags:
 
 **[Live Demo Site](https://farazshaikh.github.io/LTX-2.3-Workflows/)**
 
-Original workflows by [RuneXX on HuggingFace](https://huggingface.co/RuneXX/LTX-2.3-Workflows). These demos were generated using modified versions tuned for **RTX 6000 (48GB VRAM)** with performance and quality adjustments.
+Original workflows by [RuneXX on HuggingFace](https://huggingface.co/RuneXX/LTX-2.3-Workflows). These demos were generated using modified versions tuned for **RTX 6000 (96GB VRAM)** with performance and quality adjustments.
 
 **Running on lower VRAM (RTX 5070 / 12-16GB)** -- use a lower quantized Gemma encoder (e.g. `gemma-3-12b-it-Q2_K.gguf`), or offload text encoding to an API. Enable **tiled VAE decode** and the **VRAM management node** to fit within memory.
 
