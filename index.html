@@ -32,13 +32,26 @@ h1{text-align:center;color:#ff6b35;font-size:2.2em;margin:0 0 4px}
 <h1>RuneXX LTX 2.3 Workflows</h1>
 <p class="sub">All 11 workflow variants | Landscape keyframes 1344x768 | Custom speech audio 8.9s</p>
 <div class="principles">
-  <h3>Prompting Principles Applied</h3>
+  <h3>Workflow Types</h3>
   <ul>
-    <li><b>Face-forward keyframes</b> -- all frames have the subject facing the camera with clear facial features to prevent AI face hallucination</li>
-    <li><b>"Describe what you see + one subtle motion"</b> -- i2v prompts precisely describe the source image content and add only minimal motion cues</li>
-    <li><b>No object injection</b> -- nothing appears in prompts that isn't already visible in the keyframes (prevents scene drift)</li>
-    <li><b>Frame-to-frame coherence</b> -- middle derived from first, last derived from middle. Same woman, dress, background throughout</li>
-    <li><b>Minimal transitions</b> -- only head turn and expression change between frames, no scene/location shifts</li>
+    <li><b>Text to Video (T2V)</b> -- Craft a prompt from scratch. Make the character speak by prompting "He/She says ..."</li>
+    <li><b>Image to Video (I2V)</b> -- Same as T2V but you provide the initial image and thus the character. The character's lips must be visible if you are requesting dialogue in the prompt.</li>
+    <li><b>Image + Audio to Video</b> -- Insert both image and audio as reference. The image must be described and the audio must be transcribed in the prompt. Use the upstream pattern: "The woman is talking, and she says: ..." followed by "Perfect lip-sync to the attached audio."</li>
+  </ul>
+  <h3>Keyframe Variants</h3>
+  <ul>
+    <li><b>First Frame (FF / I2V)</b> -- only the first frame as reference</li>
+    <li><b>First + Last Frame (FL / FL2V)</b> -- first and last frame as reference, model interpolates between them</li>
+    <li><b>First + Middle + Last Frame (FML / FML2V)</b> -- three keyframes as reference, giving the model the most guidance</li>
+  </ul>
+  <h3>Prompting Tips</h3>
+  <ul>
+    <li><b>Frame continuity</b> -- keyframes must have visual continuity (same person, same setting). Totally unrelated frames will render as a jump cut.</li>
+    <li><b>Vision tools are essential</b> -- with frames, audio, and keyframes you cannot get the prompt correct without vision analysis. The prompt must specifically describe everything in the images, the speech timing, and SRT.</li>
+    <li><b>Voiceover vs. live dialogue</b> -- getting prompts wrong typically results in voiceover-like output instead of live dialogue. Two fixes: <em>shorten the prompt and focus on describing the speech action</em>, or <em>use the dynamism LoRA at strength 0.3-0.6</em> (higher strength gives a hypertrophied muscular look).</li>
+    <li><b>Face-forward keyframes</b> -- all frames should have the subject facing the camera with clear facial features to prevent AI face hallucination.</li>
+    <li><b>No object injection</b> -- nothing should appear in prompts that isn't already visible in the keyframes (prevents scene drift).</li>
+    <li><b>Derive frames from each other</b> -- middle derived from first, last derived from middle using image editing (e.g. qwen_image_edit) to maintain consistency.</li>
   </ul>
 </div>
 
