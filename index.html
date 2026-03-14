@@ -49,6 +49,12 @@ h1{text-align:center;color:#ff6b35;font-size:2.2em;margin:0 0 4px}
     <li><b>First + Last Frame (FL / FL2V)</b> -- first and last frame as reference, model interpolates between them</li>
     <li><b>First + Middle + Last Frame (FML / FML2V)</b> -- three keyframes as reference, giving the model the most guidance</li>
   </ul>
+  <h3>Upscaling</h3>
+  <ul>
+    <li><b>Dual-pass architecture</b> -- LTX 2.3 uses a two-pass pipeline where the second pass performs spatio-temporal upscaling. The LTX 2.0 version had significant artifacts in the second pass, but 2.3 has fixed these issues -- <em>always run two-pass</em> for best results.</li>
+    <li><b>Single pass trade-off</b> -- single pass produces lower resolution output but can make characters look more realistic. Useful for quick previews or when VRAM is limited.</li>
+    <li><b>Post-generation upscaling</b> -- for further resolution enhancement after generation, use <a href="https://github.com/hzwer/ECCV2022-RIFE" style="color:#ff6b35">RIFE</a> for frame interpolation, or <a href="https://huggingface.co/Kim2091/ClearRealityV1" style="color:#ff6b35">ClearRealityV1</a> (4x super-resolution upscaler, available via vMonad MediaGen <code>upscale_v2v</code> workflow).</li>
+  </ul>
   <h3>Prompting Tips</h3>
   <ul>
     <li><b>Frame continuity</b> -- keyframes must have visual continuity (same person, same setting). Totally unrelated frames will render as a jump cut.</li>
